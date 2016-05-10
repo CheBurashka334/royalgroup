@@ -1,0 +1,2047 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "iconfont";
+  src: url("../icons/font/iconfont.eot");
+  src: url("../icons/font/iconfont.eot?#iefix") format("eot"), url("../icons/font/iconfont.woff") format("woff"), url("../icons/font/iconfont.ttf") format("truetype"), url("../icons/font/iconfont.svg#iconfont") format("svg");
+}
+/* line 23, ../assets/scss/components/_font-icons.scss */
+.icon-arr-down:before, .icon-arrow-right:before, .icon-basket:before, .icon-bell:before, .icon-blank:before, .icon-calendar:before, .icon-camera:before, .icon-chat:before, .icon-clock:before, .icon-cross:before, .icon-email:before, .icon-lock:before, .icon-map-marker:before, .icon-mic:before, .icon-mobile-phone:before, .icon-out-door:before, .icon-pencil:before, .icon-profile:before, .icon-question-circle:before, .icon-skype:before, .icon-tick:before, .icon-video-camera:before {
+  font-family: "iconfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1rem;
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-arr-down:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-arrow-right:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-basket:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-bell:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-blank:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-calendar:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-camera:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-chat:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-clock:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-cross:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-email:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-lock:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-map-marker:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-mic:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-mobile-phone:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-out-door:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-pencil:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-profile:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-question-circle:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-skype:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-tick:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-video-camera:before {
+  content: "";
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.red.lighter {
+  background-color: #bca4a5;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.red-text.lighter {
+  color: #bca4a5;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.red.light {
+  background-color: #b49698;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.red-text.light {
+  color: #b49698;
+}
+
+/* line 55, ../assets/scss/_colors.scss */
+.red {
+  background-color: #d62d2d;
+}
+
+/* line 58, ../assets/scss/_colors.scss */
+.red-text {
+  color: #d62d2d;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.red.dark {
+  background-color: #bc121a;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.red-text.dark {
+  color: #bc121a;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.red.darker {
+  background-color: #8d0208;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.red-text.darker {
+  color: #8d0208;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.yellow.lighter {
+  background-color: #f9d897;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.yellow-text.lighter {
+  color: #f9d897;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.yellow.light {
+  background-color: #fdc862;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.yellow-text.light {
+  color: #fdc862;
+}
+
+/* line 55, ../assets/scss/_colors.scss */
+.yellow {
+  background-color: #f4be55;
+}
+
+/* line 58, ../assets/scss/_colors.scss */
+.yellow-text {
+  color: #f4be55;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.yellow.dark {
+  background-color: #f8b42f;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.yellow-text.dark {
+  color: #f8b42f;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.yellow.darker {
+  background-color: #ffa900;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.yellow-text.darker {
+  color: #ffa900;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.gray.lighter {
+  background-color: #ececec;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.gray-text.lighter {
+  color: #ececec;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.gray.light {
+  background-color: #cdc8c8;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.gray-text.light {
+  color: #cdc8c8;
+}
+
+/* line 55, ../assets/scss/_colors.scss */
+.gray {
+  background-color: #8b8b8b;
+}
+
+/* line 58, ../assets/scss/_colors.scss */
+.gray-text {
+  color: #8b8b8b;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.gray.dark {
+  background-color: #484848;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.gray-text.dark {
+  color: #484848;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.gray.darker {
+  background-color: #292929;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.gray-text.darker {
+  color: #292929;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.brown.lighter {
+  background-color: #9f8f61;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.brown-text.lighter {
+  color: #9f8f61;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.brown.light {
+  background-color: #837c68;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.brown-text.light {
+  color: #837c68;
+}
+
+/* line 55, ../assets/scss/_colors.scss */
+.brown {
+  background-color: #666666;
+}
+
+/* line 58, ../assets/scss/_colors.scss */
+.brown-text {
+  color: #666666;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.brown.dark {
+  background-color: #494232;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.brown-text.dark {
+  color: #494232;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.brown.darker {
+  background-color: #393428;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.brown-text.darker {
+  color: #393428;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.lights.gray-lighter {
+  background-color: #b4a781;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.lights-text.gray-lighter {
+  color: #b4a781;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.lights.gray {
+  background-color: #f6f6f6;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.lights-text.gray {
+  color: #f6f6f6;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.lights.beige {
+  background-color: #e4e0d4;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.lights-text.beige {
+  color: #e4e0d4;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.lights.brown {
+  background-color: #d3c9b3;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.lights-text.brown {
+  color: #d3c9b3;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.lights.brown-darker {
+  background-color: #cabfaa;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.lights-text.brown-darker {
+  color: #cabfaa;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.lights.red-lighter {
+  background-color: #f3e5e6;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.lights-text.red-lighter {
+  color: #f3e5e6;
+}
+
+/* line 63, ../assets/scss/_colors.scss */
+.lights.red-darker {
+  background-color: #eed9d9;
+}
+
+/* line 66, ../assets/scss/_colors.scss */
+.lights-text.red-darker {
+  color: #eed9d9;
+}
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, ../assets/scss/components/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, ../assets/scss/components/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 33, ../assets/scss/components/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 54, ../assets/scss/components/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, ../assets/scss/components/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 77, ../assets/scss/components/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, ../assets/scss/components/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 97, ../assets/scss/components/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 109, ../assets/scss/components/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 117, ../assets/scss/components/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 126, ../assets/scss/components/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 135, ../assets/scss/components/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 144, ../assets/scss/components/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 153, ../assets/scss/components/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 161, ../assets/scss/components/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 169, ../assets/scss/components/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 173, ../assets/scss/components/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 184, ../assets/scss/components/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 192, ../assets/scss/components/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 203, ../assets/scss/components/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 211, ../assets/scss/components/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, ../assets/scss/components/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 229, ../assets/scss/components/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 252, ../assets/scss/components/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, ../assets/scss/components/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 277, ../assets/scss/components/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* 1 */
+/* line 290, ../assets/scss/components/_normalize.scss */
+html input[type="button"],
+button,
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 302, ../assets/scss/components/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 311, ../assets/scss/components/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, ../assets/scss/components/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 334, ../assets/scss/components/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 346, ../assets/scss/components/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 357, ../assets/scss/components/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 370, ../assets/scss/components/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 379, ../assets/scss/components/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 390, ../assets/scss/components/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 399, ../assets/scss/components/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 408, ../assets/scss/components/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 419, ../assets/scss/components/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 424, ../assets/scss/components/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 431, ../assets/scss/components/_normalize.scss */
+*:hover, *:active, *:focus {
+  outline: none;
+}
+
+/* line 1, ../assets/scss/components/_svg-icons.scss */
+.svg-arr-down, .svg-arrow-right, .svg-basket, .svg-bell, .svg-blank, .svg-calendar, .svg-camera, .svg-chat, .svg-clock, .svg-cross, .svg-email, .svg-lock, .svg-map-marker, .svg-mic, .svg-mobile-phone, .svg-out-door, .svg-pencil, .svg-profile, .svg-question-circle, .svg-skype, .svg-tick, .svg-video-camera {
+  background: url("icons/sprite/sprite.symbol.svg") no-repeat;
+}
+
+/* line 5, ../assets/scss/components/_svg-icons.scss */
+.svg-arr-down {
+  background-position: 25% 0;
+}
+
+/* line 10, ../assets/scss/components/_svg-icons.scss */
+.svg-arr-down-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 15, ../assets/scss/components/_svg-icons.scss */
+.svg-arrow-right {
+  background-position: 75% 54.54545454545455%;
+}
+
+/* line 20, ../assets/scss/components/_svg-icons.scss */
+.svg-arrow-right-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 25, ../assets/scss/components/_svg-icons.scss */
+.svg-basket {
+  background-position: 0 27.272727272727273%;
+}
+
+/* line 30, ../assets/scss/components/_svg-icons.scss */
+.svg-basket-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 35, ../assets/scss/components/_svg-icons.scss */
+.svg-bell {
+  background-position: 25% 27.272727272727273%;
+}
+
+/* line 40, ../assets/scss/components/_svg-icons.scss */
+.svg-bell-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 45, ../assets/scss/components/_svg-icons.scss */
+.svg-blank {
+  background-position: 50% 0;
+}
+
+/* line 50, ../assets/scss/components/_svg-icons.scss */
+.svg-blank-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 55, ../assets/scss/components/_svg-icons.scss */
+.svg-calendar {
+  background-position: 50% 27.272727272727273%;
+}
+
+/* line 60, ../assets/scss/components/_svg-icons.scss */
+.svg-calendar-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 65, ../assets/scss/components/_svg-icons.scss */
+.svg-camera {
+  background-position: 0 54.54545454545455%;
+}
+
+/* line 70, ../assets/scss/components/_svg-icons.scss */
+.svg-camera-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 75, ../assets/scss/components/_svg-icons.scss */
+.svg-chat {
+  background-position: 98.05924412665985% 79.19659454643451%;
+}
+
+/* line 80, ../assets/scss/components/_svg-icons.scss */
+.svg-chat-dims {
+  width: 22.1px;
+  height: 21.087px;
+}
+
+/* line 85, ../assets/scss/components/_svg-icons.scss */
+.svg-clock {
+  background-position: 0 100%;
+}
+
+/* line 90, ../assets/scss/components/_svg-icons.scss */
+.svg-clock-dims {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 95, ../assets/scss/components/_svg-icons.scss */
+.svg-cross {
+  background-position: 14.285586735832716% 92.3076923076923%;
+}
+
+/* line 100, ../assets/scss/components/_svg-icons.scss */
+.svg-cross-dims {
+  width: 7.999px;
+  height: 8px;
+}
+
+/* line 105, ../assets/scss/components/_svg-icons.scss */
+.svg-email {
+  background-position: 75% 27.272727272727273%;
+}
+
+/* line 110, ../assets/scss/components/_svg-icons.scss */
+.svg-email-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 115, ../assets/scss/components/_svg-icons.scss */
+.svg-lock {
+  background-position: 0 0;
+}
+
+/* line 120, ../assets/scss/components/_svg-icons.scss */
+.svg-lock-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 125, ../assets/scss/components/_svg-icons.scss */
+.svg-map-marker {
+  background-position: 0 81.81818181818181%;
+}
+
+/* line 130, ../assets/scss/components/_svg-icons.scss */
+.svg-map-marker-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 135, ../assets/scss/components/_svg-icons.scss */
+.svg-mic {
+  background-position: 25% 81.81818181818181%;
+}
+
+/* line 140, ../assets/scss/components/_svg-icons.scss */
+.svg-mic-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 145, ../assets/scss/components/_svg-icons.scss */
+.svg-mobile-phone {
+  background-position: 50% 81.81818181818181%;
+}
+
+/* line 150, ../assets/scss/components/_svg-icons.scss */
+.svg-mobile-phone-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 155, ../assets/scss/components/_svg-icons.scss */
+.svg-out-door {
+  background-position: 75% 81.81818181818181%;
+}
+
+/* line 160, ../assets/scss/components/_svg-icons.scss */
+.svg-out-door-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 165, ../assets/scss/components/_svg-icons.scss */
+.svg-pencil {
+  background-position: 100% 0;
+}
+
+/* line 170, ../assets/scss/components/_svg-icons.scss */
+.svg-pencil-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 175, ../assets/scss/components/_svg-icons.scss */
+.svg-profile {
+  background-position: 100% 27.272727272727273%;
+}
+
+/* line 180, ../assets/scss/components/_svg-icons.scss */
+.svg-profile-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 185, ../assets/scss/components/_svg-icons.scss */
+.svg-question-circle {
+  background-position: 75% 0;
+}
+
+/* line 190, ../assets/scss/components/_svg-icons.scss */
+.svg-question-circle-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 195, ../assets/scss/components/_svg-icons.scss */
+.svg-skype {
+  background-position: 50% 54.54545454545455%;
+}
+
+/* line 200, ../assets/scss/components/_svg-icons.scss */
+.svg-skype-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 205, ../assets/scss/components/_svg-icons.scss */
+.svg-tick {
+  background-position: 25% 54.54545454545455%;
+}
+
+/* line 210, ../assets/scss/components/_svg-icons.scss */
+.svg-tick-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 215, ../assets/scss/components/_svg-icons.scss */
+.svg-video-camera {
+  background-position: 100% 54.54545454545455%;
+}
+
+/* line 220, ../assets/scss/components/_svg-icons.scss */
+.svg-video-camera-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 1, ../assets/scss/components/_layout.scss */
+html, body {
+  width: 100%;
+  min-width: 1366px;
+}
+
+/* line 5, ../assets/scss/components/_layout.scss */
+div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 9, ../assets/scss/components/_layout.scss */
+.hidden {
+  display: none;
+}
+
+/* line 12, ../assets/scss/components/_layout.scss */
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+/* line 17, ../assets/scss/components/_layout.scss */
+.page {
+  background: #f6f3eb;
+  width: 100%;
+}
+
+/* line 21, ../assets/scss/components/_layout.scss */
+.workarea {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 3, ../assets/scss/components/_header.scss */
+.header {
+  background: #8d0208;
+  padding: 15px 10px;
+}
+/* line 6, ../assets/scss/components/_header.scss */
+.header .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 9, ../assets/scss/components/_header.scss */
+.header__logo {
+  width: 341px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 341px;
+      -ms-flex: 0 0 341px;
+          flex: 0 0 341px;
+}
+/* line 13, ../assets/scss/components/_header.scss */
+.header__progress-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 6rem;
+}
+
+/* line 2, ../assets/scss/components/_sidebar.scss */
+.sidebar {
+  background-color: #d3c9b3;
+  background: -webkit-linear-gradient(right, #c6bca8 0px, #d3c9b3 16px);
+  background: linear-gradient(to left, #c6bca8 0px, #d3c9b3 16px);
+  width: 356px;
+  padding: 2rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 356px;
+      -ms-flex: 0 0 356px;
+          flex: 0 0 356px;
+}
+/* line 9, ../assets/scss/components/_sidebar.scss */
+.sidebar--left:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: calc((100vw - 1366px) / 2);
+  height: 100%;
+  left: calc((100vw - 1366px) / -2);
+  background: #d3c9b3;
+}
+
+/* line 26, ../assets/scss/components/_layout.scss */
+.page-content {
+  padding: 2rem 6rem 10.5rem;
+}
+
+/* line 29, ../assets/scss/components/_layout.scss */
+.footer {
+  position: absolute;
+  left: 6rem;
+  bottom: 1.5rem;
+}
+/* line 33, ../assets/scss/components/_layout.scss */
+.footer .copyright {
+  margin: 0;
+}
+
+/* line 2, ../assets/scss/components/_typography.scss */
+html, body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #494232;
+}
+
+/* line 10, ../assets/scss/components/_typography.scss */
+p {
+  color: #494232;
+  margin: 1em 0;
+}
+
+/* line 14, ../assets/scss/components/_typography.scss */
+.upper-text {
+  text-transform: uppercase;
+}
+
+/* line 17, ../assets/scss/components/_typography.scss */
+.small-text {
+  font-size: 14px;
+}
+
+/* line 21, ../assets/scss/components/_typography.scss */
+.light-text {
+  color: #8b8b8b;
+}
+
+/* line 26, ../assets/scss/components/_typography.scss */
+a {
+  color: #d62d2d;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 30, ../assets/scss/components/_typography.scss */
+a:hover {
+  color: #d62d2d;
+  text-decoration: underline;
+}
+/* line 34, ../assets/scss/components/_typography.scss */
+a:active {
+  color: #8d0208;
+}
+/* line 37, ../assets/scss/components/_typography.scss */
+a:focus {
+  outline: none;
+}
+/* line 40, ../assets/scss/components/_typography.scss */
+a:disabled, a.disabled {
+  color: #a59d8c;
+}
+/* line 44, ../assets/scss/components/_typography.scss */
+a .icon {
+  fill: currentColor;
+}
+/* line 48, ../assets/scss/components/_typography.scss */
+a.with-icon::after {
+  font-family: "iconfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1rem;
+}
+/* line 51, ../assets/scss/components/_typography.scss */
+a.with-icon--blank::after {
+  content: " " "";
+}
+/* line 55, ../assets/scss/components/_typography.scss */
+.links a + a {
+  margin-left: 30px;
+}
+
+/* line 60, ../assets/scss/components/_typography.scss */
+h1, h2, h3 {
+  font-family: "Merriweather", serif;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 2em 0 1em;
+  color: #292929;
+}
+/* line 66, ../assets/scss/components/_typography.scss */
+.page-content h1:first-child, .page-content h2:first-child, .page-content h3:first-child {
+  margin-top: 0;
+}
+/* line 69, ../assets/scss/components/_typography.scss */
+h1 a, h2 a, h3 a {
+  color: currentColor;
+}
+
+/* line 73, ../assets/scss/components/_typography.scss */
+h1 {
+  font-size: 36px;
+}
+
+/* line 76, ../assets/scss/components/_typography.scss */
+h4 {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 1rem 0;
+}
+
+/* line 82, ../assets/scss/components/_typography.scss */
+.highlight-box {
+  margin: 20px 0;
+  padding: 20px;
+  background: #fdc862;
+  border: 2px solid #f4be55;
+}
+/* line 87, ../assets/scss/components/_typography.scss */
+.highlight-box *:first-child {
+  margin-top: 0;
+}
+/* line 90, ../assets/scss/components/_typography.scss */
+.highlight-box *:last-child {
+  margin-bottom: 0;
+}
+
+/* line 95, ../assets/scss/components/_typography.scss */
+ul, ol {
+  padding-left: 21px;
+}
+/* line 97, ../assets/scss/components/_typography.scss */
+ul li, ol li {
+  margin: 5px 0;
+}
+
+/* line 102, ../assets/scss/components/_typography.scss */
+.notification, .progress-bar__item::before {
+  display: inline-block;
+  box-sizing: border-box;
+  font-weight: bold;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  line-height: calc(2rem - 4px);
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+/* line 114, ../assets/scss/components/_typography.scss */
+.progress-bar__item--done::before {
+  color: #fdc862;
+}
+/* line 117, ../assets/scss/components/_typography.scss */
+.notification, .progress-bar__item--current::before {
+  color: #8d0208;
+  background: #fdc862;
+  border-color: transparent;
+}
+/* line 122, ../assets/scss/components/_typography.scss */
+.notification {
+  font-size: 14px;
+  width: 23px;
+  height: 23px;
+  line-height: 19px;
+}
+
+/* line 2, ../assets/scss/components/_buttons.scss */
+.btn,
+button,
+input[type="submit"],
+input[type="button"], .btn-icon {
+  display: inline-block;
+  font: bold 1rem/1 "PT Sans", sans-serif;
+  vertical-align: middle;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+}
+
+/* line 12, ../assets/scss/components/_buttons.scss */
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover, .btn-icon:hover {
+  text-decoration: none;
+}
+
+/* line 15, ../assets/scss/components/_buttons.scss */
+.btn:active, .btn:focus,
+button:active,
+button:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus,
+input[type="button"]:active,
+input[type="button"]:focus, .btn-icon:active, .btn-icon:focus {
+  outline: none;
+}
+
+/* line 18, ../assets/scss/components/_buttons.scss */
+.btn,
+button,
+input[type="submit"],
+input[type="button"] {
+  padding: 12px 1.5em;
+  border-radius: 4px;
+  color: white;
+  background: #8d0208;
+  box-sizing: border-box;
+}
+/* line 28, ../assets/scss/components/_buttons.scss */
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background: #bc121a;
+  color: white;
+}
+/* line 33, ../assets/scss/components/_buttons.scss */
+.btn:active, .btn:focus,
+button:active,
+button:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus,
+input[type="button"]:active,
+input[type="button"]:focus {
+  background: #8d0208;
+  box-shadow: inset 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+  color: white;
+}
+/* line 40, ../assets/scss/components/_buttons.scss */
+.btn[disabled], .btn.disabled,
+button[disabled],
+button.disabled,
+input[type="submit"][disabled],
+input[type="submit"].disabled,
+input[type="button"][disabled],
+input[type="button"].disabled {
+  background: #cabfaa;
+  cursor: default;
+  pointer-events: none;
+}
+/* line 45, ../assets/scss/components/_buttons.scss */
+.highlight-box .btn[disabled], .highlight-box .btn.disabled, .highlight-box
+button[disabled], .highlight-box
+button.disabled, .highlight-box
+input[type="submit"][disabled], .highlight-box
+input[type="submit"].disabled, .highlight-box
+input[type="button"][disabled], .highlight-box
+input[type="button"].disabled {
+  background: #bca4a5;
+  border: 2px solid #b49698;
+  padding: 10px 1.5em;
+}
+
+/* line 53, ../assets/scss/components/_buttons.scss */
+.btn--small {
+  padding: 12px 1em;
+}
+/* line 56, ../assets/scss/components/_buttons.scss */
+.btn--fullwidth {
+  display: block;
+  width: 100%;
+}
+/* line 60, ../assets/scss/components/_buttons.scss */
+.btn-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 63, ../assets/scss/components/_buttons.scss */
+.btn-box .btn {
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+/* line 66, ../assets/scss/components/_buttons.scss */
+.btn-box .btn + .note {
+  line-height: normal;
+  margin-left: 10px;
+}
+/* line 70, ../assets/scss/components/_buttons.scss */
+.btn-box .btn + a {
+  margin-left: 1rem;
+}
+
+/* line 76, ../assets/scss/components/_buttons.scss */
+.btn-icon {
+  background: none;
+  padding: 10px;
+}
+/* line 87, ../assets/scss/components/_buttons.scss */
+.btn-icon::before {
+  color: currentColor;
+  font-size: 1.5rem;
+}
+/* line 91, ../assets/scss/components/_buttons.scss */
+.btn-icon.btn-exit {
+  color: #393428;
+}
+
+/* line 2, ../assets/scss/components/_progress-bar.scss */
+.progress-bar {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  counter-reset: progress;
+  padding: 0;
+  margin: 0;
+}
+/* line 10, ../assets/scss/components/_progress-bar.scss */
+.progress-bar__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  margin-right: 2rem;
+}
+/* line 18, ../assets/scss/components/_progress-bar.scss */
+.progress-bar__item:last-of-type {
+  margin-right: 0;
+}
+/* line 21, ../assets/scss/components/_progress-bar.scss */
+.progress-bar__item::before {
+  counter-increment: progress;
+  content: counter(progress);
+  font-size: 20px;
+  margin-right: 0.5rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 2rem;
+      -ms-flex: 0 0 2rem;
+          flex: 0 0 2rem;
+}
+/* line 32, ../assets/scss/components/_progress-bar.scss */
+.progress-bar__item--done::before {
+  font-family: "iconfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1rem;
+  content: "";
+}
+
+/* line 2, ../assets/scss/components/_tile-block.scss */
+.tile-block {
+  background: white;
+  border: 2px solid #e4e0d4;
+  margin-bottom: 2rem;
+}
+/* line 6, ../assets/scss/components/_tile-block.scss */
+.sidebar .tile-block {
+  border-color: #c5bba5;
+}
+/* line 9, ../assets/scss/components/_tile-block.scss */
+.tile-block__head, .tile-block__content {
+  padding: 22px;
+}
+/* line 13, ../assets/scss/components/_tile-block.scss */
+.tile-block__head {
+  border-bottom: 2px solid #e4e0d4;
+}
+/* line 16, ../assets/scss/components/_tile-block.scss */
+.tile-block.video {
+  border: 0;
+}
+/* line 19, ../assets/scss/components/_tile-block.scss */
+.tile-block.video .tile-block__content {
+  border: 2px solid #e4e0d4;
+}
+/* line 22, ../assets/scss/components/_tile-block.scss */
+.tile-block.video .tile-block__video + .tile-block__content {
+  border-top: 0;
+}
+
+/* line 3, ../assets/scss/components/_menu.scss */
+.menu--vertical {
+  padding: 1rem 0;
+}
+/* line 6, ../assets/scss/components/_menu.scss */
+.menu__link {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  font-weight: normal;
+  color: #484848;
+  padding: 1em 1.5em;
+}
+/* line 13, ../assets/scss/components/_menu.scss */
+.menu__link[disabled] {
+  color: #a59d8c;
+}
+/* line 16, ../assets/scss/components/_menu.scss */
+.menu__link:hover {
+  text-decoration: none;
+}
+/* line 19, ../assets/scss/components/_menu.scss */
+.menu__link:active, .menu__link:focus {
+  color: #d62d2d;
+}
+/* line 23, ../assets/scss/components/_menu.scss */
+.menu__link .notification {
+  margin-left: 4px;
+}
+/* line 27, ../assets/scss/components/_menu.scss */
+.menu--vertical .menu__item--current .menu__link {
+  font-weight: bold;
+}
+/* line 29, ../assets/scss/components/_menu.scss */
+.menu--vertical .menu__item--current .menu__link::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 100%;
+  background: #8d0208;
+  position: absolute;
+  top: 0;
+  left: -6px;
+}
+
+/* line 3, ../assets/scss/components/_profile.scss */
+.profile__actions {
+  position: absolute;
+  top: 28px;
+  right: 12px;
+}
+/* line 8, ../assets/scss/components/_profile.scss */
+.profile__status {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 3px;
+  background: #ececec;
+}
+/* line 14, ../assets/scss/components/_profile.scss */
+.profile__status-item {
+  font-size: 14px;
+  padding: 0.5em 10px;
+  color: #484848;
+  text-align: center;
+  font-weight: normal;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33%;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+  box-sizing: border-box;
+}
+/* line 22, ../assets/scss/components/_profile.scss */
+.profile__status-item:hover {
+  color: #d62d2d;
+  text-decoration: none;
+}
+/* line 26, ../assets/scss/components/_profile.scss */
+.profile__status-item:not(.profile__status-item--current) + .profile__status-item:not(.profile__status-item--current) {
+  border-left: 2px solid #cabfaa;
+}
+/* line 29, ../assets/scss/components/_profile.scss */
+.profile__status-item--current {
+  color: white;
+  background: #837c68;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 0;
+  cursor: default;
+  pointer-events: none;
+}
+/* line 37, ../assets/scss/components/_profile.scss */
+.profile__status-item--current:hover {
+  color: white;
+}
+
+/* line 3, ../assets/scss/components/_user.scss */
+.user__info {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 9, ../assets/scss/components/_user.scss */
+.user__pic {
+  width: 3rem;
+  height: 3rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 3rem;
+      -ms-flex: 0 0 3rem;
+          flex: 0 0 3rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+/* line 15, ../assets/scss/components/_user.scss */
+.user__pic img {
+  display: block;
+  border-radius: 50%;
+}
+/* line 19, ../assets/scss/components/_user.scss */
+.user__pic:empty {
+  background: #8d0208;
+  color: white;
+  text-align: center;
+}
+/* line 23, ../assets/scss/components/_user.scss */
+.user__pic:empty::after {
+  font-family: "iconfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1rem;
+  content: "";
+  font-size: 1.5em;
+  line-height: 3rem;
+  vartical-align: middle;
+}
+/* line 31, ../assets/scss/components/_user.scss */
+.user__pic--big {
+  width: 4rem;
+  height: 4rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 4rem;
+      -ms-flex: 0 0 4rem;
+          flex: 0 0 4rem;
+}
+/* line 35, ../assets/scss/components/_user.scss */
+.user__pic--big:empty::after {
+  font-size: 2em;
+  line-height: 4rem;
+}
+/* line 40, ../assets/scss/components/_user.scss */
+.user--vip .user__pic::before {
+  display: inline-block;
+  content: 'VIP';
+  padding: 4px;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: bold;
+  color: white;
+  background: #ffa900;
+  position: absolute;
+  right: 3px;
+  bottom: -5px;
+}
+/* line 54, ../assets/scss/components/_user.scss */
+.user__name {
+  font-weight: bold;
+  line-height: normal;
+  color: #484848;
+  padding-right: 2.5em;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 calc(100% - 3.5rem);
+      -ms-flex: 0 0 calc(100% - 3.5rem);
+          flex: 0 0 calc(100% - 3.5rem);
+}
+/* line 60, ../assets/scss/components/_user.scss */
+.user__name .note {
+  font-weight: normal;
+}
+/* line 63, ../assets/scss/components/_user.scss */
+.user--online .user__name {
+  padding-left: 14px;
+}
+/* line 65, ../assets/scss/components/_user.scss */
+.user--online .user__name::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #f85d5d;
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+}
+/* line 78, ../assets/scss/components/_user.scss */
+.user__pic--big + .user__name {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 calc(100% - 4.5rem);
+      -ms-flex: 0 0 calc(100% - 4.5rem);
+          flex: 0 0 calc(100% - 4.5rem);
+}
+/* line 83, ../assets/scss/components/_user.scss */
+.user__contacts-list--gorizontal .user__contact {
+  display: inline-block;
+  margin: 0;
+  margin-right: 1.5em;
+}
+/* line 87, ../assets/scss/components/_user.scss */
+.user__contacts-list--gorizontal .user__contact:last-child {
+  margin-right: 0;
+}
+/* line 91, ../assets/scss/components/_user.scss */
+.user__contacts-list--vertical {
+  margin-bottom: 1.5rem;
+}
+/* line 93, ../assets/scss/components/_user.scss */
+.user__contacts-list--vertical .user__contact {
+  display: block;
+  margin: 0 0 1rem;
+}
+/* line 99, ../assets/scss/components/_user.scss */
+.user__contact {
+  font-size: 14px;
+  font-weight: normal;
+  color: #484848;
+  vertical-align: middle;
+}
+/* line 104, ../assets/scss/components/_user.scss */
+.user__contact .icon {
+  font-size: 1.5rem;
+  line-height: 1;
+  vertical-align: middle;
+}
+/* line 108, ../assets/scss/components/_user.scss */
+.user__contact .icon::before {
+  color: black;
+  font-size: 1.5rem;
+}
+/* line 113, ../assets/scss/components/_user.scss */
+.user__contact:hover {
+  text-decoration: none;
+}
+
+/* line 3, ../assets/scss/components/_tabs.scss */
+.tabs .ui-tabs-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 8, ../assets/scss/components/_tabs.scss */
+.tabs__item {
+  display: inline-block;
+  margin: 0 15px;
+}
+/* line 11, ../assets/scss/components/_tabs.scss */
+.tabs__item:first-of-type {
+  margin-left: 0;
+}
+/* line 14, ../assets/scss/components/_tabs.scss */
+.tabs__item:last-of-type {
+  margin-right: 0;
+}
+/* line 18, ../assets/scss/components/_tabs.scss */
+.tabs__item-link {
+  display: block;
+  padding: 4px 0;
+  border-bottom: 3px solid transparent;
+  text-transform: uppercase;
+  color: #484848;
+  opacity: 0.5;
+}
+/* line 25, ../assets/scss/components/_tabs.scss */
+.tabs__item-link:hover {
+  text-decoration: none;
+  color: #484848;
+  opacity: 1;
+}
+/* line 31, ../assets/scss/components/_tabs.scss */
+.ui-tabs-active .tabs__item-link {
+  color: #ffa900;
+  border-color: currentColor;
+  opacity: 1;
+}
+/* line 37, ../assets/scss/components/_tabs.scss */
+.tabs__content {
+  margin-top: 3rem;
+}
+/* line 40, ../assets/scss/components/_tabs.scss */
+.tabs__next-btn, .tabs__end-btn {
+  margin-top: 3rem;
+}
+
+/* line 3, ../assets/scss/components/_pack.scss */
+.pack__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 7, ../assets/scss/components/_pack.scss */
+.pack__action {
+  margin-left: 3rem;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+/* line 10, ../assets/scss/components/_pack.scss */
+.pack__action .btn {
+  width: 120px;
+}
+/* line 14, ../assets/scss/components/_pack.scss */
+.pack__title {
+  margin-bottom: 0.5em;
+}
+/* line 16, ../assets/scss/components/_pack.scss */
+.pack__title + p {
+  margin-top: 0;
+}
+/* line 21, ../assets/scss/components/_pack.scss */
+.pack__desc *:first-child {
+  margin-top: 0;
+}
+/* line 24, ../assets/scss/components/_pack.scss */
+.pack__desc *:last-child {
+  margin-bottom: 0;
+}
+
+/* line 2, ../assets/scss/components/_video.scss */
+.video {
+  margin: 3rem 0;
+}
+/* line 4, ../assets/scss/components/_video.scss */
+.video__container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+/* line 8, ../assets/scss/components/_video.scss */
+.video__container iframe, .video__container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+/* line 17, ../assets/scss/components/_video.scss */
+.video__info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 21, ../assets/scss/components/_video.scss */
+.video__author {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33%;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+}
+/* line 23, ../assets/scss/components/_video.scss */
+.video__author .user__name {
+  padding: 0;
+}
+/* line 28, ../assets/scss/components/_video.scss */
+.video__desc p {
+  margin: 0.5em 0;
+}
+/* line 32, ../assets/scss/components/_video.scss */
+.video__time {
+  line-height: 1;
+}
+/* line 34, ../assets/scss/components/_video.scss */
+.video__time::before {
+  margin-right: 3px;
+  font-size: 1em;
+}
+/* line 39, ../assets/scss/components/_video.scss */
+.video--half .video__author {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 85%;
+      -ms-flex: 1 1 85%;
+          flex: 1 1 85%;
+}
+/* line 43, ../assets/scss/components/_video.scss */
+.video__grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 49, ../assets/scss/components/_video.scss */
+.video__grid .video {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  margin-bottom: 1rem;
+}
+/* line 53, ../assets/scss/components/_video.scss */
+.video__grid .video + .video {
+  margin-top: 1rem;
+}
+/* line 56, ../assets/scss/components/_video.scss */
+.video__grid .video--half {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 calc(50% - 1rem);
+      -ms-flex: 0 0 calc(50% - 1rem);
+          flex: 0 0 calc(50% - 1rem);
+}
+/* line 59, ../assets/scss/components/_video.scss */
+.success-stories .video:first-child {
+  margin-top: 1rem;
+}

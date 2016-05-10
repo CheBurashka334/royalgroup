@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":[],"mappings":"AAAA;;AAEA;;AAEA,EAAE,YAAU;AACX,OAAM,OAAN;AACA,CAFD","file":"scripts.js","sourcesContent":["'use strict';\r\n\r\nimport 'jquery';\r\n\r\n$(function(){\r\n\talert('hello');\r\n})();"],"sourceRoot":"/source/"}
