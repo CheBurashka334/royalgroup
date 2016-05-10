@@ -1,0 +1,117 @@
+// user
+.user {
+	&__info {
+		font-size: 18px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	&__pic {
+		width: 3rem;
+		height: 3rem;
+		flex: 0 0 3rem;
+		border-radius: 50%;
+		margin-right: 0.5rem;
+		img {
+			display: block;
+			border-radius: 50%;
+		}
+		&:empty {
+			background: $primary-color;
+			color: white;
+			text-align: center;
+			&::after {
+				@include icon-styles;
+				content: icon-char(profile);
+				font-size: 1.5em;
+				line-height: 3rem;
+				vartical-align: middle;
+			}
+		}
+		&--big {
+			width: 4rem;
+			height: 4rem;
+			flex: 0 0 4rem;
+			&:empty::after {
+				font-size: 2em;
+				line-height: 4rem;
+			}
+		}
+		.user--vip &::before {
+			display: inline-block;
+			content: 'VIP';
+			padding: 4px;
+			font-size: $text-size--smaller;
+			line-height: 1;
+			font-weight: bold;
+			color: white;
+			background: color('yellow', 'darker');
+			position: absolute;
+			right: 3px;
+			bottom: -5px;
+		}
+	}
+	&__name {
+		font-weight: bold;
+		line-height: normal;
+		color: color('gray', 'dark');
+		padding-right: 2.5em;
+		flex: 0 0 calc(100% - 3.5rem);
+		.note {
+			font-weight: normal;
+		}
+		.user--online & {
+			padding-left: 14px;
+			&::before {
+				content: '';
+				display: block;
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;
+				background: #f85d5d;
+				position: absolute;
+				top: 0.5em;
+				left: 0;
+			}
+		}
+	}
+	&__pic--big + &__name {
+		flex: 0 0 calc(100% - 4.5rem);
+	}
+	
+	&__contacts-list {
+		&--gorizontal .user__contact {
+			display: inline-block;
+			margin: 0;
+			margin-right: 1.5em;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		&--vertical {
+			margin-bottom: 1.5rem;
+			.user__contact {
+				display: block;
+				margin: 0 0 1rem;
+			}
+		}
+	}
+	&__contact {
+		font-size: $text-size--small;
+		font-weight: normal;
+		color: color('gray', 'dark');
+		vertical-align: middle;
+		.icon {
+			font-size: 1.5rem;
+			line-height: 1;
+			vertical-align: middle;
+			&::before {
+				color: black;
+				font-size: 1.5rem;
+			}
+		}
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}

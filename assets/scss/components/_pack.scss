@@ -1,0 +1,28 @@
+// pack
+.pack {
+	&__content {
+		display: flex;
+		align-items: center;
+	}
+	&__action {
+		margin-left: 3rem;
+		flex-shrink: 0;
+		.btn {
+			width: 120px;
+		}
+	}
+	&__title {
+		margin-bottom: 0.5em;
+		& + p {
+			margin-top: 0;
+		}
+	}
+	&__desc {
+		*:first-child {
+			margin-top: 0;
+		}
+		*:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

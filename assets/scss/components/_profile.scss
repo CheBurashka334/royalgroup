@@ -1,0 +1,42 @@
+// profile
+.profile {
+	&__actions {
+		position: absolute;
+		top: 28px;
+		right: 12px;
+	}
+	&__status {
+		margin-top: 1rem;
+		display: flex;
+		border-radius: 3px;
+		background: color('gray', 'lighter');
+	}
+	&__status-item {
+		font-size: $text-size--small;
+		padding: 0.5em 10px;
+		color: color('gray', 'dark');
+		text-align: center;
+		font-weight: normal;
+		flex: 0 0 33%;
+		box-sizing: border-box;
+		&:hover {
+			color: $link-color;
+			text-decoration: none;
+		}
+		&:not(.profile__status-item--current) + &:not(.profile__status-item--current){
+			border-left: 2px solid color('lights', 'brown-darker');
+		}
+		&--current {
+			color: white;
+			background: color('brown', 'light');
+			font-weight: bold;
+			border-radius: 3px;
+			border: 0;
+			cursor: default;
+			pointer-events: none;
+			&:hover {
+				color: white;
+			}
+		}
+	}
+}

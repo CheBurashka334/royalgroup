@@ -1,0 +1,176 @@
+@font-face {
+	font-family: "iconfont";
+	src: url('../icons/font/iconfont.eot');
+	src: url('../icons/font/iconfont.eot?#iefix') format('eot'),
+		url('../icons/font/iconfont.woff') format('woff'),
+		url('../icons/font/iconfont.ttf') format('truetype'),
+		url('../icons/font/iconfont.svg#iconfont') format('svg');
+}
+
+@mixin icon-styles {
+	font-family: "iconfont";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	speak: none;
+	text-decoration: none;
+	text-transform: none;
+	font-size: 1rem;
+}
+
+%icon {
+	@include icon-styles;
+}
+
+@function icon-char($filename) {
+	$char: "";
+
+	@if $filename == arr-down {
+		$char: "\e900";
+	}
+	@if $filename == arrow-right {
+		$char: "\e901";
+	}
+	@if $filename == basket {
+		$char: "\e902";
+	}
+	@if $filename == bell {
+		$char: "\e903";
+	}
+	@if $filename == blank {
+		$char: "\e904";
+	}
+	@if $filename == calendar {
+		$char: "\e905";
+	}
+	@if $filename == camera {
+		$char: "\e906";
+	}
+	@if $filename == chat {
+		$char: "\e907";
+	}
+	@if $filename == clock {
+		$char: "\e908";
+	}
+	@if $filename == cross {
+		$char: "\e909";
+	}
+	@if $filename == email {
+		$char: "\e90a";
+	}
+	@if $filename == lock {
+		$char: "\e90b";
+	}
+	@if $filename == map-marker {
+		$char: "\e90c";
+	}
+	@if $filename == mic {
+		$char: "\e90d";
+	}
+	@if $filename == mobile-phone {
+		$char: "\e90e";
+	}
+	@if $filename == out-door {
+		$char: "\e90f";
+	}
+	@if $filename == pencil {
+		$char: "\e910";
+	}
+	@if $filename == profile {
+		$char: "\e911";
+	}
+	@if $filename == question-circle {
+		$char: "\e912";
+	}
+	@if $filename == skype {
+		$char: "\e913";
+	}
+	@if $filename == tick {
+		$char: "\e914";
+	}
+	@if $filename == video-camera {
+		$char: "\e915";
+	}
+
+	@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %icon;
+		} @else {
+			@include icon-styles;
+		}
+		content: icon-char($filename);
+	}
+}
+
+.icon-arr-down {
+	@include icon(arr-down);
+}
+.icon-arrow-right {
+	@include icon(arrow-right);
+}
+.icon-basket {
+	@include icon(basket);
+}
+.icon-bell {
+	@include icon(bell);
+}
+.icon-blank {
+	@include icon(blank);
+}
+.icon-calendar {
+	@include icon(calendar);
+}
+.icon-camera {
+	@include icon(camera);
+}
+.icon-chat {
+	@include icon(chat);
+}
+.icon-clock {
+	@include icon(clock);
+}
+.icon-cross {
+	@include icon(cross);
+}
+.icon-email {
+	@include icon(email);
+}
+.icon-lock {
+	@include icon(lock);
+}
+.icon-map-marker {
+	@include icon(map-marker);
+}
+.icon-mic {
+	@include icon(mic);
+}
+.icon-mobile-phone {
+	@include icon(mobile-phone);
+}
+.icon-out-door {
+	@include icon(out-door);
+}
+.icon-pencil {
+	@include icon(pencil);
+}
+.icon-profile {
+	@include icon(profile);
+}
+.icon-question-circle {
+	@include icon(question-circle);
+}
+.icon-skype {
+	@include icon(skype);
+}
+.icon-tick {
+	@include icon(tick);
+}
+.icon-video-camera {
+	@include icon(video-camera);
+}

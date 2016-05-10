@@ -1,0 +1,62 @@
+// video
+.video {
+	margin: 3rem 0;
+	&__container {
+		width: 100%;
+		height: 0;
+		padding-bottom: 56.25%;
+		iframe, video {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border: 0;
+		}
+	}
+	&__info {
+		display: flex;
+		align-items: center;
+	}
+	&__author {
+		flex: 0 0 33%;
+		.user__name {
+			padding: 0;
+		}
+	}
+	&__desc {
+		p {
+			margin: 0.5em 0;
+		}
+	}
+	&__time {
+		line-height: 1;
+		&::before {
+			margin-right: 3px;
+			font-size: 1em;
+		}
+	}
+	&--half &__author {
+		flex: 1 1 85%;
+	}
+	
+	&__grid {
+		display: flex;
+		align-items: stretch;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	&__grid & {
+		flex: 0 0 100%;
+		margin-bottom: 1rem;
+	}
+	&__grid & + & {
+		margin-top: 1rem;
+	}
+	&__grid &--half {
+		flex: 0 0 calc(50% - 1rem);
+	}
+	.success-stories &:first-child {
+		margin-top: 1rem;
+	}
+}

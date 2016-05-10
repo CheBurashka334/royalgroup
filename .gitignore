@@ -2,5 +2,6 @@
 dis/*
 node_modules/*
 royalgroup-project
-assets/*
+assets/images/*
+assets/icons/*
 index.php

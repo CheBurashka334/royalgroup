@@ -1,0 +1,40 @@
+// menu
+.menu {
+	&--vertical {
+		padding: 1rem 0;
+	}
+	&__link {
+		display: block;
+		position: relative;
+		box-sizing: border-box;
+		font-weight: normal;
+		color: color('gray', 'dark');
+		padding: 1em 1.5em;
+		&[disabled]{
+			color: #a59d8c;
+		}
+		&:hover {
+			text-decoration: none;
+		}
+		&:active,
+		&:focus {
+			color: $link-color--hover;
+		}
+		.notification {
+			margin-left: 4px;
+		}
+	}
+	&--vertical &__item--current &__link {
+		font-weight: bold;
+		&::before {
+			content: '';
+			display: block;
+			width: 6px;
+			height: 100%;
+			background: $primary-color;
+			position: absolute;
+			top: 0;
+			left: -6px;
+		}
+	}
+}

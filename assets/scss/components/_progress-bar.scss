@@ -1,0 +1,38 @@
+// progress-bar 
+.progress-bar {
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	counter-reset: progress;
+	padding: 0;
+	margin: 0;
+	&__item {
+		display: flex;
+		align-items: center;
+		color: white;
+		font-size: $text-size--small;
+		padding: 0;
+		margin: 0;
+		margin-right: 2rem;
+		&:last-of-type {
+			margin-right: 0;
+		}
+		&::before {
+			counter-increment: progress;
+			content: counter(progress);
+			@extend %digit-in-circle;
+			font-size: 20px;
+			margin-right: 0.5rem;
+			flex: 0 0 2rem;
+		}
+		&--current::before {
+			@extend %digit-in-circle--fill;
+		}
+		&--done::before {
+			@extend %digit-in-circle--color;
+			@include icon-styles;
+			content: icon-char(tick);
+		}
+	}
+}

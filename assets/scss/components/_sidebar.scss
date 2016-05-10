@@ -1,0 +1,20 @@
+// sidebar
+.sidebar {
+	background-color: $sidebar-bg;
+	background: linear-gradient(to left, #c6bca8 0px, #{$sidebar-bg} 16px);
+	width: $sidebar-width;
+	padding: 2rem;
+	flex: 0 0 $sidebar-width;
+	&--left {
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			width: calc((100vw - #{$container-width}) / 2);
+			height: 100%;
+			left:  calc((100vw - #{$container-width}) / -2);
+			background:  $sidebar-bg;
+		}
+	}
+}

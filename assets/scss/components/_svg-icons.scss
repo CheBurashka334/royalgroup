@@ -1,0 +1,224 @@
+%svg-common {
+	background: url("icons/sprite/sprite.symbol.svg") no-repeat;
+}
+
+.svg-arr-down {
+	@extend %svg-common;
+	background-position: 25% 0;
+}
+
+.svg-arr-down-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-arrow-right {
+	@extend %svg-common;
+	background-position: 75% 54.54545454545455%;
+}
+
+.svg-arrow-right-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-basket {
+	@extend %svg-common;
+	background-position: 0 27.272727272727273%;
+}
+
+.svg-basket-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-bell {
+	@extend %svg-common;
+	background-position: 25% 27.272727272727273%;
+}
+
+.svg-bell-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-blank {
+	@extend %svg-common;
+	background-position: 50% 0;
+}
+
+.svg-blank-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-calendar {
+	@extend %svg-common;
+	background-position: 50% 27.272727272727273%;
+}
+
+.svg-calendar-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-camera {
+	@extend %svg-common;
+	background-position: 0 54.54545454545455%;
+}
+
+.svg-camera-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-chat {
+	@extend %svg-common;
+	background-position: 98.05924412665985% 79.19659454643451%;
+}
+
+.svg-chat-dims {
+	width: 22.1px;
+	height: 21.087px;
+}
+
+.svg-clock {
+	@extend %svg-common;
+	background-position: 0 100%;
+}
+
+.svg-clock-dims {
+	width: 16px;
+	height: 16px;
+}
+
+.svg-cross {
+	@extend %svg-common;
+	background-position: 14.285586735832716% 92.3076923076923%;
+}
+
+.svg-cross-dims {
+	width: 7.999px;
+	height: 8px;
+}
+
+.svg-email {
+	@extend %svg-common;
+	background-position: 75% 27.272727272727273%;
+}
+
+.svg-email-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-lock {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-lock-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-map-marker {
+	@extend %svg-common;
+	background-position: 0 81.81818181818181%;
+}
+
+.svg-map-marker-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-mic {
+	@extend %svg-common;
+	background-position: 25% 81.81818181818181%;
+}
+
+.svg-mic-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-mobile-phone {
+	@extend %svg-common;
+	background-position: 50% 81.81818181818181%;
+}
+
+.svg-mobile-phone-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-out-door {
+	@extend %svg-common;
+	background-position: 75% 81.81818181818181%;
+}
+
+.svg-out-door-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-pencil {
+	@extend %svg-common;
+	background-position: 100% 0;
+}
+
+.svg-pencil-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-profile {
+	@extend %svg-common;
+	background-position: 100% 27.272727272727273%;
+}
+
+.svg-profile-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-question-circle {
+	@extend %svg-common;
+	background-position: 75% 0;
+}
+
+.svg-question-circle-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-skype {
+	@extend %svg-common;
+	background-position: 50% 54.54545454545455%;
+}
+
+.svg-skype-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-tick {
+	@extend %svg-common;
+	background-position: 25% 54.54545454545455%;
+}
+
+.svg-tick-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-video-camera {
+	@extend %svg-common;
+	background-position: 100% 54.54545454545455%;
+}
+
+.svg-video-camera-dims {
+	width: 24px;
+	height: 24px;
+}
+

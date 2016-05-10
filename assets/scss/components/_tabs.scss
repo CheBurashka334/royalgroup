@@ -1,0 +1,44 @@
+// tabs
+.tabs {
+	.ui-tabs-nav {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	&__item {
+		display: inline-block;
+		margin: 0 15px;
+		&:first-of-type {
+			margin-left: 0;
+		}
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+	&__item-link {
+		display: block;
+		padding: 4px 0;
+		border-bottom: 3px solid transparent;
+		text-transform: uppercase;
+		color: color('gray', 'dark');
+		opacity: 0.5;
+		&:hover {
+			text-decoration: none;
+			color: color('gray', 'dark');
+			opacity: 1;
+		}
+	}
+	.ui-tabs-active &__item-link {
+		color: color('yellow', 'darker');
+		border-color: currentColor;
+		opacity: 1;
+	}
+	
+	&__content {
+		margin-top: 3rem;
+	}
+	&__next-btn,
+	&__end-btn {
+		margin-top: 3rem;
+	}
+}
