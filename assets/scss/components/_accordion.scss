@@ -1,0 +1,46 @@
+.ui-accordion {
+	&-header {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		background: white;
+		cursor: pointer;
+		&:not(.ui-state-active) {
+			border: 0;
+		}
+		&.ui-state-active {
+			background: #fdfcf9;
+		}
+		&__content {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+		}
+		&__text p {
+			margin: 0;
+			line-height: 20px;
+		}
+		&__brend {
+			flex: 0 0 245/680*100%;
+		}
+	}
+	&-icon {
+		flex: 0 0 40px;
+		width: 40px;
+		height: 40px;
+		padding: 0.5em;
+		margin: 0 12px 0 34px;
+		color: color('brown', 'light');
+		border: 2px solid currentColor;
+		border-radius: 50%;
+		&:hover,
+		.ui-state-hover & {
+			color: color('red', 'base');
+		}
+		.ui-state-active & {
+			color: white;
+			border-color: transparent;
+			background: color('red', 'darker');
+		}
+	}
+}

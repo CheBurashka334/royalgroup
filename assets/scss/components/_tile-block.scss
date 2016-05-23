@@ -1,7 +1,7 @@
 // tile-block
 .tile-block {
 	background: white;
-	border: 2px solid color('lights', 'beige');
+	border: $base-border;
 	margin-bottom: 2rem;
 	.sidebar & {
 		border-color: #c5bba5;
@@ -11,15 +11,18 @@
 		padding: 22px;
 	}
 	&__head {
-		border-bottom: 2px solid color('lights', 'beige'); 
+		border-bottom: $base-border;
 	}
 	&.video {
 		border: 0;
 	}
 	&.video &__content {
-		border: 2px solid color('lights', 'beige');
+		border: $base-border;
 	}
 	&.video &__video + &__content {
 		border-top: 0;
+	}
+	&__table {
+		padding: 0.5em 1.5em;
 	}
 }

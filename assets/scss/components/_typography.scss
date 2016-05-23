@@ -132,3 +132,31 @@ ul, ol {
 	@extend %digit-in-circle--fill;
 	@extend %digit-in-circle--small;
 }
+
+.center-align {
+	text-align: center;
+}
+.right-align {
+	text-align: right;
+}
+.left-align {
+	text-align: left;
+}
+
+table {
+	display: table;
+	tr {
+		display: table-row;
+	}
+	td, th {
+		display: table-cell;
+		padding: 1em 0;
+		border-bottom: $base-border;
+		text-align: left;
+	}
+	th {
+		font-size: $text-size--small;
+		font-weight: normal;
+		color: color('gray', 'base');
+	}
+}

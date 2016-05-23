@@ -13,6 +13,7 @@ var _jqueryUi2 = _interopRequireDefault(_jqueryUi);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var tabs = _jqueryUi2.default.tabs;
+var accordion = _jqueryUi2.default.accordion;
 
 (0, _jquery2.default)(document).ready(function () {
 
@@ -28,8 +29,19 @@ var tabs = _jqueryUi2.default.tabs;
 			(0, _jquery2.default)(this).tabs("option", "disabled", disabledTabs);
 		}
 	});
+
+	// accordeon
+	// http://api.jqueryui.com/accordion/
+	(0, _jquery2.default)('.ui-accordion').accordion({
+		collapsible: true,
+		icons: false,
+		active: false
+	});
+	(0, _jquery2.default)('.ui-accordion-header').on('click', 'a', function (e) {
+		e.stopPropagation();
+	});
 });
-}).call(this,require("XJF/FV"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_c5434fd5.js","/")
+}).call(this,require("XJF/FV"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_c0f1df2f.js","/")
 },{"XJF/FV":4,"buffer":3,"jquery":7,"jquery-ui":6}],2:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';

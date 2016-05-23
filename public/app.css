@@ -330,12 +330,12 @@
 
 /* line 63, ../assets/scss/_colors.scss */
 .lights.gray-lighter {
-  background-color: #b4a781;
+  background-color: #f6f6f6;
 }
 
 /* line 66, ../assets/scss/_colors.scss */
 .lights-text.gray-lighter {
-  color: #b4a781;
+  color: #f6f6f6;
 }
 
 /* line 63, ../assets/scss/_colors.scss */
@@ -1086,6 +1086,13 @@ th {
   height: 24px;
 }
 
+/* line 225, ../assets/scss/components/_svg-icons.scss */
+.icon {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
 /* line 1, ../assets/scss/components/_layout.scss */
 html, body {
   width: 100%;
@@ -1179,17 +1186,51 @@ div {
 /* line 26, ../assets/scss/components/_layout.scss */
 .page-content {
   padding: 2rem 6rem 10.5rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 calc(820px + 12rem);
+      -ms-flex: 0 0 calc(820px + 12rem);
+          flex: 0 0 calc(820px + 12rem);
 }
 
-/* line 29, ../assets/scss/components/_layout.scss */
+/* line 30, ../assets/scss/components/_layout.scss */
 .footer {
   position: absolute;
   left: 6rem;
   bottom: 1.5rem;
 }
-/* line 33, ../assets/scss/components/_layout.scss */
+/* line 34, ../assets/scss/components/_layout.scss */
 .footer .copyright {
   margin: 0;
+}
+
+/* line 39, ../assets/scss/components/_layout.scss */
+.grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+/* line 44, ../assets/scss/components/_layout.scss */
+.grid-2 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 46, ../assets/scss/components/_layout.scss */
+.grid-2 > div {
+  width: calc(50% - 1em);
 }
 
 /* line 2, ../assets/scss/components/_typography.scss */
@@ -1355,6 +1396,95 @@ ul li, ol li {
   width: 23px;
   height: 23px;
   line-height: 19px;
+}
+
+/* line 136, ../assets/scss/components/_typography.scss */
+.center-align {
+  text-align: center;
+}
+
+/* line 139, ../assets/scss/components/_typography.scss */
+.right-align {
+  text-align: right;
+}
+
+/* line 142, ../assets/scss/components/_typography.scss */
+.left-align {
+  text-align: left;
+}
+
+/* line 146, ../assets/scss/components/_typography.scss */
+table {
+  display: table;
+}
+/* line 148, ../assets/scss/components/_typography.scss */
+table tr {
+  display: table-row;
+}
+/* line 151, ../assets/scss/components/_typography.scss */
+table td, table th {
+  display: table-cell;
+  padding: 1em 0;
+  border-bottom: 2px solid #e4e0d4;
+  text-align: left;
+}
+/* line 157, ../assets/scss/components/_typography.scss */
+table th {
+  font-size: 14px;
+  font-weight: normal;
+  color: #8b8b8b;
+}
+
+/* line 2, ../assets/scss/components/_content.scss */
+.content-steps__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 45px;
+}
+/* line 7, ../assets/scss/components/_content.scss */
+.content-steps__item:last-child {
+  margin-bottom: 0;
+}
+/* line 11, ../assets/scss/components/_content.scss */
+.content-steps__img {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 550px;
+      -ms-flex: 0 0 550px;
+          flex: 0 0 550px;
+}
+/* line 14, ../assets/scss/components/_content.scss */
+.content-steps__item:nth-child(odd) .content-steps__img {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+  margin-right: 20px;
+}
+/* line 18, ../assets/scss/components/_content.scss */
+.content-steps__item:nth-child(even) .content-steps__img {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-left: 20px;
+}
+/* line 23, ../assets/scss/components/_content.scss */
+.content-steps__text :first-child {
+  margin-top: 0;
+}
+/* line 26, ../assets/scss/components/_content.scss */
+.content-steps__text p {
+  line-height: 20px;
 }
 
 /* line 2, ../assets/scss/components/_buttons.scss */
@@ -1592,6 +1722,10 @@ input[type="button"].disabled {
 /* line 22, ../assets/scss/components/_tile-block.scss */
 .tile-block.video .tile-block__video + .tile-block__content {
   border-top: 0;
+}
+/* line 25, ../assets/scss/components/_tile-block.scss */
+.tile-block__table {
+  padding: 0.5em 1.5em;
 }
 
 /* line 3, ../assets/scss/components/_menu.scss */
@@ -1855,6 +1989,57 @@ input[type="button"].disabled {
   text-decoration: none;
 }
 
+/* line 1, ../assets/scss/components/_brend.scss */
+.brend {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 5, ../assets/scss/components/_brend.scss */
+.brend__icon {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 60px;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px;
+  width: 60px;
+  height: 60px;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #e4e0d4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 16, ../assets/scss/components/_brend.scss */
+.brend__icon img {
+  border-radius: 50%;
+}
+/* line 20, ../assets/scss/components/_brend.scss */
+.brend__name {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: normal;
+}
+
 /* line 3, ../assets/scss/components/_tabs.scss */
 .tabs .ui-tabs-nav {
   margin: 0;
@@ -1902,6 +2087,83 @@ input[type="button"].disabled {
 /* line 40, ../assets/scss/components/_tabs.scss */
 .tabs__next-btn, .tabs__end-btn {
   margin-top: 3rem;
+}
+
+/* line 2, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  cursor: pointer;
+}
+/* line 8, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header:not(.ui-state-active) {
+  border: 0;
+}
+/* line 11, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header.ui-state-active {
+  background: #fdfcf9;
+}
+/* line 14, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 19, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header__text p {
+  margin: 0;
+  line-height: 20px;
+}
+/* line 23, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header__brend {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 36.02941%;
+      -ms-flex: 0 0 36.02941%;
+          flex: 0 0 36.02941%;
+}
+/* line 27, ../assets/scss/components/_accordion.scss */
+.ui-accordion-icon {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 40px;
+      -ms-flex: 0 0 40px;
+          flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  padding: 0.5em;
+  margin: 0 12px 0 34px;
+  color: #837c68;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+}
+/* line 36, ../assets/scss/components/_accordion.scss */
+.ui-accordion-icon:hover, .ui-state-hover .ui-accordion-icon {
+  color: #d62d2d;
+}
+/* line 40, ../assets/scss/components/_accordion.scss */
+.ui-state-active .ui-accordion-icon {
+  color: white;
+  border-color: transparent;
+  background: #8d0208;
 }
 
 /* line 3, ../assets/scss/components/_pack.scss */
@@ -2044,4 +2306,67 @@ input[type="button"].disabled {
 /* line 59, ../assets/scss/components/_video.scss */
 .success-stories .video:first-child {
   margin-top: 1rem;
+}
+
+/* line 1, ../assets/scss/components/_balance.scss */
+.transaction-table {
+  display: table;
+  width: 100%;
+}
+/* line 4, ../assets/scss/components/_balance.scss */
+.transaction-table__head, .transaction-table__row {
+  display: table-row;
+  width: 100%;
+  border-bottom: 2px solid #e4e0d4;
+}
+/* line 10, ../assets/scss/components/_balance.scss */
+.transaction-table__body {
+  display: table-row-group;
+  width: 100%;
+}
+/* line 14, ../assets/scss/components/_balance.scss */
+.transaction-table__col {
+  display: table-cell;
+  border-bottom: 0;
+  padding: 1em 0;
+  text-align: left;
+}
+/* line 20, ../assets/scss/components/_balance.scss */
+.transaction-table__head .transaction-table__col {
+  font-size: 14px;
+  font-weight: normal;
+  color: #8b8b8b;
+}
+/* line 25, ../assets/scss/components/_balance.scss */
+.transaction-table__col {
+  border-bottom: 2px solid #e4e0d4;
+}
+/* line 27, ../assets/scss/components/_balance.scss */
+.transaction-table__col--date {
+  width: 28.10458%;
+}
+/* line 30, ../assets/scss/components/_balance.scss */
+.transaction-table__col--sum {
+  width: 20.91503%;
+  font-weight: bold;
+}
+/* line 33, ../assets/scss/components/_balance.scss */
+.transaction-table__col--sum .plus {
+  color: black;
+}
+/* line 36, ../assets/scss/components/_balance.scss */
+.transaction-table__col--sum .minus {
+  color: #d62d2d;
+}
+/* line 40, ../assets/scss/components/_balance.scss */
+.transaction-table__col--source {
+  width: 38.56209%;
+}
+/* line 43, ../assets/scss/components/_balance.scss */
+.transaction-table__col--balance {
+  width: 12.4183%;
+}
+/* line 47, ../assets/scss/components/_balance.scss */
+.transaction-table__row:last-child, .transaction-table__row:last-child .transaction-table__col {
+  border-bottom: 0;
 }

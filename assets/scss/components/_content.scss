@@ -1,0 +1,30 @@
+.content-steps {
+	&__item {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin-bottom: 45px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	&__img {
+		flex: 0 0 550px;
+	}
+	&__item:nth-child(odd) &__img {
+		order: -1;
+		margin-right: 20px;
+	}
+	&__item:nth-child(even) &__img {
+		order: 1;
+		margin-left: 20px;
+	}
+	&__text {
+		:first-child {
+			margin-top: 0;
+		}
+		p {
+			line-height: 20px;
+		}
+	}
+}

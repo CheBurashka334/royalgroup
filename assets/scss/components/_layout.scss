@@ -25,6 +25,7 @@ div {
 @import 'sidebar';
 .page-content {
 	padding: 2rem 6rem 10.5rem;
+	flex: 0 0 calc(820px + 12rem);
 }
 .footer {
 	position: absolute;
@@ -32,5 +33,18 @@ div {
 	bottom: 1.5rem;
 	.copyright {
 		margin: 0;
+	}
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	&-2 {
+		justify-content: space-between;
+		> div {
+			width: calc(50% - 1em);
+		}
 	}
 }

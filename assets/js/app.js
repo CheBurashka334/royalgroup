@@ -3,6 +3,7 @@
 import $ from 'jquery';
 import ui from 'jquery-ui';
 var tabs = ui.tabs;
+var accordion = ui.accordion;
 
 $(document).ready(function(){
 	
@@ -17,5 +18,16 @@ $(document).ready(function(){
 			});
 			$(this).tabs("option", "disabled", disabledTabs);
 		}
+	});
+	
+	// accordeon
+	// http://api.jqueryui.com/accordion/
+	$('.ui-accordion').accordion({
+		collapsible: true,
+		icons: false,
+		active: false
+	});
+	$('.ui-accordion-header').on('click', 'a', function(e){
+		e.stopPropagation();
 	});
 });

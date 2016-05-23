@@ -6,6 +6,7 @@ $font-icons: "iconfont";
 $text-size: 16px;
 $text-size--small: 14px;
 $text-size--smaller: 12px;
+$text-size--big: 18px;
 
 // colors
 $primary-color: color('red', 'darker');
@@ -31,3 +32,5 @@ $sidebar-width: 356px;
 $logo-width: $sidebar-width - 15px;
 
 $container-width: 1366px;
+
+$base-border: 2px solid color('lights', 'beige');
