@@ -1549,9 +1549,8 @@ table th {
 }
 /* line 67, ../assets/scss/components/_content.scss */
 .content-places__item--disable, .content-places__item--disable:hover {
-  border: 3px solid #666666;
-  background: transparent;
-  opacity: 0.2;
+  border: 3px solid #bbbbbb;
+  background: rgba(102, 102, 102, 0.2);
   cursor: default;
 }
 
@@ -2382,63 +2381,241 @@ input[type="button"].disabled {
 
 /* line 1, ../assets/scss/components/_balance.scss */
 .transaction-table {
-  display: table;
   width: 100%;
 }
-/* line 4, ../assets/scss/components/_balance.scss */
+/* line 3, ../assets/scss/components/_balance.scss */
 .transaction-table__head, .transaction-table__row {
-  display: table-row;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   width: 100%;
-  border-bottom: 2px solid #e4e0d4;
 }
-/* line 10, ../assets/scss/components/_balance.scss */
+/* line 9, ../assets/scss/components/_balance.scss */
 .transaction-table__body {
-  display: table-row-group;
   width: 100%;
 }
-/* line 14, ../assets/scss/components/_balance.scss */
+/* line 12, ../assets/scss/components/_balance.scss */
 .transaction-table__col {
-  display: table-cell;
+  display: block;
   border-bottom: 0;
   padding: 1em 0;
   text-align: left;
 }
-/* line 20, ../assets/scss/components/_balance.scss */
+/* line 18, ../assets/scss/components/_balance.scss */
 .transaction-table__head .transaction-table__col {
   font-size: 14px;
   font-weight: normal;
   color: #8b8b8b;
 }
-/* line 25, ../assets/scss/components/_balance.scss */
+/* line 23, ../assets/scss/components/_balance.scss */
 .transaction-table__col {
   border-bottom: 2px solid #e4e0d4;
 }
-/* line 27, ../assets/scss/components/_balance.scss */
-.transaction-table__col--date {
+/* line 25, ../assets/scss/components/_balance.scss */
+.transaction-table__col--date, .transaction-table__col--name {
   width: 28.10458%;
 }
-/* line 30, ../assets/scss/components/_balance.scss */
-.transaction-table__col--sum {
-  width: 20.91503%;
+/* line 31, ../assets/scss/components/_balance.scss */
+.transaction-table__col--sum span, .transaction-table__col--last span {
   font-weight: bold;
 }
-/* line 33, ../assets/scss/components/_balance.scss */
-.transaction-table__col--sum .plus {
+/* line 34, ../assets/scss/components/_balance.scss */
+.transaction-table__col--sum .plus, .transaction-table__col--last .plus {
   color: black;
 }
-/* line 36, ../assets/scss/components/_balance.scss */
-.transaction-table__col--sum .minus {
+/* line 37, ../assets/scss/components/_balance.scss */
+.transaction-table__col--sum .minus, .transaction-table__col--last .minus {
   color: #d62d2d;
 }
-/* line 40, ../assets/scss/components/_balance.scss */
+/* line 41, ../assets/scss/components/_balance.scss */
+.transaction-table__col--sum {
+  width: 20.91503%;
+}
+/* line 44, ../assets/scss/components/_balance.scss */
+.transaction-table__col--last {
+  width: 24.8366%;
+}
+/* line 46, ../assets/scss/components/_balance.scss */
+.transaction-table__col--last span {
+  margin-left: 5px;
+}
+/* line 50, ../assets/scss/components/_balance.scss */
 .transaction-table__col--source {
   width: 38.56209%;
 }
-/* line 43, ../assets/scss/components/_balance.scss */
+/* line 53, ../assets/scss/components/_balance.scss */
+.transaction-table__col--last ~ .transaction-table__col--source {
+  width: 35.29412%;
+}
+/* line 56, ../assets/scss/components/_balance.scss */
 .transaction-table__col--balance {
   width: 12.4183%;
 }
-/* line 47, ../assets/scss/components/_balance.scss */
+/* line 60, ../assets/scss/components/_balance.scss */
+.transaction-table__col--name .user {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+}
+/* line 64, ../assets/scss/components/_balance.scss */
+.transaction-table__col--name .user--online {
+  padding-left: 1em;
+}
+/* line 66, ../assets/scss/components/_balance.scss */
+.transaction-table__col--name .user--online::before {
+  content: '';
+  font-size: 6px;
+  display: block;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background: #f85d5d;
+  position: absolute;
+  top: 1.5em;
+  left: 0;
+}
+/* line 82, ../assets/scss/components/_balance.scss */
 .transaction-table__row:last-child, .transaction-table__row:last-child .transaction-table__col {
   border-bottom: 0;
+}
+/* line 87, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible {
+  margin-bottom: -0.5em;
+}
+/* line 90, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__head {
+  border: 0;
+}
+/* line 93, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: calc(100% + 3em);
+  margin-left: -1.5em;
+  border: 0;
+}
+/* line 98, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 100%;
+  width: 100%;
+  border: 0;
+  padding: 0 1.5em;
+}
+/* line 105, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-header.ui-state-active {
+  background: #faf9f5;
+}
+/* line 109, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content {
+  padding: 0 1.5em 1.5em;
+  background: #faf9f5;
+  width: 100%;
+}
+/* line 113, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content .title {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+/* line 116, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content .title::before {
+  font-family: "iconfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1rem;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+/* line 126, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-header::before,
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  right: 0;
+  background: transparent;
+  z-index: 1;
+}
+/* line 138, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-header::before {
+  top: 0;
+}
+/* line 141, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content::after {
+  bottom: -2px;
+}
+/* line 144, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-header-active::before,
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content-active::after {
+  background: #e4e0d4;
+}
+/* line 149, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__col {
+  border: 0;
+  border-top: 2px solid #e4e0d4;
+}
+/* line 153, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__head .transaction-table__col {
+  border: 0;
+}
+
+/* line 157, ../assets/scss/components/_balance.scss */
+.transaction-subtable {
+  display: table;
+  width: 100%;
+}
+/* line 160, ../assets/scss/components/_balance.scss */
+.transaction-subtable__row {
+  display: table-row;
+}
+/* line 163, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col {
+  display: table-cell;
+}
+/* line 165, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col--date {
+  width: 18.95425%;
+}
+/* line 168, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col--sum {
+  width: 10.45752%;
+}
+/* line 170, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col--sum span {
+  font-weight: bold;
+}
+/* line 173, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col--sum .plus {
+  color: black;
+}
+/* line 176, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col--sum .minus {
+  color: #d62d2d;
 }

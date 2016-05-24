@@ -1,18 +1,16 @@
 .transaction-table {
-	display: table;
 	width: 100%;
 	&__head,
 	&__row {
-		display: table-row;
+		display: flex;
+		align-items: stretch;
 		width: 100%;
-		border-bottom: $base-border;
 	}
 	&__body {
-		display: table-row-group;
 		width: 100%;
 	}
 	&__col {
-		display: table-cell;
+		display: block;
 		border-bottom: 0;
 		padding: 1em 0;
 		text-align: left;
@@ -24,12 +22,15 @@
 	}
 	&__col {
 		border-bottom: $base-border;
-		&--date {
+		&--date,
+		&--name {
 			width: 215/765*100%;
 		}
-		&--sum {
-			width: 160/765*100%;
-			font-weight: bold;
+		&--sum,
+		&--last {
+			span {
+				font-weight: bold;
+			}
 			.plus {
 				color: black;
 			}
@@ -37,15 +38,144 @@
 				color: color('red', 'base');
 			}
 		}
+		&--sum {
+			width: 160/765*100%;
+		}
+		&--last {
+			width: 190/765*100%;
+			span {
+				margin-left: 5px;
+			}
+		}
 		&--source {
 			width: 295/765*100%;
 		}
+		&--last ~ &--source {
+			width: 270/765*100%;
+		}
 		&--balance {
 			width: 95/765*100%;
+		}
+		&--name {
+			.user {
+				display: inline-block;
+				position: relative;
+				font-weight: bold;
+				&--online {
+					padding-left: 1em;
+					&::before {
+						content: '';
+						font-size: 6px;
+						display: block;
+						width: 1em;
+						height: 1em;
+						border-radius: 50%;
+						background: #f85d5d;
+						position: absolute;
+						top: 1.5em;
+						left: 0;
+					}
+				}
+			}
 		}
 	}
 	&__row:last-child,
 	&__row:last-child &__col {
 		border-bottom: 0;
+	}
+	
+	&--collapsible {
+		margin-bottom: -0.5em;
+	}
+	&--collapsible &__head {
+		border: 0;
+	}
+	&--collapsible &__row.ui-accordion {
+		flex-wrap: wrap;
+		width: calc(100% + 3em);
+		margin-left: -1.5em;
+		border: 0;
+		.ui-accordion-header {
+			display: flex;
+			align-items: stretch;
+			width: 100%;
+			width: 100%;
+			border: 0;
+			padding: 0 1.5em;
+			&.ui-state-active {
+				background: #faf9f5;
+			}
+		}
+		.ui-accordion-content {
+			padding: 0 1.5em 1.5em;
+			background: #faf9f5;
+			width: 100%;
+			.title {
+				font-weight: bold;
+				margin-bottom: 1em;
+				&::before {
+					@include icon-styles;
+					content: icon-char(arr-down);
+					display: inline-block;
+					vertical-align: middle;
+					margin-right: 0.5em;
+					transform: rotate(180deg);
+				}
+			}
+		}
+		.ui-accordion-header::before,
+		.ui-accordion-content::after {
+			content: '';
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			left: 0;
+			right: 0;
+			background: transparent;
+			z-index: 1;
+		}
+		.ui-accordion-header::before {
+			top: 0;
+		}
+		.ui-accordion-content::after {
+			bottom: -2px;
+		}
+		.ui-accordion-header-active::before,
+		.ui-accordion-content-active::after {
+			background: color('lights', 'beige');
+		}
+	}
+	&--collapsible &__col {
+		border: 0;
+		border-top: $base-border;
+	}
+	&--collapsible &__head &__col {
+		border: 0;
+	}
+}
+.transaction-subtable {
+	display: table;
+	width: 100%;
+	&__row {
+		display: table-row;
+	}
+	&__col {
+		display: table-cell;
+		&--date {
+			width: 145/765*100%;
+		}
+		&--sum {
+			width: 80/765*100%;
+			span {
+				font-weight: bold;
+			}
+			.plus {
+				color: black;
+			}
+			.minus {
+				color: color('red', 'base');
+			}
+		}
 	}
 }

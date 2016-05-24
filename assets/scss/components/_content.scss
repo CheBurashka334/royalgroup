@@ -66,9 +66,8 @@
 		}
 		&--disable,
 		&--disable:hover {
-			border: 3px solid #666666;
-			background: transparent;
-			opacity: 0.2;
+			border: 3px solid #bbbbbb;
+			background: rgba(102,102,102,0.2);
 			cursor: default;
 		}
 	}
