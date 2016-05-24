@@ -91,6 +91,12 @@ h4 {
 		margin-bottom: 0;
 	}
 }
+.primary-color {
+	color: $primary-color;
+}
+.secondary-color {
+	color: color('yellow', 'darker');
+}
 
 ul, ol {
 	padding-left: 21px;

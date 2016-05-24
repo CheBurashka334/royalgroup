@@ -28,3 +28,48 @@
 		}
 	}
 }
+
+.content-places {
+	margin: 2rem 0;
+	&__list {
+		list-style: none;
+		padding: 0;
+		margin:0;
+	}
+	&__item {
+		display: inline-block;
+		margin: 0;
+		margin-right: 5px;
+		width: 2rem;
+		height: 2rem;
+		border-radius: 50%;
+		border: 3px solid #666666;
+		background: transparent;
+		cursor: pointer;
+		text-align: center;
+		vertical-align: middle;
+		&:hover,
+		&--hover {
+			background: rgba(255,168,0,.3);
+			border-color: color('yellow', 'darker');
+		}
+		&--active,
+		&--active:hover{
+			background: color('yellow', 'darker');
+			border-color: color('yellow', 'darker');
+			&::before {
+				@include icon-styles;
+				content: icon-char(tick);
+				color: white;
+				font-size: 1.5rem;
+			}
+		}
+		&--disable,
+		&--disable:hover {
+			border: 3px solid #666666;
+			background: transparent;
+			opacity: 0.2;
+			cursor: default;
+		}
+	}
+}

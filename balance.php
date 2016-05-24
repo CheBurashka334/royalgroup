@@ -2,10 +2,20 @@
 
 <h1>Количество мест</h1>
 <div class="content-places">
-	<ul class="places-list">
-		<li></li>
-		<li></li>
-		<li></li>
+	<input type="hidden" class="content-places__input" value="1"/>
+	<ul class="content-places__list">
+		<li class="content-places__item content-places__item--active"></li>
+		<li class="content-places__item"></li>
+		<li class="content-places__item"></li>
+		<li class="content-places__item"></li>
+		<li class="content-places__item"></li>
+		<li class="content-places__item"></li>
+		<li class="content-places__item"></li>
+		<li class="content-places__item"></li>
+		<li class="content-places__item"></li>
+		<li class="content-places__item content-places__item--disable"></li>
+		<li class="content-places__item content-places__item--disable"></li>
+		<li class="content-places__item content-places__item--disable"></li>
 	</ul>
 </div>
 

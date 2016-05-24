@@ -30,4 +30,33 @@ $(document).ready(function(){
 	$('.ui-accordion-header').on('click', 'a', function(e){
 		e.stopPropagation();
 	});
+	
+	$('.content-places').on('mouseover mouseleave click', '.content-places__item', function(e){
+		var componentClass = e.delegateTarget.className;
+		var itemClass = componentClass + '__item';
+		var hoverClass = itemClass + '--hover';
+		var activeClass = itemClass + '--active';
+		var disableClass = itemClass + '--disable';
+		var inputClass = componentClass + '__input';
+		var currentClass;
+		if($(e.target).hasClass(disableClass)){
+			e.preventDefault();
+		} else {
+			if(e.type == 'click'){
+				currentClass = activeClass;
+				$('.'+inputClass).val($(e.target).index() + 1);
+			} else {
+				currentClass = hoverClass;
+			}
+			if(e.type == 'mouseleave'){
+				$(e.target).removeClass(currentClass);
+				$(e.target).siblings().removeClass(currentClass);
+			} else {
+				$(e.target).addClass(currentClass);
+				$(e.target).prevAll().addClass(currentClass);
+				$(e.target).nextAll().removeClass(currentClass);
+			}
+		}
+	});
+	
 });

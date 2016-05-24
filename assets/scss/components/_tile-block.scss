@@ -3,6 +3,9 @@
 	background: white;
 	border: $base-border;
 	margin-bottom: 2rem;
+	.tabs__content &:first-child {
+		margin-top: -1rem;
+	}
 	.sidebar & {
 		border-color: #c5bba5;
 	}

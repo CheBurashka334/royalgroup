@@ -40,8 +40,36 @@ var accordion = _jqueryUi2.default.accordion;
 	(0, _jquery2.default)('.ui-accordion-header').on('click', 'a', function (e) {
 		e.stopPropagation();
 	});
+
+	(0, _jquery2.default)('.content-places').on('mouseover mouseleave click', '.content-places__item', function (e) {
+		var componentClass = e.delegateTarget.className;
+		var itemClass = componentClass + '__item';
+		var hoverClass = itemClass + '--hover';
+		var activeClass = itemClass + '--active';
+		var disableClass = itemClass + '--disable';
+		var inputClass = componentClass + '__input';
+		var currentClass;
+		if ((0, _jquery2.default)(e.target).hasClass(disableClass)) {
+			e.preventDefault();
+		} else {
+			if (e.type == 'click') {
+				currentClass = activeClass;
+				(0, _jquery2.default)('.' + inputClass).val((0, _jquery2.default)(e.target).index() + 1);
+			} else {
+				currentClass = hoverClass;
+			}
+			if (e.type == 'mouseleave') {
+				(0, _jquery2.default)(e.target).removeClass(currentClass);
+				(0, _jquery2.default)(e.target).siblings().removeClass(currentClass);
+			} else {
+				(0, _jquery2.default)(e.target).addClass(currentClass);
+				(0, _jquery2.default)(e.target).prevAll().addClass(currentClass);
+				(0, _jquery2.default)(e.target).nextAll().removeClass(currentClass);
+			}
+		}
+	});
 });
-}).call(this,require("XJF/FV"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_c0f1df2f.js","/")
+}).call(this,require("XJF/FV"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_c33818a4.js","/")
 },{"XJF/FV":4,"buffer":3,"jquery":7,"jquery-ui":6}],2:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
