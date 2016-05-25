@@ -1,10 +1,4 @@
 'use strict';
-
-import $ from 'jquery';
-import ui from 'jquery-ui';
-var tabs = ui.tabs;
-var accordion = ui.accordion;
-
 $(document).ready(function(){
 	
 	// tabs
@@ -29,6 +23,48 @@ $(document).ready(function(){
 	});
 	$('.ui-accordion-header').on('click', 'a', function(e){
 		e.stopPropagation();
+	});
+	
+	// selectmenu
+	// http://api.jqueryui.com/selectmenu/
+	$('.custom-select').each(function(){
+		var componentClass = this.className.split(' ', 1)[0];
+		var id = componentClass + '-' + $(this).index();
+		$(this).attr('id', id);
+		var selectClass = componentClass + '__select';
+		var isImgs = $(this).hasClass(componentClass + '--with-icons');
+		var componentAppendTo = '#' + id;
+		
+		if(isImgs){
+			if(!$(this).attr('data-icons-path')) {
+				console.err('Where\'s icons?');
+			} else {
+				var imgsPath = $(this).attr('data-icons-path');
+				$('.'+selectClass).selectmenu({
+					appendTo: componentAppendTo,
+					width: '100%',
+					'isImgs': true,
+					'imgsPath': imgsPath,
+					'componentClass': componentClass,
+					create: function(event, ui){
+						var buttonWidget = $(this).selectmenu("widget");
+						var img = $('<img>');
+						img.attr('src', imgsPath + this.value + '.png');
+						img.addClass(componentClass + '__icon');
+						img.prependTo(buttonWidget);
+					},
+					change: function(event, ui){
+						var buttonWidget = $(this).selectmenu("widget");
+						buttonWidget.find('img').attr('src',ui.item.img.attr('src'));
+					}
+				});
+			}
+		} else {
+			$('.'+selectClass).selectmenu({
+				appendTo: componentAppendTo,
+				width: '100%'
+			});
+		}
 	});
 	
 	$('.content-places').on('mouseover mouseleave click', '.content-places__item', function(e){
@@ -59,4 +95,28 @@ $(document).ready(function(){
 		}
 	});
 	
+});
+
+$.widget('ui.selectmenu', $.ui.selectmenu, {
+	options: {
+		isImgs: false,
+		imgsPath: '',
+		componentClass: ''
+	},
+	_renderItem: function(ul,item){
+		var li = $('<li>');
+		if(item.disabled){
+			li.addClass('ui-state-disabled');
+		}
+		if(this.options.isImgs){
+			item.img = $('<img>');
+			item.img.attr('src', this.options.imgsPath + item.value + '.png');
+			item.img.addClass(this.options.componentClass + '__icon');
+			this._setText(li, item.label);
+			item.img.prependTo(li);
+		} else {
+			this._setText(li, item.label);
+		}
+		return li.appendTo(ul);
+	}
 });

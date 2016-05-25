@@ -1,0 +1,68 @@
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea {
+	font-size: $text-size;
+	font-family: $font-base;
+	line-height: 20px;
+	vertical-align: middle;
+	color: #666666;
+	padding: 0.5em;
+	border: 2px solid color('lights', 'red-lighter');
+	margin: 6px 0;
+	border-radius: 3px;
+	box-sizing: border-box;
+	.field & {
+		width: 100%;
+	}
+	&:hover {
+		border-color: color('gray', 'light');
+	}
+	&:focus {
+		border-color: $primary-color;
+	}
+	.error & {
+		border-color: $error-color;
+		color: $error-color;
+	}
+	&:disabled,
+	.disabled & {
+		color: #b9b9b9;
+		background: color('lights', 'gray');
+		border-color: #ede6e6;
+		pointer-events: none;
+	}
+}
+label {
+	display: block;
+	.error & {
+		color: $error-color;
+	}
+	.disabled & {
+		color: #b9b9b9;
+	}
+}
+.field {
+	.form-grid & {
+		flex: 1;
+	}
+}
+.form-grid {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	.btn {
+		flex: 0;
+		margin: 6px 0;
+		margin-left: 5px;
+	}
+	.field + .field {
+		margin-left: 5px;
+	}
+	p + & {
+		margin-top: 2em;
+	}
+}

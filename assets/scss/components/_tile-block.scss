@@ -28,4 +28,18 @@
 	&__table {
 		padding: 0.5em 1.5em;
 	}
+	&__form {
+		padding: 3rem;
+		:first-child {
+			margin-top: 0;
+		}
+		&-actions {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 2.5rem;
+		}
+	}
+	&--small {
+		width: 550px;
+	}
 }
