@@ -21,7 +21,7 @@ input[type="submit"],
 input[type="button"] {
 	@extend %btn;
 	padding: 12px 1.5em;
-	border-radius: 4px;
+	border-radius: $base-border-radius;
 	color: $button-color;
 	background: $button-bg;
 	box-sizing: border-box;

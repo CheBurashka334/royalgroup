@@ -843,7 +843,7 @@ th {
 
 /* line 1, ../assets/scss/components/_svg-icons.scss */
 .svg-arr-down, .svg-arrow-right, .svg-basket, .svg-bell, .svg-blank, .svg-calendar, .svg-camera, .svg-chat, .svg-clock, .svg-cross, .svg-email, .svg-lock, .svg-map-marker, .svg-mic, .svg-mobile-phone, .svg-out-door, .svg-pencil, .svg-profile, .svg-question-circle, .svg-skype, .svg-tick, .svg-video-camera {
-  background: url("icons/sprite/sprite.symbol.svg") no-repeat;
+  background: url("../icons/sprite/sprite.symbol.svg") no-repeat;
 }
 
 /* line 5, ../assets/scss/components/_svg-icons.scss */
@@ -1596,7 +1596,7 @@ button,
 input[type="submit"],
 input[type="button"] {
   padding: 12px 1.5em;
-  border-radius: 4px;
+  border-radius: 3px;
   color: white;
   background: #8d0208;
   box-sizing: border-box;
@@ -2080,6 +2080,170 @@ p + .form-grid {
   margin-right: 0.5em;
 }
 
+/**
+ * @package		PickMeUp - jQuery datepicker plugin
+ * @author		Nazar Mokrynskyi <nazar@mokrynskyi.com>
+ * @author		Stefan Petre <www.eyecon.ro>
+ * @copyright	Copyright (c) 2013-2015, Nazar Mokrynskyi
+ * @copyright	Copyright (c) 2008-2009, Stefan Petre
+ * @license		MIT License, see license.txt
+ */
+/* line 26, ../assets/scss/components/_datepicker.scss */
+.datepicker {
+  position: relative;
+  z-index: 2;
+}
+/* line 29, ../assets/scss/components/_datepicker.scss */
+.datepicker__wrapper {
+  display: inline-block;
+}
+/* line 32, ../assets/scss/components/_datepicker.scss */
+.datepicker__icon {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  z-index: 3;
+  fill: #393428;
+}
+/* line 41, ../assets/scss/components/_datepicker.scss */
+.datepicker:focus + .datepicker__icon {
+  fill: #8d0208;
+}
+
+/* line 45, ../assets/scss/components/_datepicker.scss */
+.pickmeup {
+  background: #fff;
+  border-radius: 3px;
+  display: none;
+  position: absolute;
+  box-shadow: 0 -10px 2em 0 rgba(0, 0, 0, 0.25), 0 0 3px 0 rgba(0, 0, 0, 0.25);
+  margin-top: 0.5em;
+}
+/* line 55, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance {
+  display: inline-block;
+  padding: 1em 1.5em 1.5em;
+  text-align: center;
+  width: 18em;
+}
+/* line 61, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-button {
+  color: #484848;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 1px;
+}
+/* line 70, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-today {
+  background: #fff;
+  color: #8d0208;
+}
+/* line 75, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-button:hover {
+  background: #bc121a;
+  color: #fff;
+}
+/* line 80, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-not-in-month {
+  color: #a4a4a4;
+}
+/* line 84, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-disabled,
+.pickmeup .pmu-instance .pmu-disabled:hover {
+  color: #333;
+  cursor: default;
+}
+/* line 90, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-selected {
+  background: #8d0208;
+  color: #fff;
+  font-weight: bold;
+}
+/* line 96, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-not-in-month.pmu-selected {
+  background: #8d0208;
+}
+/* line 100, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance nav {
+  color: #484848;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 2.5em;
+  font-weight: bold;
+}
+/* line 106, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance nav *:first-child :hover {
+  color: #484848;
+}
+/* line 109, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance nav .pmu-button:hover {
+  color: #484848;
+  background: none;
+}
+/* line 114, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance nav .pmu-prev,
+.pickmeup .pmu-instance nav .pmu-next {
+  display: none;
+  height: 2.5em;
+  width: 1em;
+}
+/* line 120, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance nav .pmu-month {
+  width: 14em;
+}
+/* line 127, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-years *,
+.pickmeup .pmu-instance .pmu-months * {
+  display: inline-block;
+  line-height: 3.6em;
+  width: 3.5em;
+}
+/* line 134, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-day-of-week {
+  color: #484848;
+  cursor: default;
+  font-weight: bold;
+}
+/* line 142, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-day-of-week *,
+.pickmeup .pmu-instance .pmu-days * {
+  display: inline-block;
+  line-height: 2em;
+  width: 2em;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 2em;
+      -ms-flex: 0 0 2em;
+          flex: 0 0 2em;
+}
+/* line 150, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-day-of-week * {
+  line-height: 2.5em;
+}
+/* line 155, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance:first-child .pmu-prev,
+.pickmeup .pmu-instance:last-child .pmu-next {
+  display: block;
+}
+/* line 162, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance:first-child .pmu-month,
+.pickmeup .pmu-instance:last-child .pmu-month {
+  width: 13em;
+}
+/* line 167, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance:first-child:last-child .pmu-month {
+  width: 12em;
+}
+/* line 171, ../assets/scss/components/_datepicker.scss */
+.pickmeup:not(.pmu-view-days) .pmu-days, .pickmeup:not(.pmu-view-days) .pmu-day-of-week, .pickmeup:not(.pmu-view-months) .pmu-months, .pickmeup:not(.pmu-view-years) .pmu-years {
+  display: none;
+}
+
 /* line 3, ../assets/scss/components/_menu.scss */
 .menu--vertical {
   padding: 1rem 0;
@@ -2411,7 +2575,16 @@ p + .form-grid {
 .tabs__item:last-of-type {
   margin-right: 0;
 }
-/* line 18, ../assets/scss/components/_tabs.scss */
+/* line 17, ../assets/scss/components/_tabs.scss */
+.tabs__item--date {
+  float: right;
+}
+/* line 19, ../assets/scss/components/_tabs.scss */
+.tabs__item--date .datepicker {
+  margin: 0;
+  width: 18em;
+}
+/* line 25, ../assets/scss/components/_tabs.scss */
 .tabs__item-link {
   display: block;
   padding: 4px 0;
@@ -2420,23 +2593,23 @@ p + .form-grid {
   color: #484848;
   opacity: 0.5;
 }
-/* line 25, ../assets/scss/components/_tabs.scss */
+/* line 32, ../assets/scss/components/_tabs.scss */
 .tabs__item-link:hover {
   text-decoration: none;
   color: #484848;
   opacity: 1;
 }
-/* line 31, ../assets/scss/components/_tabs.scss */
+/* line 38, ../assets/scss/components/_tabs.scss */
 .ui-tabs-active .tabs__item-link {
   color: #ffa900;
   border-color: currentColor;
   opacity: 1;
 }
-/* line 37, ../assets/scss/components/_tabs.scss */
+/* line 44, ../assets/scss/components/_tabs.scss */
 .tabs__content {
   margin-top: 3rem;
 }
-/* line 40, ../assets/scss/components/_tabs.scss */
+/* line 47, ../assets/scss/components/_tabs.scss */
 .tabs__next-btn, .tabs__end-btn {
   margin-top: 3rem;
 }

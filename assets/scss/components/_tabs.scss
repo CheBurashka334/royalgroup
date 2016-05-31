@@ -14,6 +14,13 @@
 		&:last-of-type {
 			margin-right: 0;
 		}
+		&--date {
+			float: right;
+			.datepicker {
+				margin: 0;
+				width: 18em;
+			}
+		}
 	}
 	&__item-link {
 		display: block;

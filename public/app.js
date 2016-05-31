@@ -97,6 +97,22 @@ $(document).ready(function () {
 			}
 		}
 	});
+
+	// datepicker
+	// https://github.com/nazar-pc/PickMeUp
+	$('.datepicker').pickmeup({
+		format: 'd.m.Y',
+		locale: {
+			days: ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
+			daysShort: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'],
+			daysMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'],
+			months: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'December'],
+			monthsShort: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек']
+		}
+	});
+	$('.datepicker__wrapper').on('click', '.datepicker__icon', function () {
+		$('.datepicker').trigger('click').focus();
+	});
 });
 
 $.widget('ui.selectmenu', $.ui.selectmenu, {
@@ -122,7 +138,7 @@ $.widget('ui.selectmenu', $.ui.selectmenu, {
 		return li.appendTo(ul);
 	}
 });
-}).call(this,require("XJF/FV"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_f7598644.js","/")
+}).call(this,require("XJF/FV"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_2c16d5dc.js","/")
 },{"XJF/FV":4,"buffer":3}],2:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';

@@ -38,6 +38,13 @@
 		<li class="tabs__item">
 			<a href="#year" class="tabs__item-link">год</a>
 		</li>
+		<li class="tabs__item tabs__item--date">
+			<div class="datepicker__wrapper">
+				<!-- value хз какое значение должно быть по умолчанию -->
+				<input type="text" class="datepicker" data-pmu-mode="range" data-pmu-position="bottom" value="31.05.2016 - 31.05.2016" />
+				<svg class="datepicker__icon"><use xlink:href="#calendar"/></svg>
+			</div>
+		</li>
 	</ul>
 	<div class="tabs__content" id="all">
 		<div class="tile-block">

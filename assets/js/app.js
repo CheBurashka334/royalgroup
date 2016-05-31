@@ -95,6 +95,23 @@ $(document).ready(function(){
 		}
 	});
 	
+	// datepicker
+	// https://github.com/nazar-pc/PickMeUp
+	$('.datepicker').pickmeup({
+		format: 'd.m.Y',
+		locale: {
+			days: ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
+			daysShort: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'],
+			daysMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'],
+			months: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'December'],
+			monthsShort: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек']
+		}
+	});
+	$('.datepicker__wrapper').on('click', '.datepicker__icon', function(){
+		$('.datepicker').trigger('click').focus();
+	});
+	
+	
 });
 
 $.widget('ui.selectmenu', $.ui.selectmenu, {

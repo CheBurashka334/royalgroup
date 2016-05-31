@@ -6,6 +6,7 @@
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700|Merriweather&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<script src="public/jquery.min.js"></script>
 	<script src="public/jquery-ui.min.js"></script>
+	<script src="public/jquery.pickmeup.min.js"></script>
     <link type="text/css" rel="stylesheet" href="public/app.css"/>
     <script src="public/app.js"></script>
 </head>
