@@ -2115,7 +2115,7 @@ p + .form-grid {
 .ui-selectmenu-menu .ui-menu {
   overflow: auto;
   overflow-x: hidden;
-  padding: 0.5em 0 10px;
+  padding: 0;
   list-style: none;
   margin: 0;
   margin-top: -2px;
@@ -2142,19 +2142,28 @@ p + .form-grid {
   padding: 10px 0.5em;
   cursor: pointer;
   margin: 0;
+  position: relative;
 }
-/* line 37, ../assets/scss/components/_custom-select.scss */
+/* line 38, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-menu .ui-menu-item:first-child {
+  padding-top: 18px;
+}
+/* line 41, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-menu .ui-menu-item:last-child {
+  padding-bottom: 20px;
+}
+/* line 44, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-menu .ui-menu-item:hover {
   font-weight: bold;
   background: #ececec;
 }
 
-/* line 44, ../assets/scss/components/_custom-select.scss */
+/* line 51, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-open {
   display: block;
 }
 
-/* line 47, ../assets/scss/components/_custom-select.scss */
+/* line 54, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-text {
   display: block;
   margin-right: 20px;
@@ -2162,7 +2171,7 @@ p + .form-grid {
   text-overflow: ellipsis;
 }
 
-/* line 53, ../assets/scss/components/_custom-select.scss */
+/* line 60, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-button {
   display: block;
   text-align: left;
@@ -2170,11 +2179,11 @@ p + .form-grid {
   width: 100%;
   cursor: pointer;
 }
-/* line 60, ../assets/scss/components/_custom-select.scss */
+/* line 67, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-button:focus {
   border-color: #cdc8c8;
 }
-/* line 63, ../assets/scss/components/_custom-select.scss */
+/* line 70, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-button .ui-icon {
   position: absolute;
   top: 50%;
@@ -2187,19 +2196,62 @@ p + .form-grid {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
 }
-/* line 75, ../assets/scss/components/_custom-select.scss */
+/* line 82, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-button .ui-selectmenu-text {
   display: inline;
   vertical-align: middle;
   line-height: 18px;
 }
 
-/* line 83, ../assets/scss/components/_custom-select.scss */
+/* line 90, ../assets/scss/components/_custom-select.scss */
 .custom-select__icon {
   line-height: 20px;
   max-height: 20px;
   margin-right: 0.5em;
   vertical-align: middle;
+}
+/* line 96, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .custom-select__icon-wrapper {
+  display: inline-block;
+  width: 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 0.5em;
+  background: #f6f6f6;
+  text-align: center;
+  box-sizing: border-box;
+}
+/* line 108, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-selectmenu-button .custom-select__icon-wrapper {
+  background: #f3e5e6;
+  border-radius: 3px 0 0 3px;
+}
+/* line 112, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-selectmenu-button:hover .custom-select__icon-wrapper, .custom-select--countries .ui-selectmenu-button:focus .custom-select__icon-wrapper {
+  background: #cdc8c8;
+}
+/* line 116, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-menu-item, .custom-select--countries .ui-selectmenu-button {
+  padding-left: 2.5em;
+}
+/* line 120, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-menu-item:first-child .custom-select__icon-wrapper {
+  padding-top: 18px;
+}
+/* line 123, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-menu-item:last-child .custom-select__icon-wrapper {
+  padding-bottom: 20px;
+}
+/* line 126, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-menu-item:hover .custom-select__icon-wrapper {
+  background: #ececec;
+}
+/* line 129, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .custom-select__icon-wrapper .custom-select__icon {
+  margin: 0;
+  width: 1em;
 }
 
 /**

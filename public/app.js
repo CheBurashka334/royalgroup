@@ -57,6 +57,9 @@ $(document).ready(function () {
 						img.attr('src', imgsPath + this.value + '.' + imgsFormat);
 						img.addClass(componentClass + '__icon');
 						img.prependTo(buttonWidget);
+						var wrapper = $('<span>');
+						wrapper.addClass(componentClass + '__icon-wrapper');
+						img.wrap(wrapper);
 					},
 					change: function change(event, ui) {
 						var buttonWidget = $(this).selectmenu("widget");
@@ -134,14 +137,17 @@ $.widget('ui.selectmenu', $.ui.selectmenu, {
 			item.img.attr('src', this.options.imgsPath + item.value + '.' + this.options.imgsFormat);
 			item.img.addClass(this.options.componentClass + '__icon');
 			this._setText(li, item.label);
+			var wrapper = $('<span>');
+			wrapper.addClass(this.options.componentClass + '__icon-wrapper');
 			item.img.prependTo(li);
+			item.img.wrap(wrapper);
 		} else {
 			this._setText(li, item.label);
 		}
 		return li.appendTo(ul);
 	}
 });
-}).call(this,require("XJF/FV"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_6aff4e82.js","/")
+}).call(this,require("XJF/FV"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_21dfcac7.js","/")
 },{"XJF/FV":4,"buffer":3}],2:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';

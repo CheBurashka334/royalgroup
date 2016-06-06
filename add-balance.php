@@ -26,7 +26,7 @@
 					<select class="custom-select__select">
 						<option selected value="visa-master">Visa, Mastercard</option>
 						<option value="webmoney">Webmoney</option>
-						<option value="paypal">Paypal</option>
+						<option value="qiwi">Qiwi Wallet</option>
 						<option value="yandex">Yandex</option>
 					</select>
 					<!-- data-icons-path - путь к флагам от корня -->

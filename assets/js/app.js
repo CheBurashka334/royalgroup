@@ -54,6 +54,9 @@ $(document).ready(function(){
 						img.attr('src', imgsPath + this.value + '.' + imgsFormat);
 						img.addClass(componentClass + '__icon');
 						img.prependTo(buttonWidget);
+						var wrapper = $('<span>');
+						wrapper.addClass(componentClass + '__icon-wrapper');
+						img.wrap(wrapper);
 					},
 					change: function(event, ui){
 						var buttonWidget = $(this).selectmenu("widget");
@@ -133,7 +136,10 @@ $.widget('ui.selectmenu', $.ui.selectmenu, {
 			item.img.attr('src', this.options.imgsPath + item.value + '.' + this.options.imgsFormat);
 			item.img.addClass(this.options.componentClass + '__icon');
 			this._setText(li, item.label);
+			var wrapper = $('<span>');
+			wrapper.addClass(this.options.componentClass + '__icon-wrapper');
 			item.img.prependTo(li);
+			item.img.wrap(wrapper);
 		} else {
 			this._setText(li, item.label);
 		}

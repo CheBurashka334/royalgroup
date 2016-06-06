@@ -10,7 +10,7 @@
 	.ui-menu {
 		overflow: auto;
 		overflow-x: hidden;
-		padding: 0.5em 0 10px;
+		padding: 0;
 		list-style: none;
 		margin: 0;
 		margin-top: -2px;
@@ -34,6 +34,13 @@
 			padding: 10px 0.5em;
 			cursor: pointer;
 			margin: 0;
+			position: relative;
+			&:first-child {
+				padding-top: 18px;
+			}
+			&:last-child {
+				padding-bottom: 20px;
+			}
 			&:hover {
 				font-weight: bold;
 				background: color('gray', 'lighter');
@@ -85,5 +92,42 @@
 		max-height: 20px;
 		margin-right: 0.5em;
 		vertical-align: middle;
+	}
+	&--countries &__icon-wrapper {
+		display: inline-block;
+		width: 2em;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		padding: 0.5em;
+		background: color('lights', 'gray');
+		text-align: center;
+		box-sizing: border-box;
+	}
+	&--countries .ui-selectmenu-button &__icon-wrapper {
+		background: color('lights', 'red-lighter');
+		border-radius: $base-border-radius 0 0 $base-border-radius;
+	}
+	&--countries .ui-selectmenu-button:hover &__icon-wrapper,
+	&--countries .ui-selectmenu-button:focus &__icon-wrapper {
+		background: color('gray', 'light');
+	}
+	&--countries .ui-menu-item,
+	&--countries .ui-selectmenu-button {
+		padding-left: 2.5em;
+	}
+	&--countries .ui-menu-item:first-child &__icon-wrapper {
+		padding-top: 18px;
+	}
+	&--countries .ui-menu-item:last-child &__icon-wrapper {
+		padding-bottom: 20px;
+	}
+	&--countries .ui-menu-item:hover &__icon-wrapper {
+		background: color('gray', 'lighter');
+	}
+	&--countries &__icon-wrapper &__icon {
+		margin: 0;
+		width: 1em;
 	}
 }

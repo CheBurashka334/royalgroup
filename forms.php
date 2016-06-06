@@ -37,7 +37,7 @@
 		<div class="form-grid">
 			<div class="field">
 				<label>Страна</label>
-				<div class="custom-select__wrapper">
+				<div class="custom-select__wrapper custom-select--countries">
 					<select class="custom-select__select">
 						<option selected value="ru">Россия</option>
 						<option value="kz">Казахстан</option>
@@ -47,7 +47,7 @@
 					</select>
 					<!-- data-icons-path - путь к флагам от корня,
 						 data-icons-format - формат иконок, если не указан - png -->
-					<div class="custom-select custom-select--with-icons" data-icons-path="images/countries/"></div>
+					<div class="custom-select custom-select--with-icons" data-icons-path="images/countries/flags/" data-icons-format="svg"></div>
 				</div>
 			</div>
 			<div class="field">
