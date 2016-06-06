@@ -18,8 +18,10 @@
 		<li class="content-places__item content-places__item--disable"></li>
 	</ul>
 </div>
-
-<h1>Баланс <span class="secondary-color">5000р</span></h1>
+<div class="heading heading--with-link">
+	<h1>Баланс <span class="secondary-color">5000р</span></h1>
+	<a href="add-balance.php" class="heading__link">Пополнить баланс</a>
+</div>
 <div class="tabs">
 	<ul class="tabs__header">
 		<!-- активна вкладка .tab--active, если нет .tab--active - первая -->

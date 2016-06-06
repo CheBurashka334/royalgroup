@@ -17,6 +17,12 @@ p {
 .small-text {
 	font-size: $text-size--small;
 }
+.big-text {
+	font-size: $text-size--big;
+}
+.large-text {
+	font-size: 1.5em;
+}
 
 .light-text {
 	color: color('gray', 'base');
@@ -55,6 +61,15 @@ a {
 	.links & + & {
 		margin-left: 30px;
 	}
+	&.link--back {
+		.icon {
+			display: inline-block;
+			height: 1em;
+			width: 1.5em;
+			vertical-align: middle;
+			transform: rotate(180deg);
+		}
+	}
 }
 
 h1, h2, h3 {
@@ -77,6 +92,18 @@ h4 {
 	font-weight: bold;
 	font-size: 18px;
 	margin: 1rem 0;
+}
+
+.heading {
+	margin-top: 4em;
+	&--with-link {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+	.page-content &:first-child {
+		margin-top: 0;
+	}
 }
 
 .highlight-box {

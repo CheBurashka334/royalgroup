@@ -44,26 +44,62 @@ label {
 	.disabled & {
 		color: #b9b9b9;
 	}
+	.field--small &,
+	&.small {
+		font-size: $text-size--small;
+	}
 }
 .field {
 	.form-grid & {
 		flex: 1;
+	}
+	&--small {
+		width: 107px;
+		.form-grid & {
+			flex: 0 0 107px;
+		}
 	}
 }
 .form-grid {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-end;
+	margin-bottom: 2em;
+	.tile-block &:last-child {
+		margin-bottom: 1.5em;
+	}
 	.btn {
 		flex: 0;
 		margin: 6px 0;
 		margin-left: 5px;
 	}
-	.field + .field {
+	.field + .field,
+	.field + &__block,
+	&__block + .field {
 		margin-left: 5px;
+	}
+	&--big-gutter {
+		.btn,
+		.field + .field,
+		.field + &__block,
+		&__block + .field {
+			margin-left: 25px;
+		}
 	}
 	p + & {
 		margin-top: 2em;
+	}
+	&__block {
+		height: 2em;
+		margin: 6px 0;
+	}
+}
+
+.form-calc {
+	&__text {
+		font-size: $text-size--big;
+		font-weight: bold;
+		color: color('gray', 'dark');
 	}
 }
 

@@ -45,7 +45,8 @@
 						<option value="pl">Польша</option>
 						<option value="fi">Финляндия</option>
 					</select>
-					<!-- data-icons-path - путь к флагам от корня -->
+					<!-- data-icons-path - путь к флагам от корня,
+						 data-icons-format - формат иконок, если не указан - png -->
 					<div class="custom-select custom-select--with-icons" data-icons-path="images/countries/"></div>
 				</div>
 			</div>

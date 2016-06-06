@@ -40,12 +40,21 @@ $lights: (
 	"red-darker": #eed9d9,
 );
 
+$black: (
+	"base": #000,
+);
+$white: (
+	"base": #fff,
+);
+
 $colors: (
 	"red": $red,
 	"yellow": $yellow,
 	"gray": $gray,
 	"brown": $brown,
 	"lights": $lights,
+	"black": $black,
+	"white": $white,
 );
 
 // Color Classes

@@ -128,274 +128,294 @@
   content: "";
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .red.lighter {
   background-color: #bca4a5;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .red-text.lighter {
   color: #bca4a5;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .red.light {
   background-color: #b49698;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .red-text.light {
   color: #b49698;
 }
 
-/* line 55, ../assets/scss/_colors.scss */
+/* line 64, ../assets/scss/_colors.scss */
 .red {
   background-color: #d62d2d;
 }
 
-/* line 58, ../assets/scss/_colors.scss */
+/* line 67, ../assets/scss/_colors.scss */
 .red-text {
   color: #d62d2d;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .red.dark {
   background-color: #bc121a;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .red-text.dark {
   color: #bc121a;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .red.darker {
   background-color: #8d0208;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .red-text.darker {
   color: #8d0208;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .yellow.lighter {
   background-color: #f9d897;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .yellow-text.lighter {
   color: #f9d897;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .yellow.light {
   background-color: #fdc862;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .yellow-text.light {
   color: #fdc862;
 }
 
-/* line 55, ../assets/scss/_colors.scss */
+/* line 64, ../assets/scss/_colors.scss */
 .yellow {
   background-color: #f4be55;
 }
 
-/* line 58, ../assets/scss/_colors.scss */
+/* line 67, ../assets/scss/_colors.scss */
 .yellow-text {
   color: #f4be55;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .yellow.dark {
   background-color: #f8b42f;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .yellow-text.dark {
   color: #f8b42f;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .yellow.darker {
   background-color: #ffa900;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .yellow-text.darker {
   color: #ffa900;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .gray.lighter {
   background-color: #ececec;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .gray-text.lighter {
   color: #ececec;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .gray.light {
   background-color: #cdc8c8;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .gray-text.light {
   color: #cdc8c8;
 }
 
-/* line 55, ../assets/scss/_colors.scss */
+/* line 64, ../assets/scss/_colors.scss */
 .gray {
   background-color: #8b8b8b;
 }
 
-/* line 58, ../assets/scss/_colors.scss */
+/* line 67, ../assets/scss/_colors.scss */
 .gray-text {
   color: #8b8b8b;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .gray.dark {
   background-color: #484848;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .gray-text.dark {
   color: #484848;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .gray.darker {
   background-color: #292929;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .gray-text.darker {
   color: #292929;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .brown.lighter {
   background-color: #9f8f61;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .brown-text.lighter {
   color: #9f8f61;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .brown.light {
   background-color: #837c68;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .brown-text.light {
   color: #837c68;
 }
 
-/* line 55, ../assets/scss/_colors.scss */
+/* line 64, ../assets/scss/_colors.scss */
 .brown {
   background-color: #666666;
 }
 
-/* line 58, ../assets/scss/_colors.scss */
+/* line 67, ../assets/scss/_colors.scss */
 .brown-text {
   color: #666666;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .brown.dark {
   background-color: #494232;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .brown-text.dark {
   color: #494232;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .brown.darker {
   background-color: #393428;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .brown-text.darker {
   color: #393428;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .lights.gray-lighter {
   background-color: #f6f6f6;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .lights-text.gray-lighter {
   color: #f6f6f6;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .lights.gray {
   background-color: #f6f6f6;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .lights-text.gray {
   color: #f6f6f6;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .lights.beige {
   background-color: #e4e0d4;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .lights-text.beige {
   color: #e4e0d4;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .lights.brown {
   background-color: #d3c9b3;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .lights-text.brown {
   color: #d3c9b3;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .lights.brown-darker {
   background-color: #cabfaa;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .lights-text.brown-darker {
   color: #cabfaa;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .lights.red-lighter {
   background-color: #f3e5e6;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .lights-text.red-lighter {
   color: #f3e5e6;
 }
 
-/* line 63, ../assets/scss/_colors.scss */
+/* line 72, ../assets/scss/_colors.scss */
 .lights.red-darker {
   background-color: #eed9d9;
 }
 
-/* line 66, ../assets/scss/_colors.scss */
+/* line 75, ../assets/scss/_colors.scss */
 .lights-text.red-darker {
   color: #eed9d9;
+}
+
+/* line 64, ../assets/scss/_colors.scss */
+.black {
+  background-color: #000;
+}
+
+/* line 67, ../assets/scss/_colors.scss */
+.black-text {
+  color: #000;
+}
+
+/* line 64, ../assets/scss/_colors.scss */
+.white {
+  background-color: #fff;
+}
+
+/* line 67, ../assets/scss/_colors.scss */
+.white-text {
+  color: #fff;
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -1260,39 +1280,49 @@ p {
   font-size: 14px;
 }
 
-/* line 21, ../assets/scss/components/_typography.scss */
+/* line 20, ../assets/scss/components/_typography.scss */
+.big-text {
+  font-size: 18px;
+}
+
+/* line 23, ../assets/scss/components/_typography.scss */
+.large-text {
+  font-size: 1.5em;
+}
+
+/* line 27, ../assets/scss/components/_typography.scss */
 .light-text {
   color: #8b8b8b;
 }
 
-/* line 26, ../assets/scss/components/_typography.scss */
+/* line 32, ../assets/scss/components/_typography.scss */
 a {
   color: #d62d2d;
   text-decoration: none;
   font-weight: bold;
 }
-/* line 30, ../assets/scss/components/_typography.scss */
+/* line 36, ../assets/scss/components/_typography.scss */
 a:hover {
   color: #d62d2d;
   text-decoration: underline;
 }
-/* line 34, ../assets/scss/components/_typography.scss */
+/* line 40, ../assets/scss/components/_typography.scss */
 a:active {
   color: #8d0208;
 }
-/* line 37, ../assets/scss/components/_typography.scss */
+/* line 43, ../assets/scss/components/_typography.scss */
 a:focus {
   outline: none;
 }
-/* line 40, ../assets/scss/components/_typography.scss */
+/* line 46, ../assets/scss/components/_typography.scss */
 a:disabled, a.disabled {
   color: #a59d8c;
 }
-/* line 44, ../assets/scss/components/_typography.scss */
+/* line 50, ../assets/scss/components/_typography.scss */
 a .icon {
   fill: currentColor;
 }
-/* line 48, ../assets/scss/components/_typography.scss */
+/* line 54, ../assets/scss/components/_typography.scss */
 a.with-icon::after {
   font-family: "iconfont";
   -webkit-font-smoothing: antialiased;
@@ -1305,16 +1335,26 @@ a.with-icon::after {
   text-transform: none;
   font-size: 1rem;
 }
-/* line 51, ../assets/scss/components/_typography.scss */
+/* line 57, ../assets/scss/components/_typography.scss */
 a.with-icon--blank::after {
   content: " " "";
 }
-/* line 55, ../assets/scss/components/_typography.scss */
+/* line 61, ../assets/scss/components/_typography.scss */
 .links a + a {
   margin-left: 30px;
 }
+/* line 65, ../assets/scss/components/_typography.scss */
+a.link--back .icon {
+  display: inline-block;
+  height: 1em;
+  width: 1.5em;
+  vertical-align: middle;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
 
-/* line 60, ../assets/scss/components/_typography.scss */
+/* line 75, ../assets/scss/components/_typography.scss */
 h1, h2, h3 {
   font-family: "Merriweather", serif;
   font-weight: normal;
@@ -1322,63 +1362,87 @@ h1, h2, h3 {
   margin: 2em 0 1em;
   color: #292929;
 }
-/* line 66, ../assets/scss/components/_typography.scss */
+/* line 81, ../assets/scss/components/_typography.scss */
 .page-content h1:first-child, .page-content h2:first-child, .page-content h3:first-child {
   margin-top: 0;
 }
-/* line 69, ../assets/scss/components/_typography.scss */
+/* line 84, ../assets/scss/components/_typography.scss */
 h1 a, h2 a, h3 a {
   color: currentColor;
 }
 
-/* line 73, ../assets/scss/components/_typography.scss */
+/* line 88, ../assets/scss/components/_typography.scss */
 h1 {
   font-size: 36px;
 }
 
-/* line 76, ../assets/scss/components/_typography.scss */
+/* line 91, ../assets/scss/components/_typography.scss */
 h4 {
   font-weight: bold;
   font-size: 18px;
   margin: 1rem 0;
 }
 
-/* line 82, ../assets/scss/components/_typography.scss */
+/* line 97, ../assets/scss/components/_typography.scss */
+.heading {
+  margin-top: 4em;
+}
+/* line 99, ../assets/scss/components/_typography.scss */
+.heading--with-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+/* line 104, ../assets/scss/components/_typography.scss */
+.page-content .heading:first-child {
+  margin-top: 0;
+}
+
+/* line 109, ../assets/scss/components/_typography.scss */
 .highlight-box {
   margin: 20px 0;
   padding: 20px;
   background: #fdc862;
   border: 2px solid #f4be55;
 }
-/* line 87, ../assets/scss/components/_typography.scss */
+/* line 114, ../assets/scss/components/_typography.scss */
 .highlight-box *:first-child {
   margin-top: 0;
 }
-/* line 90, ../assets/scss/components/_typography.scss */
+/* line 117, ../assets/scss/components/_typography.scss */
 .highlight-box *:last-child {
   margin-bottom: 0;
 }
 
-/* line 94, ../assets/scss/components/_typography.scss */
+/* line 121, ../assets/scss/components/_typography.scss */
 .primary-color {
   color: #8d0208;
 }
 
-/* line 97, ../assets/scss/components/_typography.scss */
+/* line 124, ../assets/scss/components/_typography.scss */
 .secondary-color {
   color: #ffa900;
 }
 
-/* line 101, ../assets/scss/components/_typography.scss */
+/* line 128, ../assets/scss/components/_typography.scss */
 ul, ol {
   padding-left: 21px;
 }
-/* line 103, ../assets/scss/components/_typography.scss */
+/* line 130, ../assets/scss/components/_typography.scss */
 ul li, ol li {
   margin: 5px 0;
 }
 
-/* line 108, ../assets/scss/components/_typography.scss */
+/* line 135, ../assets/scss/components/_typography.scss */
 .notification, .progress-bar__item::before {
   display: inline-block;
   box-sizing: border-box;
@@ -1392,17 +1456,17 @@ ul li, ol li {
   vertical-align: middle;
   color: white;
 }
-/* line 120, ../assets/scss/components/_typography.scss */
+/* line 147, ../assets/scss/components/_typography.scss */
 .progress-bar__item--done::before {
   color: #fdc862;
 }
-/* line 123, ../assets/scss/components/_typography.scss */
+/* line 150, ../assets/scss/components/_typography.scss */
 .notification, .progress-bar__item--current::before {
   color: #8d0208;
   background: #fdc862;
   border-color: transparent;
 }
-/* line 128, ../assets/scss/components/_typography.scss */
+/* line 155, ../assets/scss/components/_typography.scss */
 .notification {
   font-size: 14px;
   width: 23px;
@@ -1410,37 +1474,37 @@ ul li, ol li {
   line-height: 19px;
 }
 
-/* line 142, ../assets/scss/components/_typography.scss */
+/* line 169, ../assets/scss/components/_typography.scss */
 .center-align {
   text-align: center;
 }
 
-/* line 145, ../assets/scss/components/_typography.scss */
+/* line 172, ../assets/scss/components/_typography.scss */
 .right-align {
   text-align: right;
 }
 
-/* line 148, ../assets/scss/components/_typography.scss */
+/* line 175, ../assets/scss/components/_typography.scss */
 .left-align {
   text-align: left;
 }
 
-/* line 152, ../assets/scss/components/_typography.scss */
+/* line 179, ../assets/scss/components/_typography.scss */
 table {
   display: table;
 }
-/* line 154, ../assets/scss/components/_typography.scss */
+/* line 181, ../assets/scss/components/_typography.scss */
 table tr {
   display: table-row;
 }
-/* line 157, ../assets/scss/components/_typography.scss */
+/* line 184, ../assets/scss/components/_typography.scss */
 table td, table th {
   display: table-cell;
   padding: 1em 0;
   border-bottom: 2px solid #e4e0d4;
   text-align: left;
 }
-/* line 163, ../assets/scss/components/_typography.scss */
+/* line 190, ../assets/scss/components/_typography.scss */
 table th {
   font-size: 14px;
   font-weight: normal;
@@ -1795,38 +1859,54 @@ input[type="button"].btn-box .btn + a {
   border-color: #c5bba5;
 }
 /* line 12, ../assets/scss/components/_tile-block.scss */
-.tile-block__head, .tile-block__content {
+.tile-block__head, .tile-block__content, .tile-block__foot {
   padding: 22px;
 }
-/* line 16, ../assets/scss/components/_tile-block.scss */
+/* line 17, ../assets/scss/components/_tile-block.scss */
 .tile-block__head {
   border-bottom: 2px solid #e4e0d4;
 }
-/* line 19, ../assets/scss/components/_tile-block.scss */
+/* line 20, ../assets/scss/components/_tile-block.scss */
+.tile-block__foot {
+  border-top: 2px solid #e4e0d4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 26, ../assets/scss/components/_tile-block.scss */
 .tile-block.video {
   border: 0;
 }
-/* line 22, ../assets/scss/components/_tile-block.scss */
+/* line 29, ../assets/scss/components/_tile-block.scss */
 .tile-block.video .tile-block__content {
   border: 2px solid #e4e0d4;
 }
-/* line 25, ../assets/scss/components/_tile-block.scss */
+/* line 32, ../assets/scss/components/_tile-block.scss */
 .tile-block.video .tile-block__video + .tile-block__content {
   border-top: 0;
 }
-/* line 28, ../assets/scss/components/_tile-block.scss */
+/* line 35, ../assets/scss/components/_tile-block.scss */
 .tile-block__table {
   padding: 0.5em 1.5em;
 }
-/* line 31, ../assets/scss/components/_tile-block.scss */
+/* line 38, ../assets/scss/components/_tile-block.scss */
 .tile-block__form {
   padding: 3rem;
 }
-/* line 33, ../assets/scss/components/_tile-block.scss */
+/* line 40, ../assets/scss/components/_tile-block.scss */
 .tile-block__form :first-child {
   margin-top: 0;
 }
-/* line 36, ../assets/scss/components/_tile-block.scss */
+/* line 43, ../assets/scss/components/_tile-block.scss */
 .tile-block__form-actions {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1838,7 +1918,7 @@ input[type="button"].btn-box .btn + a {
           justify-content: space-between;
   margin-top: 2.5rem;
 }
-/* line 42, ../assets/scss/components/_tile-block.scss */
+/* line 49, ../assets/scss/components/_tile-block.scss */
 .tile-block--small {
   width: 550px;
 }
@@ -1942,16 +2022,31 @@ label {
 .disabled label {
   color: #b9b9b9;
 }
+/* line 47, ../assets/scss/components/_forms.scss */
+.field--small label, label.small {
+  font-size: 14px;
+}
 
-/* line 49, ../assets/scss/components/_forms.scss */
+/* line 53, ../assets/scss/components/_forms.scss */
 .form-grid .field {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
+/* line 56, ../assets/scss/components/_forms.scss */
+.field--small {
+  width: 107px;
+}
+/* line 58, ../assets/scss/components/_forms.scss */
+.form-grid .field--small {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 107px;
+      -ms-flex: 0 0 107px;
+          flex: 0 0 107px;
+}
 
-/* line 53, ../assets/scss/components/_forms.scss */
+/* line 63, ../assets/scss/components/_forms.scss */
 .form-grid {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1964,8 +2059,13 @@ label {
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
           align-items: flex-end;
+  margin-bottom: 2em;
 }
-/* line 57, ../assets/scss/components/_forms.scss */
+/* line 68, ../assets/scss/components/_forms.scss */
+.tile-block .form-grid:last-child {
+  margin-bottom: 1.5em;
+}
+/* line 71, ../assets/scss/components/_forms.scss */
 .form-grid .btn {
   -webkit-box-flex: 0;
   -webkit-flex: 0;
@@ -1974,13 +2074,30 @@ label {
   margin: 6px 0;
   margin-left: 5px;
 }
-/* line 62, ../assets/scss/components/_forms.scss */
-.form-grid .field + .field {
+/* line 76, ../assets/scss/components/_forms.scss */
+.form-grid .field + .field, .field + .form-grid__block, .form-grid__block + .field {
   margin-left: 5px;
 }
-/* line 65, ../assets/scss/components/_forms.scss */
+/* line 82, ../assets/scss/components/_forms.scss */
+.form-grid--big-gutter .btn,
+.form-grid--big-gutter .field + .field, .field + .form-grid--big-gutter__block, .form-grid--big-gutter__block + .field {
+  margin-left: 25px;
+}
+/* line 89, ../assets/scss/components/_forms.scss */
 p + .form-grid {
   margin-top: 2em;
+}
+/* line 92, ../assets/scss/components/_forms.scss */
+.form-grid__block {
+  height: 2em;
+  margin: 6px 0;
+}
+
+/* line 99, ../assets/scss/components/_forms.scss */
+.form-calc__text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #484848;
 }
 
 /* line 1, ../assets/scss/components/_custom-select.scss */
@@ -1992,8 +2109,9 @@ p + .form-grid {
   left: 0;
   display: none;
   width: 100%;
+  z-index: 15;
 }
-/* line 9, ../assets/scss/components/_custom-select.scss */
+/* line 10, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-menu .ui-menu {
   overflow: auto;
   overflow-x: hidden;
@@ -2007,7 +2125,7 @@ p + .form-grid {
   border-radius: 0 0 3px 3px;
   box-sizing: border-box;
 }
-/* line 21, ../assets/scss/components/_custom-select.scss */
+/* line 22, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-menu .ui-menu .ui-selectmenu-optgroup {
   font-size: 1em;
   font-weight: bold;
@@ -2017,7 +2135,7 @@ p + .form-grid {
   height: auto;
   border: 0;
 }
-/* line 30, ../assets/scss/components/_custom-select.scss */
+/* line 31, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-menu .ui-menu-item {
   line-height: 20px;
   color: #666;
@@ -2025,18 +2143,18 @@ p + .form-grid {
   cursor: pointer;
   margin: 0;
 }
-/* line 36, ../assets/scss/components/_custom-select.scss */
+/* line 37, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-menu .ui-menu-item:hover {
   font-weight: bold;
   background: #ececec;
 }
 
-/* line 43, ../assets/scss/components/_custom-select.scss */
+/* line 44, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-open {
   display: block;
 }
 
-/* line 46, ../assets/scss/components/_custom-select.scss */
+/* line 47, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-text {
   display: block;
   margin-right: 20px;
@@ -2044,7 +2162,7 @@ p + .form-grid {
   text-overflow: ellipsis;
 }
 
-/* line 52, ../assets/scss/components/_custom-select.scss */
+/* line 53, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-button {
   display: block;
   text-align: left;
@@ -2052,11 +2170,11 @@ p + .form-grid {
   width: 100%;
   cursor: pointer;
 }
-/* line 59, ../assets/scss/components/_custom-select.scss */
+/* line 60, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-button:focus {
   border-color: #cdc8c8;
 }
-/* line 62, ../assets/scss/components/_custom-select.scss */
+/* line 63, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-button .ui-icon {
   position: absolute;
   top: 50%;
@@ -2069,15 +2187,19 @@ p + .form-grid {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
 }
-/* line 74, ../assets/scss/components/_custom-select.scss */
+/* line 75, ../assets/scss/components/_custom-select.scss */
 .ui-selectmenu-button .ui-selectmenu-text {
   display: inline;
+  vertical-align: middle;
+  line-height: 18px;
 }
 
-/* line 80, ../assets/scss/components/_custom-select.scss */
+/* line 83, ../assets/scss/components/_custom-select.scss */
 .custom-select__icon {
   line-height: 20px;
+  max-height: 20px;
   margin-right: 0.5em;
+  vertical-align: middle;
 }
 
 /**

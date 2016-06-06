@@ -6,6 +6,7 @@
 	left: 0;
 	display: none;
 	width: 100%;
+	z-index: 15;
 	.ui-menu {
 		overflow: auto;
 		overflow-x: hidden;
@@ -73,12 +74,16 @@
 	}
 	.ui-selectmenu-text {
 		display: inline;
+		vertical-align: middle;
+		line-height: 18px;
 	}
 }
 
 .custom-select {
 	&__icon {
 		line-height: 20px;
+		max-height: 20px;
 		margin-right: 0.5em;
+		vertical-align: middle;
 	}
 }

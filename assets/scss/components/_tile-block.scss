@@ -10,11 +10,18 @@
 		border-color: #c5bba5;
 	}
 	&__head,
-	&__content {
+	&__content,
+	&__foot {
 		padding: 22px;
 	}
 	&__head {
 		border-bottom: $base-border;
+	}
+	&__foot {
+		border-top: $base-border;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 	&.video {
 		border: 0;

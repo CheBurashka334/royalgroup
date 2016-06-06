@@ -40,16 +40,18 @@ $(document).ready(function(){
 				console.err('Where\'s icons?');
 			} else {
 				var imgsPath = $(this).attr('data-icons-path');
+				var imgsFormat = $(this).attr('data-icons-format') || 'png';
 				$('.'+selectClass).selectmenu({
 					appendTo: componentAppendTo,
 					width: '100%',
 					'isImgs': true,
 					'imgsPath': imgsPath,
+					'imgsFormat': imgsFormat,
 					'componentClass': componentClass,
 					create: function(event, ui){
 						var buttonWidget = $(this).selectmenu("widget");
 						var img = $('<img>');
-						img.attr('src', imgsPath + this.value + '.png');
+						img.attr('src', imgsPath + this.value + '.' + imgsFormat);
 						img.addClass(componentClass + '__icon');
 						img.prependTo(buttonWidget);
 					},
@@ -118,6 +120,7 @@ $.widget('ui.selectmenu', $.ui.selectmenu, {
 	options: {
 		isImgs: false,
 		imgsPath: '',
+		imgsFormat: 'png',
 		componentClass: ''
 	},
 	_renderItem: function(ul,item){
@@ -127,7 +130,7 @@ $.widget('ui.selectmenu', $.ui.selectmenu, {
 		}
 		if(this.options.isImgs){
 			item.img = $('<img>');
-			item.img.attr('src', this.options.imgsPath + item.value + '.png');
+			item.img.attr('src', this.options.imgsPath + item.value + '.' + this.options.imgsFormat);
 			item.img.addClass(this.options.componentClass + '__icon');
 			this._setText(li, item.label);
 			item.img.prependTo(li);
