@@ -15,6 +15,8 @@
 		img {
 			display: block;
 			border-radius: 50%;
+			width: 100%;
+			height: auto;
 		}
 		&:empty {
 			background: $primary-color;
@@ -56,27 +58,34 @@
 		line-height: normal;
 		color: color('gray', 'dark');
 		padding-right: 2.5em;
+		padding-left: 14px;
 		flex: 0 0 calc(100% - 3.5rem);
 		.note {
 			font-weight: normal;
 		}
-		.user--online & {
-			padding-left: 14px;
-			&::before {
-				content: '';
-				display: block;
-				width: 6px;
-				height: 6px;
-				border-radius: 50%;
-				background: #f85d5d;
-				position: absolute;
-				top: 0.5em;
-				left: 0;
+		&::before {
+			content: '';
+			display: block;
+			width: 6px;
+			height: 6px;
+			border-radius: 50%;
+			background: $offline-color;
+			position: absolute;
+			top: 0.5em;
+			left: 0;
+			.user--online & {
+				background: $online-color;
 			}
 		}
 	}
 	&__pic--big + &__name {
 		flex: 0 0 calc(100% - 4.5rem);
+	}
+	&__status {
+		font-weight: normal;
+		.notification {
+			font-weight: bold;
+		}
 	}
 	
 	&__contacts-list {

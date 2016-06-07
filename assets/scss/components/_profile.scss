@@ -39,4 +39,10 @@
 			}
 		}
 	}
+	.user__name {
+		padding-left: 0;
+		&::before {
+			display: none;
+		}
+	}
 }

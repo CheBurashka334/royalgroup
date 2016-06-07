@@ -128,6 +128,27 @@
   content: "";
 }
 
+/* line 178, ../assets/scss/components/_font-icons.scss */
+.icon.icon--o {
+  display: inline-block;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  padding: 2px;
+  width: 1.5rem;
+  height: 1.5rem;
+  box-sizing: border-box;
+}
+
+/* line 187, ../assets/scss/components/_font-icons.scss */
+.icon.icon--circle {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  box-sizing: border-box;
+}
+
 /* line 72, ../assets/scss/_colors.scss */
 .red.lighter {
   background-color: #bca4a5;
@@ -1422,27 +1443,31 @@ h4 {
 .highlight-box *:last-child {
   margin-bottom: 0;
 }
+/* line 120, ../assets/scss/components/_typography.scss */
+.highlight-box:first-child + h1 {
+  margin-top: 1em;
+}
 
-/* line 121, ../assets/scss/components/_typography.scss */
+/* line 124, ../assets/scss/components/_typography.scss */
 .primary-color {
   color: #8d0208;
 }
 
-/* line 124, ../assets/scss/components/_typography.scss */
+/* line 127, ../assets/scss/components/_typography.scss */
 .secondary-color {
   color: #ffa900;
 }
 
-/* line 128, ../assets/scss/components/_typography.scss */
+/* line 131, ../assets/scss/components/_typography.scss */
 ul, ol {
   padding-left: 21px;
 }
-/* line 130, ../assets/scss/components/_typography.scss */
+/* line 133, ../assets/scss/components/_typography.scss */
 ul li, ol li {
   margin: 5px 0;
 }
 
-/* line 135, ../assets/scss/components/_typography.scss */
+/* line 138, ../assets/scss/components/_typography.scss */
 .notification, .progress-bar__item::before {
   display: inline-block;
   box-sizing: border-box;
@@ -1456,17 +1481,17 @@ ul li, ol li {
   vertical-align: middle;
   color: white;
 }
-/* line 147, ../assets/scss/components/_typography.scss */
+/* line 150, ../assets/scss/components/_typography.scss */
 .progress-bar__item--done::before {
   color: #fdc862;
 }
-/* line 150, ../assets/scss/components/_typography.scss */
+/* line 153, ../assets/scss/components/_typography.scss */
 .notification, .progress-bar__item--current::before {
   color: #8d0208;
   background: #fdc862;
   border-color: transparent;
 }
-/* line 155, ../assets/scss/components/_typography.scss */
+/* line 158, ../assets/scss/components/_typography.scss */
 .notification {
   font-size: 14px;
   width: 23px;
@@ -1474,37 +1499,37 @@ ul li, ol li {
   line-height: 19px;
 }
 
-/* line 169, ../assets/scss/components/_typography.scss */
+/* line 172, ../assets/scss/components/_typography.scss */
 .center-align {
   text-align: center;
 }
 
-/* line 172, ../assets/scss/components/_typography.scss */
+/* line 175, ../assets/scss/components/_typography.scss */
 .right-align {
   text-align: right;
 }
 
-/* line 175, ../assets/scss/components/_typography.scss */
+/* line 178, ../assets/scss/components/_typography.scss */
 .left-align {
   text-align: left;
 }
 
-/* line 179, ../assets/scss/components/_typography.scss */
+/* line 182, ../assets/scss/components/_typography.scss */
 table {
   display: table;
 }
-/* line 181, ../assets/scss/components/_typography.scss */
+/* line 184, ../assets/scss/components/_typography.scss */
 table tr {
   display: table-row;
 }
-/* line 184, ../assets/scss/components/_typography.scss */
+/* line 187, ../assets/scss/components/_typography.scss */
 table td, table th {
   display: table-cell;
   padding: 1em 0;
   border-bottom: 2px solid #e4e0d4;
   text-align: left;
 }
-/* line 190, ../assets/scss/components/_typography.scss */
+/* line 193, ../assets/scss/components/_typography.scss */
 table th {
   font-size: 14px;
   font-weight: normal;
@@ -1639,22 +1664,29 @@ input[type="button"], .btn-icon {
 .btn:hover,
 button:hover,
 input[type="submit"]:hover,
-input[type="button"]:hover, .btn-icon:hover {
+input[type="button"]:hover, .btn-icon:hover, .btn-circle:hover {
   text-decoration: none;
 }
 
 /* line 15, ../assets/scss/components/_buttons.scss */
-.btn:active, .btn:focus,
+.btn:active,
 button:active,
-button:focus,
 input[type="submit"]:active,
-input[type="submit"]:focus,
-input[type="button"]:active,
-input[type="button"]:focus, .btn-icon:active, .btn-icon:focus {
+input[type="button"]:active, .btn-icon:active, .btn-icon:focus, .btn-circle:active {
   outline: none;
+  box-shadow: inset 0 3px 7px 0 rgba(0, 0, 0, 0.5);
 }
 
-/* line 18, ../assets/scss/components/_buttons.scss */
+/* line 19, ../assets/scss/components/_buttons.scss */
+.btn-icon, .btn-flat {
+  background: none;
+  border: 0;
+  border-radius: 0;
+  color: currentColor;
+  font-weight: normal;
+}
+
+/* line 26, ../assets/scss/components/_buttons.scss */
 .btn,
 button,
 input[type="submit"],
@@ -1665,7 +1697,7 @@ input[type="button"] {
   background: #8d0208;
   box-sizing: border-box;
 }
-/* line 28, ../assets/scss/components/_buttons.scss */
+/* line 36, ../assets/scss/components/_buttons.scss */
 .btn:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -1673,19 +1705,22 @@ input[type="button"]:hover {
   background: #bc121a;
   color: white;
 }
-/* line 33, ../assets/scss/components/_buttons.scss */
-.btn:active, .btn:focus,
+/* line 41, ../assets/scss/components/_buttons.scss */
+.btn:active,
 button:active,
-button:focus,
 input[type="submit"]:active,
-input[type="submit"]:focus,
-input[type="button"]:active,
-input[type="button"]:focus {
+input[type="button"]:active {
   background: #8d0208;
-  box-shadow: inset 0 3px 7px 0 rgba(0, 0, 0, 0.5);
   color: white;
 }
-/* line 40, ../assets/scss/components/_buttons.scss */
+/* line 46, ../assets/scss/components/_buttons.scss */
+.btn:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="button"]:focus {
+  outline: none;
+}
+/* line 49, ../assets/scss/components/_buttons.scss */
 .btn[disabled], .btn.disabled,
 button[disabled],
 button.disabled,
@@ -1697,7 +1732,7 @@ input[type="button"].disabled {
   cursor: default;
   pointer-events: none;
 }
-/* line 45, ../assets/scss/components/_buttons.scss */
+/* line 54, ../assets/scss/components/_buttons.scss */
 .highlight-box .btn[disabled], .highlight-box .btn.disabled, .highlight-box
 button[disabled], .highlight-box
 button.disabled, .highlight-box
@@ -1710,14 +1745,14 @@ input[type="button"].disabled {
   padding: 10px 1.5em;
 }
 
-/* line 56, ../assets/scss/components/_buttons.scss */
+/* line 65, ../assets/scss/components/_buttons.scss */
 .btn--small,
 button.btn--small,
 input[type="submit"].btn--small,
 input[type="button"].btn--small {
   padding: 12px 1em;
 }
-/* line 59, ../assets/scss/components/_buttons.scss */
+/* line 68, ../assets/scss/components/_buttons.scss */
 .btn--fullwidth,
 button.btn--fullwidth,
 input[type="submit"].btn--fullwidth,
@@ -1725,7 +1760,7 @@ input[type="button"].btn--fullwidth {
   display: block;
   width: 100%;
 }
-/* line 63, ../assets/scss/components/_buttons.scss */
+/* line 72, ../assets/scss/components/_buttons.scss */
 .btn-box,
 button.btn-box,
 input[type="submit"].btn-box,
@@ -1739,7 +1774,7 @@ input[type="button"].btn-box {
       -ms-flex-align: center;
           align-items: center;
 }
-/* line 66, ../assets/scss/components/_buttons.scss */
+/* line 75, ../assets/scss/components/_buttons.scss */
 .btn-box .btn,
 button.btn-box .btn,
 input[type="submit"].btn-box .btn,
@@ -1748,7 +1783,7 @@ input[type="button"].btn-box .btn {
       -ms-flex-negative: 0;
           flex-shrink: 0;
 }
-/* line 69, ../assets/scss/components/_buttons.scss */
+/* line 78, ../assets/scss/components/_buttons.scss */
 .btn-box .btn + .note,
 button.btn-box .btn + .note,
 input[type="submit"].btn-box .btn + .note,
@@ -1756,7 +1791,7 @@ input[type="button"].btn-box .btn + .note {
   line-height: normal;
   margin-left: 10px;
 }
-/* line 73, ../assets/scss/components/_buttons.scss */
+/* line 82, ../assets/scss/components/_buttons.scss */
 .btn-box .btn + a,
 button.btn-box .btn + a,
 input[type="submit"].btn-box .btn + a,
@@ -1764,19 +1799,68 @@ input[type="button"].btn-box .btn + a {
   margin-left: 1rem;
 }
 
-/* line 79, ../assets/scss/components/_buttons.scss */
+/* line 88, ../assets/scss/components/_buttons.scss */
 .btn-icon {
-  background: none;
   padding: 10px;
 }
-/* line 90, ../assets/scss/components/_buttons.scss */
+/* line 99, ../assets/scss/components/_buttons.scss */
 .btn-icon::before {
   color: currentColor;
   font-size: 1.5rem;
 }
-/* line 94, ../assets/scss/components/_buttons.scss */
+/* line 103, ../assets/scss/components/_buttons.scss */
 .btn-icon.btn-exit {
   color: #393428;
+}
+
+/* line 107, ../assets/scss/components/_buttons.scss */
+.btn-circle {
+  width: 3em;
+  height: 3em;
+  padding: 12px;
+  border-radius: 50%;
+}
+/* line 112, ../assets/scss/components/_buttons.scss */
+.btn-circle .icon {
+  fill: white;
+}
+/* line 121, ../assets/scss/components/_buttons.scss */
+.btn-circle--red {
+  background: #d62d2d;
+}
+/* line 123, ../assets/scss/components/_buttons.scss */
+.btn-circle--red:hover, .btn-circle--red:active {
+  background: #bc121a;
+}
+/* line 128, ../assets/scss/components/_buttons.scss */
+.btn-circle--khaki {
+  background: #b4a781;
+}
+/* line 130, ../assets/scss/components/_buttons.scss */
+.btn-circle--khaki:hover, .btn-circle--khaki:active {
+  background: #9f8f61;
+}
+/* line 135, ../assets/scss/components/_buttons.scss */
+.btn-circle--yellow {
+  background: #f8b42f;
+}
+/* line 137, ../assets/scss/components/_buttons.scss */
+.btn-circle--yellow:hover, .btn-circle--yellow:active {
+  background: #ffa900;
+}
+
+/* line 144, ../assets/scss/components/_buttons.scss */
+.btn-flat {
+  padding: 0;
+}
+/* line 147, ../assets/scss/components/_buttons.scss */
+.btn-flat:hover {
+  background: none;
+  color: #d62d2d;
+}
+/* line 151, ../assets/scss/components/_buttons.scss */
+.btn-flat:active {
+  box-shadow: none;
 }
 
 /* line 2, ../assets/scss/components/_progress-bar.scss */
@@ -2515,6 +2599,14 @@ p + .form-grid {
 .profile__status-item--current:hover {
   color: white;
 }
+/* line 42, ../assets/scss/components/_profile.scss */
+.profile .user__name {
+  padding-left: 0;
+}
+/* line 44, ../assets/scss/components/_profile.scss */
+.profile .user__name::before {
+  display: none;
+}
 
 /* line 3, ../assets/scss/components/_user.scss */
 .user__info {
@@ -2547,14 +2639,16 @@ p + .form-grid {
 .user__pic img {
   display: block;
   border-radius: 50%;
+  width: 100%;
+  height: auto;
 }
-/* line 19, ../assets/scss/components/_user.scss */
+/* line 21, ../assets/scss/components/_user.scss */
 .user__pic:empty {
   background: #8d0208;
   color: white;
   text-align: center;
 }
-/* line 23, ../assets/scss/components/_user.scss */
+/* line 25, ../assets/scss/components/_user.scss */
 .user__pic:empty::after {
   font-family: "iconfont";
   -webkit-font-smoothing: antialiased;
@@ -2571,7 +2665,7 @@ p + .form-grid {
   line-height: 3rem;
   vartical-align: middle;
 }
-/* line 31, ../assets/scss/components/_user.scss */
+/* line 33, ../assets/scss/components/_user.scss */
 .user__pic--big {
   width: 4rem;
   height: 4rem;
@@ -2580,12 +2674,12 @@ p + .form-grid {
       -ms-flex: 0 0 4rem;
           flex: 0 0 4rem;
 }
-/* line 35, ../assets/scss/components/_user.scss */
+/* line 37, ../assets/scss/components/_user.scss */
 .user__pic--big:empty::after {
   font-size: 2em;
   line-height: 4rem;
 }
-/* line 40, ../assets/scss/components/_user.scss */
+/* line 42, ../assets/scss/components/_user.scss */
 .user--vip .user__pic::before {
   display: inline-block;
   content: 'VIP';
@@ -2599,27 +2693,24 @@ p + .form-grid {
   right: 3px;
   bottom: -5px;
 }
-/* line 54, ../assets/scss/components/_user.scss */
+/* line 56, ../assets/scss/components/_user.scss */
 .user__name {
   font-weight: bold;
   line-height: normal;
   color: #484848;
   padding-right: 2.5em;
+  padding-left: 14px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 calc(100% - 3.5rem);
       -ms-flex: 0 0 calc(100% - 3.5rem);
           flex: 0 0 calc(100% - 3.5rem);
 }
-/* line 60, ../assets/scss/components/_user.scss */
+/* line 63, ../assets/scss/components/_user.scss */
 .user__name .note {
   font-weight: normal;
 }
-/* line 63, ../assets/scss/components/_user.scss */
-.user--online .user__name {
-  padding-left: 14px;
-}
-/* line 65, ../assets/scss/components/_user.scss */
-.user--online .user__name::before {
+/* line 66, ../assets/scss/components/_user.scss */
+.user__name::before {
   content: '';
   display: block;
   width: 6px;
@@ -2630,51 +2721,63 @@ p + .form-grid {
   top: 0.5em;
   left: 0;
 }
-/* line 78, ../assets/scss/components/_user.scss */
+/* line 76, ../assets/scss/components/_user.scss */
+.user--online .user__name::before {
+  background: #6abb00;
+}
+/* line 81, ../assets/scss/components/_user.scss */
 .user__pic--big + .user__name {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 calc(100% - 4.5rem);
       -ms-flex: 0 0 calc(100% - 4.5rem);
           flex: 0 0 calc(100% - 4.5rem);
 }
-/* line 83, ../assets/scss/components/_user.scss */
+/* line 84, ../assets/scss/components/_user.scss */
+.user__status {
+  font-weight: normal;
+}
+/* line 86, ../assets/scss/components/_user.scss */
+.user__status .notification {
+  font-weight: bold;
+}
+/* line 92, ../assets/scss/components/_user.scss */
 .user__contacts-list--gorizontal .user__contact {
   display: inline-block;
   margin: 0;
   margin-right: 1.5em;
 }
-/* line 87, ../assets/scss/components/_user.scss */
+/* line 96, ../assets/scss/components/_user.scss */
 .user__contacts-list--gorizontal .user__contact:last-child {
   margin-right: 0;
 }
-/* line 91, ../assets/scss/components/_user.scss */
+/* line 100, ../assets/scss/components/_user.scss */
 .user__contacts-list--vertical {
   margin-bottom: 1.5rem;
 }
-/* line 93, ../assets/scss/components/_user.scss */
+/* line 102, ../assets/scss/components/_user.scss */
 .user__contacts-list--vertical .user__contact {
   display: block;
   margin: 0 0 1rem;
 }
-/* line 99, ../assets/scss/components/_user.scss */
+/* line 108, ../assets/scss/components/_user.scss */
 .user__contact {
   font-size: 14px;
   font-weight: normal;
   color: #484848;
   vertical-align: middle;
 }
-/* line 104, ../assets/scss/components/_user.scss */
+/* line 113, ../assets/scss/components/_user.scss */
 .user__contact .icon {
   font-size: 1.5rem;
   line-height: 1;
   vertical-align: middle;
 }
-/* line 108, ../assets/scss/components/_user.scss */
+/* line 117, ../assets/scss/components/_user.scss */
 .user__contact .icon::before {
   color: black;
   font-size: 1.5rem;
 }
-/* line 113, ../assets/scss/components/_user.scss */
+/* line 122, ../assets/scss/components/_user.scss */
 .user__contact:hover {
   text-decoration: none;
 }
@@ -2728,6 +2831,119 @@ p + .form-grid {
   font-size: 18px;
   font-weight: bold;
   line-height: normal;
+}
+
+/* line 1, ../assets/scss/components/_contact.scss */
+.contact {
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+/* line 4, ../assets/scss/components/_contact.scss */
+.contact__top {
+  padding-bottom: 1em;
+  border-bottom: 2px dashed #e4e0d4;
+}
+/* line 8, ../assets/scss/components/_contact.scss */
+.contact__bottom {
+  padding-top: 1em;
+}
+/* line 11, ../assets/scss/components/_contact.scss */
+.contact__top, .contact__bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 17, ../assets/scss/components/_contact.scss */
+.contact .user__contact .icon::before {
+  color: #393428;
+}
+/* line 20, ../assets/scss/components/_contact.scss */
+.contact .user__status {
+  margin-top: 5px;
+  margin-left: -14px;
+}
+/* line 24, ../assets/scss/components/_contact.scss */
+.contact__top .contact__actions .btn {
+  margin-left: 3px;
+  font-size: 1rem;
+}
+/* line 28, ../assets/scss/components/_contact.scss */
+.contact__bottom .contact__actions .btn-flat {
+  margin-left: 1em;
+  vertical-align: baseline;
+}
+/* line 31, ../assets/scss/components/_contact.scss */
+.contact__bottom .contact__actions .btn-flat .icon {
+  vertical-align: sub;
+}
+/* line 34, ../assets/scss/components/_contact.scss */
+.contact__bottom .contact__actions .btn-flat .icon::before {
+  vertical-align: baseline;
+}
+/* line 38, ../assets/scss/components/_contact.scss */
+.contact__actions {
+  color: #484848;
+  text-align: right;
+}
+/* line 41, ../assets/scss/components/_contact.scss */
+.contact__actions .icon {
+  color: #393428;
+  vertical-align: middle;
+}
+/* line 44, ../assets/scss/components/_contact.scss */
+.contact__actions .icon.icon-pencil::before {
+  font-size: 1.5rem;
+}
+/* line 47, ../assets/scss/components/_contact.scss */
+.contact__actions .icon.icon-bell {
+  width: 30px;
+  height: 30px;
+}
+/* line 50, ../assets/scss/components/_contact.scss */
+.contact__actions .icon.icon-bell::before {
+  font-size: 21px;
+}
+/* line 54, ../assets/scss/components/_contact.scss */
+.contact__actions .icon--circle {
+  background: #bc121a;
+  color: white;
+}
+/* line 59, ../assets/scss/components/_contact.scss */
+.contact__actions .btn, .contact__actions .btn-flat {
+  font-size: 14px;
+}
+/* line 62, ../assets/scss/components/_contact.scss */
+.contact__actions .btn:first-child,
+.contact__actions .btn-flat:first-child {
+  margin-left: 0;
+}
+/* line 67, ../assets/scss/components/_contact.scss */
+.contact--need-action {
+  border-color: #f59595;
+}
+/* line 69, ../assets/scss/components/_contact.scss */
+.contact--need-action .user__status .notification {
+  color: white;
+  background: #d62d2d;
+}
+/* line 74, ../assets/scss/components/_contact.scss */
+.contact--blocked {
+  background: #fafafa;
+}
+/* line 77, ../assets/scss/components/_contact.scss */
+.contact--blocked .btn-circle, .contact--blocked .btn-circle:hover, .contact--blocked .btn-circle:active {
+  background: #cabfaa;
+  box-shadow: none;
+  cursor: default;
 }
 
 /* line 3, ../assets/scss/components/_tabs.scss */

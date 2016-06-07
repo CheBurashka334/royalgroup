@@ -1,0 +1,84 @@
+.contact {
+	border-radius: $base-border-radius;
+	margin-bottom: 1rem;
+	&__top {
+		padding-bottom: 1em;
+		border-bottom: 2px dashed color('lights', 'beige');
+	}
+	&__bottom {
+		padding-top: 1em;
+	}
+	&__top,
+	&__bottom {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.user__contact .icon::before {
+		color: color('brown', 'darker');
+	}
+	.user__status {
+		margin-top: 5px;
+		margin-left: -14px;
+	}
+	&__top &__actions .btn {
+		margin-left: 3px;
+		font-size: 1rem;
+	}
+	&__bottom &__actions .btn-flat {
+		margin-left: 1em;
+		vertical-align: baseline;
+		.icon {
+			vertical-align: sub;
+		}
+		.icon::before {
+			vertical-align: baseline;
+		}
+	}
+	&__actions {
+		color: color('gray', 'dark');
+		text-align: right;
+		.icon {
+			color: color('brown', 'darker');
+			vertical-align: middle;
+			&.icon-pencil::before {
+				font-size: 1.5rem;
+			}
+			&.icon-bell {
+				width: 30px;
+				height: 30px;
+				&::before {
+					font-size: 21px;
+				}
+			}
+			&--circle {
+				background: color('red', 'dark');
+				color: white;
+			}
+		}
+		.btn, .btn-flat {
+			font-size: $text-size--small;
+		}
+		.btn:first-child, 
+		.btn-flat:first-child {
+			margin-left: 0;
+		}
+	}
+	&--need-action {
+		border-color: #f59595;
+		.user__status .notification {
+			color: white;
+			background: color('red', 'base');
+		}
+	}
+	&--blocked {
+		background: #fafafa;
+		.btn-circle {
+			&, &:hover, &:active {
+				background: color('lights', 'brown-darker');
+				box-shadow: none;
+				cursor: default;
+			}
+		}
+	}
+}
