@@ -1,0 +1,70 @@
+.company {
+	&__logo {
+		width: 315px;
+		flex: 0 0 315px;
+		align-self: center;
+		margin-right: 1em;
+		img {
+			width: 100%;
+		}
+	}
+	&__info {
+		width: calc(100% - 1em - 315px);
+		flex: 1 1 calc(100% - 1em - 315px);
+		&-desc {
+			margin-top: 0;
+			color: color('brown', 'dark');
+		}
+	}
+	&__founder {
+		text-align: center;
+		&-img {
+			display: block;
+			border: $base-border;
+			border-radius: $base-border-radius;
+		}
+		&-name {
+			margin: 0.5em auto 0;
+			color: color('gray', 'dark');
+		}
+	}
+	&-stats {
+	margin-top: 60px;
+	margin-bottom: 60px;
+		&__item {
+			text-align: center;
+		}
+		&__item-digit {
+			font-size: 50px;
+			font-weight: bold;
+			line-height: 1;
+			color: $primary-color;
+		}
+		&__item-desc {
+			margin-top: 0;
+			color: #666;
+		}
+	}
+	&-advantages {
+		margin-top: 60px;
+		margin-bottom: 60px;
+		&__item {
+			text-align: center;
+			color: #2f2717;
+		}
+		&__item-desc {
+			margin-bottom: 0;
+		}
+	}
+	&-video .video {
+		&__info {
+			justify-content: space-between;
+		}
+		&__desc,
+		&__desc p {
+			margin: 0;
+			color: color('gray', 'dark');
+			font-weight: bold;
+		}
+	}
+}

@@ -41,10 +41,12 @@ div {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: stretch;
-	&-2 {
-		justify-content: space-between;
-		> div {
-			width: calc(50% - 1em);
+	@for $i from 1 through 6 {
+		&-#{$i} {
+			justify-content: space-between;
+			> div {
+				width: calc((100% - #{$i - 1}em) / #{$i});
+			}
 		}
 	}
 }
