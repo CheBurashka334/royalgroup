@@ -1140,37 +1140,41 @@ th {
 html, body {
   width: 100%;
   min-width: 1366px;
+  height: 100%;
 }
 
-/* line 5, ../assets/scss/components/_layout.scss */
+/* line 6, ../assets/scss/components/_layout.scss */
 div {
   position: relative;
   box-sizing: border-box;
 }
 
-/* line 9, ../assets/scss/components/_layout.scss */
+/* line 10, ../assets/scss/components/_layout.scss */
 .hidden {
   display: none;
 }
 
-/* line 12, ../assets/scss/components/_layout.scss */
+/* line 13, ../assets/scss/components/_layout.scss */
 .container {
   width: 1366px;
   margin: 0 auto;
 }
 
-/* line 17, ../assets/scss/components/_layout.scss */
+/* line 18, ../assets/scss/components/_layout.scss */
 .page {
   background: #f6f3eb;
   width: 100%;
+  min-height: 100%;
 }
 
-/* line 21, ../assets/scss/components/_layout.scss */
+/* line 23, ../assets/scss/components/_layout.scss */
 .workarea {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  min-height: 100%;
+  min-height: calc(100vh - 130px);
 }
 
 /* line 3, ../assets/scss/components/_header.scss */
@@ -1226,27 +1230,39 @@ div {
   background: #d3c9b3;
 }
 
-/* line 26, ../assets/scss/components/_layout.scss */
+/* line 30, ../assets/scss/components/_layout.scss */
 .page-content {
   padding: 2rem 6rem 10.5rem;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 calc(820px + 12rem);
       -ms-flex: 0 0 calc(820px + 12rem);
           flex: 0 0 calc(820px + 12rem);
-}
-
-/* line 30, ../assets/scss/components/_layout.scss */
-.footer {
-  position: absolute;
-  left: 6rem;
-  bottom: 1.5rem;
+  margin: 0 auto;
 }
 /* line 34, ../assets/scss/components/_layout.scss */
-.footer .copyright {
-  margin: 0;
+.sidebar + .page-content {
+  margin-left: 0;
 }
 
-/* line 39, ../assets/scss/components/_layout.scss */
+/* line 38, ../assets/scss/components/_layout.scss */
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 1.5rem;
+  width: 100%;
+  padding: 0 6rem;
+}
+/* line 44, ../assets/scss/components/_layout.scss */
+.footer .copyright {
+  margin: 0;
+  text-align: center;
+}
+/* line 47, ../assets/scss/components/_layout.scss */
+.sidebar + .page-content .footer .copyright {
+  text-align: left;
+}
+
+/* line 53, ../assets/scss/components/_layout.scss */
 .grid {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1264,69 +1280,69 @@ div {
       -ms-flex-align: stretch;
           align-items: stretch;
 }
-/* line 45, ../assets/scss/components/_layout.scss */
+/* line 59, ../assets/scss/components/_layout.scss */
 .grid-1 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 47, ../assets/scss/components/_layout.scss */
+/* line 61, ../assets/scss/components/_layout.scss */
 .grid-1 > div {
   width: calc((100% - 0em) / 1);
 }
-/* line 45, ../assets/scss/components/_layout.scss */
+/* line 59, ../assets/scss/components/_layout.scss */
 .grid-2 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 47, ../assets/scss/components/_layout.scss */
+/* line 61, ../assets/scss/components/_layout.scss */
 .grid-2 > div {
   width: calc((100% - 1em) / 2);
 }
-/* line 45, ../assets/scss/components/_layout.scss */
+/* line 59, ../assets/scss/components/_layout.scss */
 .grid-3 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 47, ../assets/scss/components/_layout.scss */
+/* line 61, ../assets/scss/components/_layout.scss */
 .grid-3 > div {
   width: calc((100% - 2em) / 3);
 }
-/* line 45, ../assets/scss/components/_layout.scss */
+/* line 59, ../assets/scss/components/_layout.scss */
 .grid-4 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 47, ../assets/scss/components/_layout.scss */
+/* line 61, ../assets/scss/components/_layout.scss */
 .grid-4 > div {
   width: calc((100% - 3em) / 4);
 }
-/* line 45, ../assets/scss/components/_layout.scss */
+/* line 59, ../assets/scss/components/_layout.scss */
 .grid-5 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 47, ../assets/scss/components/_layout.scss */
+/* line 61, ../assets/scss/components/_layout.scss */
 .grid-5 > div {
   width: calc((100% - 4em) / 5);
 }
-/* line 45, ../assets/scss/components/_layout.scss */
+/* line 59, ../assets/scss/components/_layout.scss */
 .grid-6 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 47, ../assets/scss/components/_layout.scss */
+/* line 61, ../assets/scss/components/_layout.scss */
 .grid-6 > div {
   width: calc((100% - 5em) / 6);
 }
@@ -1440,30 +1456,36 @@ h1, h2, h3 {
 }
 /* line 81, ../assets/scss/components/_typography.scss */
 .page-content h1:first-child, .page-content h2:first-child, .page-content h3:first-child {
-  margin-top: 0;
+  margin-top: 3em;
+  text-align: center;
 }
 /* line 84, ../assets/scss/components/_typography.scss */
+.sidebar + .page-content h1:first-child, .sidebar + .page-content h2:first-child, .sidebar + .page-content h3:first-child {
+  text-align: left;
+  margin-top: 0;
+}
+/* line 89, ../assets/scss/components/_typography.scss */
 h1 a, h2 a, h3 a {
   color: currentColor;
 }
 
-/* line 88, ../assets/scss/components/_typography.scss */
+/* line 93, ../assets/scss/components/_typography.scss */
 h1 {
   font-size: 36px;
 }
 
-/* line 91, ../assets/scss/components/_typography.scss */
+/* line 96, ../assets/scss/components/_typography.scss */
 h4 {
   font-weight: bold;
   font-size: 18px;
   margin: 1rem 0;
 }
 
-/* line 97, ../assets/scss/components/_typography.scss */
+/* line 102, ../assets/scss/components/_typography.scss */
 .heading {
   margin-top: 4em;
 }
-/* line 99, ../assets/scss/components/_typography.scss */
+/* line 104, ../assets/scss/components/_typography.scss */
 .heading--with-link {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1478,51 +1500,57 @@ h4 {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-/* line 104, ../assets/scss/components/_typography.scss */
+/* line 109, ../assets/scss/components/_typography.scss */
 .page-content .heading:first-child {
+  margin-top: 3em;
+  text-align: center;
+}
+/* line 112, ../assets/scss/components/_typography.scss */
+.sidebar + .page-content .heading:first-child {
+  text-align: left;
   margin-top: 0;
 }
 
-/* line 109, ../assets/scss/components/_typography.scss */
+/* line 119, ../assets/scss/components/_typography.scss */
 .highlight-box {
   margin: 20px 0;
   padding: 20px;
   background: #fdc862;
   border: 2px solid #f4be55;
 }
-/* line 114, ../assets/scss/components/_typography.scss */
+/* line 124, ../assets/scss/components/_typography.scss */
 .highlight-box *:first-child {
   margin-top: 0;
 }
-/* line 117, ../assets/scss/components/_typography.scss */
+/* line 127, ../assets/scss/components/_typography.scss */
 .highlight-box *:last-child {
   margin-bottom: 0;
 }
-/* line 120, ../assets/scss/components/_typography.scss */
+/* line 130, ../assets/scss/components/_typography.scss */
 .highlight-box:first-child + h1 {
   margin-top: 1em;
 }
 
-/* line 124, ../assets/scss/components/_typography.scss */
+/* line 134, ../assets/scss/components/_typography.scss */
 .primary-color {
   color: #8d0208;
 }
 
-/* line 127, ../assets/scss/components/_typography.scss */
+/* line 137, ../assets/scss/components/_typography.scss */
 .secondary-color {
   color: #ffa900;
 }
 
-/* line 131, ../assets/scss/components/_typography.scss */
+/* line 141, ../assets/scss/components/_typography.scss */
 ul, ol {
   padding-left: 21px;
 }
-/* line 133, ../assets/scss/components/_typography.scss */
+/* line 143, ../assets/scss/components/_typography.scss */
 ul li, ol li {
   margin: 5px 0;
 }
 
-/* line 138, ../assets/scss/components/_typography.scss */
+/* line 148, ../assets/scss/components/_typography.scss */
 .notification, .progress-bar__item::before {
   display: inline-block;
   box-sizing: border-box;
@@ -1536,17 +1564,17 @@ ul li, ol li {
   vertical-align: middle;
   color: white;
 }
-/* line 150, ../assets/scss/components/_typography.scss */
+/* line 160, ../assets/scss/components/_typography.scss */
 .progress-bar__item--done::before {
   color: #fdc862;
 }
-/* line 153, ../assets/scss/components/_typography.scss */
+/* line 163, ../assets/scss/components/_typography.scss */
 .notification, .progress-bar__item--current::before {
   color: #8d0208;
   background: #fdc862;
   border-color: transparent;
 }
-/* line 158, ../assets/scss/components/_typography.scss */
+/* line 168, ../assets/scss/components/_typography.scss */
 .notification {
   font-size: 14px;
   width: 23px;
@@ -1554,37 +1582,37 @@ ul li, ol li {
   line-height: 19px;
 }
 
-/* line 172, ../assets/scss/components/_typography.scss */
+/* line 182, ../assets/scss/components/_typography.scss */
 .center-align {
   text-align: center;
 }
 
-/* line 175, ../assets/scss/components/_typography.scss */
+/* line 185, ../assets/scss/components/_typography.scss */
 .right-align {
   text-align: right;
 }
 
-/* line 178, ../assets/scss/components/_typography.scss */
+/* line 188, ../assets/scss/components/_typography.scss */
 .left-align {
   text-align: left;
 }
 
-/* line 182, ../assets/scss/components/_typography.scss */
+/* line 192, ../assets/scss/components/_typography.scss */
 table {
   display: table;
 }
-/* line 184, ../assets/scss/components/_typography.scss */
+/* line 194, ../assets/scss/components/_typography.scss */
 table tr {
   display: table-row;
 }
-/* line 187, ../assets/scss/components/_typography.scss */
+/* line 197, ../assets/scss/components/_typography.scss */
 table td, table th {
   display: table-cell;
   padding: 1em 0;
   border-bottom: 2px solid #e4e0d4;
   text-align: left;
 }
-/* line 193, ../assets/scss/components/_typography.scss */
+/* line 203, ../assets/scss/components/_typography.scss */
 table th {
   font-size: 14px;
   font-weight: normal;
@@ -1990,22 +2018,27 @@ input[type="button"].btn-box .btn + a {
   margin-bottom: 2rem;
 }
 /* line 6, ../assets/scss/components/_tile-block.scss */
+.tile-block.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 10, ../assets/scss/components/_tile-block.scss */
 .tabs__content .tile-block:first-child {
   margin-top: -1rem;
 }
-/* line 9, ../assets/scss/components/_tile-block.scss */
+/* line 13, ../assets/scss/components/_tile-block.scss */
 .sidebar .tile-block {
   border-color: #c5bba5;
 }
-/* line 12, ../assets/scss/components/_tile-block.scss */
+/* line 16, ../assets/scss/components/_tile-block.scss */
 .tile-block__head, .tile-block__content, .tile-block__foot {
   padding: 22px;
 }
-/* line 17, ../assets/scss/components/_tile-block.scss */
+/* line 21, ../assets/scss/components/_tile-block.scss */
 .tile-block__head {
   border-bottom: 2px solid #e4e0d4;
 }
-/* line 20, ../assets/scss/components/_tile-block.scss */
+/* line 24, ../assets/scss/components/_tile-block.scss */
 .tile-block__foot {
   border-top: 2px solid #e4e0d4;
   display: -webkit-box;
@@ -2021,31 +2054,31 @@ input[type="button"].btn-box .btn + a {
       -ms-flex-align: center;
           align-items: center;
 }
-/* line 26, ../assets/scss/components/_tile-block.scss */
+/* line 30, ../assets/scss/components/_tile-block.scss */
 .tile-block.video {
   border: 0;
 }
-/* line 29, ../assets/scss/components/_tile-block.scss */
+/* line 33, ../assets/scss/components/_tile-block.scss */
 .tile-block.video .tile-block__content {
   border: 2px solid #e4e0d4;
 }
-/* line 32, ../assets/scss/components/_tile-block.scss */
+/* line 36, ../assets/scss/components/_tile-block.scss */
 .tile-block.video .tile-block__video + .tile-block__content {
   border-top: 0;
 }
-/* line 35, ../assets/scss/components/_tile-block.scss */
+/* line 39, ../assets/scss/components/_tile-block.scss */
 .tile-block__table {
   padding: 0.5em 1.5em;
 }
-/* line 38, ../assets/scss/components/_tile-block.scss */
+/* line 42, ../assets/scss/components/_tile-block.scss */
 .tile-block__form {
   padding: 3rem;
 }
-/* line 40, ../assets/scss/components/_tile-block.scss */
+/* line 44, ../assets/scss/components/_tile-block.scss */
 .tile-block__form :first-child {
   margin-top: 0;
 }
-/* line 43, ../assets/scss/components/_tile-block.scss */
+/* line 47, ../assets/scss/components/_tile-block.scss */
 .tile-block__form-actions {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2057,7 +2090,7 @@ input[type="button"].btn-box .btn + a {
           justify-content: space-between;
   margin-top: 2.5rem;
 }
-/* line 49, ../assets/scss/components/_tile-block.scss */
+/* line 53, ../assets/scss/components/_tile-block.scss */
 .tile-block--small {
   width: 550px;
 }
@@ -2184,8 +2217,20 @@ label {
       -ms-flex: 0 0 107px;
           flex: 0 0 107px;
 }
+/* line 62, ../assets/scss/components/_forms.scss */
+.field.success::after {
+  content: 'OK';
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  right: 1em;
+  bottom: 1em;
+  color: #d62d2d;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
-/* line 63, ../assets/scss/components/_forms.scss */
+/* line 74, ../assets/scss/components/_forms.scss */
 .form-grid {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2200,11 +2245,11 @@ label {
           align-items: flex-end;
   margin-bottom: 2em;
 }
-/* line 68, ../assets/scss/components/_forms.scss */
+/* line 79, ../assets/scss/components/_forms.scss */
 .tile-block .form-grid:last-child {
   margin-bottom: 1.5em;
 }
-/* line 71, ../assets/scss/components/_forms.scss */
+/* line 82, ../assets/scss/components/_forms.scss */
 .form-grid .btn {
   -webkit-box-flex: 0;
   -webkit-flex: 0;
@@ -2213,26 +2258,40 @@ label {
   margin: 6px 0;
   margin-left: 5px;
 }
-/* line 76, ../assets/scss/components/_forms.scss */
+/* line 87, ../assets/scss/components/_forms.scss */
 .form-grid .field + .field, .field + .form-grid__block, .form-grid__block + .field {
   margin-left: 5px;
 }
-/* line 82, ../assets/scss/components/_forms.scss */
+/* line 93, ../assets/scss/components/_forms.scss */
 .form-grid--big-gutter .btn,
 .form-grid--big-gutter .field + .field, .field + .form-grid--big-gutter__block, .form-grid--big-gutter__block + .field {
   margin-left: 25px;
 }
-/* line 89, ../assets/scss/components/_forms.scss */
+/* line 100, ../assets/scss/components/_forms.scss */
 p + .form-grid {
   margin-top: 2em;
 }
-/* line 92, ../assets/scss/components/_forms.scss */
+/* line 103, ../assets/scss/components/_forms.scss */
 .form-grid__block {
   height: 2em;
   margin: 6px 0;
 }
 
-/* line 99, ../assets/scss/components/_forms.scss */
+/* line 108, ../assets/scss/components/_forms.scss */
+.error-text {
+  font-size: 14px;
+  color: #d62d2d;
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+  display: none;
+}
+/* line 115, ../assets/scss/components/_forms.scss */
+.error .error-text {
+  display: block;
+}
+
+/* line 121, ../assets/scss/components/_forms.scss */
 .form-calc__text {
   font-size: 18px;
   font-weight: bold;

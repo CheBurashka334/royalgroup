@@ -1,4 +1,6 @@
 <?php require('header.php'); ?>
+<?php require('sidebar.php'); ?>
+<div class="page-content">
 
 <h1>Инструкция по регистрации на сайте Jeunesse</h1>
 <div class="tile-block">

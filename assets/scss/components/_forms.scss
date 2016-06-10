@@ -59,6 +59,17 @@ label {
 			flex: 0 0 107px;
 		}
 	}
+	&.success::after {
+		content: 'OK';
+		display: block;
+		position: absolute;
+		font-size: $text-size--small;
+		right: 1em;
+		bottom: 1em;
+		color: $error-color;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
 }
 .form-grid {
 	display: flex;
@@ -92,6 +103,17 @@ label {
 	&__block {
 		height: 2em;
 		margin: 6px 0;
+	}
+}
+.error-text {
+	font-size: $text-size--small;
+	color: $error-color;
+	position: absolute;
+	left: 0;
+	bottom: -1rem;
+	display: none;
+	.error & {
+		display: block;
 	}
 }
 

@@ -1,4 +1,6 @@
 <?php require('header.php'); ?>
+<?php require('sidebar.php'); ?>
+<div class="page-content">
 
 <h1>Приобретите трафик</h1>
 <div class="highlight-box">

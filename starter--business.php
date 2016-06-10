@@ -1,4 +1,6 @@
 <?php require('header.php'); ?>
+<?php require('sidebar.php'); ?>
+<div class="page-content">
 
 <h1>Бизнес с нами</h1>
 <p>Посмотрите видеоинструкцию по работе с Royal Group и получите доступ к выбору плана выплат и приобретению продукта.</p>

@@ -1,4 +1,6 @@
 <?php require('header.php'); ?>
+<?php require('sidebar.php'); ?>
+<div class="page-content">
 
 <h1>Способы оплаты контракта</h1>
 <div class="tile-block ui-accordion">

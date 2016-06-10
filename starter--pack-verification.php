@@ -1,4 +1,6 @@
 <?php require('header.php'); ?>
+<?php require('sidebar.php'); ?>
+<div class="page-content">
 
 <div class="tabs">
 	<ul class="tabs__header">

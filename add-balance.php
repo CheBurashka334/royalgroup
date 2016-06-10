@@ -1,4 +1,6 @@
 <?php require('header.php'); ?>
+<?php require('sidebar.php'); ?>
+<div class="page-content">
 
 <div class="heading heading--with-link">
 	<h1>Баланс <span class="secondary-color">5000р</span></h1>

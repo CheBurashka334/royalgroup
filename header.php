@@ -29,5 +29,3 @@
 		</div>
 	</div>
 	<div class="workarea container">
-		<?php require('sidebar.php'); ?>
-		<div class="page-content">

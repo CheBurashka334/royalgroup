@@ -1,4 +1,7 @@
 <?php require('header.php'); ?>
+<?php require('sidebar.php'); ?>
+<div class="page-content">
+
 <h1>Транзакции</h1>
 <div class="tabs">
 	<ul class="tabs__header">
