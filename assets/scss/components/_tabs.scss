@@ -43,9 +43,93 @@
 	
 	&__content {
 		margin-top: 3rem;
+
+	}
+	&__workbook{
+		margin-top: 0px;
 	}
 	&__next-btn,
 	&__end-btn {
 		margin-top: 3rem;
+	}
+	.sort{
+		font-size: 13px;
+		font-weight: bold;
+		text-transform: uppercase;
+		.ui-tabs-active .tabs__item-link {
+			border-bottom: 2px solid #ffa900;
+		}
+		.tabs__header{
+			display: inline-block;
+		}
+	}
+	.statistic{
+		font-size: 16px;
+		font-weight: bold;
+		text-transform: uppercase;
+		.ui-tabs-active .tabs__item-link {
+			border-bottom: 2px solid #ffa900;
+		}
+		.tabs__header{
+			display: inline-block;
+			padding: 0;
+			li{
+				margin: 0 5px;
+				&.tabs__item--date{
+					float: none;
+				}
+			}
+			a{
+				font-size: 14px;
+			}
+			:last-child{
+				margin-right: 0 !important;
+			}
+		}
+	}
+	&__filter{
+		form{
+			margin: 0 !important;
+		}
+		margin-top: 45px;
+		.tabs__header{
+			ul{
+				margin: 0 !important;
+				padding: 0 !important;
+				list-style: none;
+				display: inline-flex;
+				bottom: -2px;
+				position: absolute;
+				z-index: 1;
+				li{
+					margin: 0 5px 0 0;
+					display: inline-block;
+					background: #d9d6d0;
+					padding: 15px;
+					font-size: 16px;
+					line-height: 11px;
+					font-weight: bold;
+					border: 2px solid #d9d6d0;
+					cursor: pointer;
+					&.active,
+					&:hover{
+						background: #ebe9e3;
+						border: 2px solid #d9d6d0;
+						border-bottom: 2px solid #ebe9e3;
+					}
+				}
+			}
+		}
+		.tabs__workbook{
+			background: #ebe9e3;
+			border: 2px solid #d9d6d0;
+			padding: 25px;
+			.field{
+				margin-bottom: 5px;
+				&.last{
+					margin: 0;
+				}
+			}
+		}
 	}
 }

@@ -1,0 +1,15 @@
+.content-statistic{
+  .count-today{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    .count{
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 24px;
+    }
+  }
+}

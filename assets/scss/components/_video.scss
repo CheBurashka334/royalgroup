@@ -56,6 +56,14 @@
 	&__grid &--half {
 		flex: 0 0 calc(50% - 1rem);
 	}
+	&__name{
+		width: 100%;
+		color: rgb(32,32,32);
+		text-align:center;
+		margin-bottom:10px;
+		font-size: 13px;
+		line-height: 1.4;
+	}
 	.success-stories &:first-child {
 		margin-top: 1rem;
 	}

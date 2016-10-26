@@ -1,0 +1,154 @@
+// buttons 
+%btn {
+	display: inline-block;
+	font: bold 1rem/1 $font-base;
+	vertical-align: middle;
+	border: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: center;
+}
+%btn-hover {
+	text-decoration: none;
+}
+%btn-active {
+	outline: none;
+	box-shadow: inset 0 3px 7px 0 rgba(0,0,0,.5);
+}
+%btn-flat {
+	background: none;
+	border: 0;
+	border-radius: 0;
+	color: currentColor;
+	font-weight: normal;
+}
+.btn,
+button,
+input[type="submit"],
+input[type="button"] {
+	@extend %btn;
+	padding: 12px 1.5em;
+	border-radius: $base-border-radius;
+	color: $button-color;
+	background: $button-bg;
+	box-sizing: border-box;
+	&:hover {
+		@extend %btn-hover;
+		background: $button-bg--hover;
+		color: $button-color;
+	}
+	&:active {
+		@extend %btn-active;
+		background: $button-bg;
+		color: $button-color;
+	}
+	&:focus {
+		outline: none;
+	}
+	&[disabled],
+	&.disabled {
+		background: $button-bg--disable;
+		cursor: default;
+		pointer-events: none;
+		.highlight-box & {
+			background: color('red', 'lighter');
+			border: 2px solid color('red', 'light');
+			padding: 10px 1.5em;
+		}
+	}
+}
+.btn,
+button.btn,
+input[type="submit"].btn,
+input[type="button"].btn {
+	&--small {
+		padding: 12px 1em;
+	}
+	&--fullwidth {
+		display: block;
+		width: 100%;
+	}
+	&-box {
+		display: flex;
+		align-items: center;
+		.btn {
+			flex-shrink: 0;
+		}
+		.btn + .note {
+			line-height: normal;
+			margin-left: 10px;
+		}
+		.btn + a {
+			margin-left: 1rem;
+		}
+	}
+}
+
+.btn-icon {
+	@extend %btn;
+	@extend %btn-flat;
+	padding: 10px;
+	&:hover {
+		@extend %btn-hover;
+	}
+	&:active,
+	&:focus {
+		@extend %btn-active;
+	}
+	&::before {
+		color: currentColor;
+		font-size: 1.5rem;
+	}
+	&.btn-exit {
+		color: color('brown', 'darker');
+	}
+}
+.btn-circle {
+	width: 3em;
+	height: 3em;
+	padding: 12px;
+	border-radius: 50%;
+	.icon {
+		fill: white;
+	}
+	&:hover {
+		@extend %btn-hover;
+	}
+	&:active {
+		@extend %btn-active;
+	}
+	&--red {
+		background: color('red', 'base');
+		&:hover,
+		&:active {
+			background: color('red', 'dark');
+		}
+	}
+	&--khaki {
+		background: #b4a781;
+		&:hover,
+		&:active {
+			background: color('brown', 'lighter');
+		}
+	}
+	&--yellow {
+		background: color('yellow', 'dark');
+		&:hover,
+		&:active {
+			background: color('yellow', 'darker');
+		}
+	}
+}
+
+.btn-flat {
+	@extend %btn-flat;
+	padding: 0;
+	&:hover {
+		background: none;
+		color: color('red', 'base');
+	}
+	&:active {
+		box-shadow: none;
+	}
+}

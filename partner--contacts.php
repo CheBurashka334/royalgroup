@@ -1,5 +1,6 @@
 <?php require('header.php'); ?>
-
+<?php require('sidebar.php'); ?>
+	<div class="page-content">
 <div class="highlight-box">
 	<h4>Получите статус специалиста до 22.02.2015</h4>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus.</p>
@@ -224,4 +225,5 @@
 		content here...
 	</div>
 </div>
+		</div>
 <?php require('footer.php'); ?>

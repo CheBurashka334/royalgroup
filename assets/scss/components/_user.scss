@@ -31,12 +31,21 @@
 			}
 		}
 		&--big {
-			width: 4rem;
-			height: 4rem;
-			flex: 0 0 4rem;
+			 width: 4rem;
+			 height: 4rem;
+			 flex: 0 0 4rem;
+			 &:empty::after {
+				 font-size: 2em;
+				 line-height: 4rem;
+			 }
+		 }
+		&--large {
+			width: 7rem;
+			height: 7rem;
+			flex: 0 0 7rem;
 			&:empty::after {
-				font-size: 2em;
-				line-height: 4rem;
+				font-size: 3em;
+				line-height: 7rem;
 			}
 		}
 		.user--vip &::before {
@@ -75,6 +84,12 @@
 			left: 0;
 			.user--online & {
 				background: $online-color;
+			}
+		}
+		&.no__before {
+			&::before{
+				width: 0;
+				height: 0;
 			}
 		}
 	}
@@ -121,6 +136,13 @@
 		}
 		&:hover {
 			text-decoration: none;
+		}
+	}
+	&--online{
+		&.active{
+			.user__name::before {
+				background: #a7c131;
+			}
 		}
 	}
 }

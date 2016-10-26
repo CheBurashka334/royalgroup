@@ -49,6 +49,7 @@
 			<a href="#" class="btn btn--fullwidth">Связаться с советником</a>
 		</div>
 	</div>
+
 	<div class="tile-block tile-block--menu">
 		<div class="menu menu--vertical">
 			<div class="menu__item menu__item--current"><a href="#" class="menu__link">Чат</a></div>
@@ -60,4 +61,5 @@
 			<div class="menu__item"><a href="#" disabled class="menu__link">Баланс</a></div>
 		</div>
 	</div>
+
 </div>

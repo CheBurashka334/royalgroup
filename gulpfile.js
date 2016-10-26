@@ -46,7 +46,7 @@ gulp.task('svg', function(){
 			}
 		}
 	};
-	return gulp.src('./assets/icons/*.svg')
+	return gulp.src('./icons/*.svg')
 		.pipe(svg(svgConfig))
 		.pipe(gulp.dest('./icons'));
 });

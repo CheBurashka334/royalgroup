@@ -126,5 +126,45 @@ label {
 }
 
 
+.field-inline{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	margin-bottom: 20px;
+	label{
+		width: 25%;
+		font-size: 16px;
+		padding-top: 10px;
+		padding-right: 20px;
+		text-align: right;
+		box-sizing: border-box;
+	}
+	.field-fullwidth{
+		width: 75%;
+	}
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="url"],
+	select,
+	.ui-selectmenu-button,
+	textarea{
+		margin: 0;
+		margin-bottom: 5px;
+	}
+}
+.orders{
+	form{
+		margin: 0;
+	}
+	.btn--min{
+		font-size: 14px;
+		padding: 8px 1px;
+	}
+}
+
+
 @import 'custom-select';
 @import 'datepicker';
+@import 'uploadfile';

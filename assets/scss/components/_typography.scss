@@ -23,11 +23,19 @@ p {
 .large-text {
 	font-size: 1.5em;
 }
-
 .light-text {
 	color: color('gray', 'base');
 }
 
+.align-center{
+	text-align: center;
+}
+.align-left{
+	text-align: left;
+}
+.align-right{
+	text-align: right;
+}
 
 a {
 	color: $link-color;
@@ -129,6 +137,11 @@ h4 {
 	}
 	&:first-child + h1 {
 		margin-top: 1em;
+	}
+	hr{
+		border: 0px;
+		border-top: 1px solid #837c68;
+		margin: 25px 0;
 	}
 }
 .primary-color {

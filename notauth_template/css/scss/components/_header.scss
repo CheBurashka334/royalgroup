@@ -1,0 +1,16 @@
+.header{
+  padding: 30px 0 90px 0;
+  box-sizing: border-box;
+  font: 18px/1.5 Roboto, sans-serif;
+  color: $secondary-color;
+  h1{
+    font: 50px/1.125 Lora, serif;
+    margin: 30px auto 1.125em;
+    color: $secondary-color;
+  }
+  .logo{
+    img{
+      width: 230px;
+    }
+  }
+}

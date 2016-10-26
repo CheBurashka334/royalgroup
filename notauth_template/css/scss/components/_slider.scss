@@ -1,0 +1,114 @@
+.owl-carousel{
+  &[data-dots="true"]{
+    margin-top: 60px;
+  }
+}
+
+.slider {
+  .owl-stage-outer {
+    background: #ffffff;
+    border: 1px solid #8d0208;
+  }
+}
+
+.slider-our-team{
+  .item{
+    .block-member{
+      width: 168px;
+      height: 168px;
+      position: relative;
+      overflow: hidden;
+      float: left;
+      margin: 16px;
+      img{
+        width: 164px;
+        height: 164px;
+        border-radius: 50%;
+        border: solid 2px rgba(218,218,218,0.9);
+      }
+      .caption{
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        cursor: default;
+        color: #fff;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        width: 168px;
+        height: 168px;
+        background: rgba(0, 0, 0, 0.6);
+        border: solid 2px rgba(218,218,218,0.9);
+        position: absolute;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+
+        -webkit-transition: opacity 200ms ease-out 200ms;
+        -moz-transition: opacity 200ms ease-out 200ms;
+        -o-transition: opacity 200ms ease-out 200ms;
+        transition: opacity 200ms ease-out 200ms;
+      }
+    }
+    .block-member:hover{
+      .caption{
+        opacity: 1;
+      }
+    }
+  }
+  .owl-nav .owl-prev,
+  .owl-nav .owl-next{
+    position: absolute;
+    top: -305px;
+    width: 20px;
+    height: 32px;
+    cursor: pointer;
+  }
+  .owl-nav .owl-prev{ left: -50px; background: url('../images/ar-left.png') no-repeat;background-size: 20px;}
+  .owl-nav .owl-next{ right: -50px; background: url('../images/ar-right.png') no-repeat;background-size: 20px;}
+}
+
+.slider-how-relax,
+.slider-check,
+.slider-alex
+{
+  .owl-stage-outer{
+    .item .photoBorder{
+      //width: 1024px;
+      height: 600px;
+
+      //стили которые непостредственно масштабируют картинку с сохранением пропорций
+      background-repeat     : no-repeat;
+      background-size       : cover;
+      background-position-x : 50%;
+      background-position-y : 50%;
+    }
+  }
+  .owl-nav .owl-prev,
+  .owl-nav .owl-next{
+    top: -305px;
+  }
+}
+
+.slider-alex
+{
+  .owl-stage-outer{
+    .item .photoBorder{
+      height: 370px;
+
+      //стили которые непостредственно масштабируют картинку с сохранением пропорций
+      background-repeat     : no-repeat;
+      background-size       : cover;
+      background-position-x : 50%;
+      background-position-y : 50%;
+    }
+  }
+  .owl-nav .owl-prev,
+  .owl-nav .owl-next{
+    top: -205px;
+  }
+}

@@ -27,6 +27,16 @@
 		justify-content: space-between;
 		align-items: center;
 	}
+	&__offer{
+		padding: 0 22px;
+		display: flex;
+		justify-content: end;
+		justify-content: flex-end;
+		align-items: center;
+		label{
+			padding-right: 10px;
+		}
+	}
 	&.video {
 		border: 0;
 	}

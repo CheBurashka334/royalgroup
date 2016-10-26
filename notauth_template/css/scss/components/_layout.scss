@@ -1,0 +1,119 @@
+html, body {
+  width: 100%;
+  min-width: $container-width;
+  height: 100%;
+}
+div {
+  position: relative;
+  box-sizing: border-box;
+}
+.hidden {
+  display: none;
+}
+.container {
+  width: $container-width;
+  margin: 0 auto;
+  padding: 1px 0;
+}
+.p10{
+  padding: 10px;
+}
+.p50{
+  padding: 50px;
+}
+.fullwidth{
+  width: 100%;
+}
+.no-padding{
+  padding: 0 !important;
+}
+.no-margin{
+  margin: 0 !important;
+}
+.page {
+  background: $page-bg;
+  width: 100%;
+  min-height: 100%;
+}
+.workarea {
+  display: flex;
+  min-height: 100%;
+  min-height: calc(100vh - 130px);
+}
+.wrapper{
+  padding: 25px 0;
+}
+.page-content {
+  padding: 2rem 6rem 10.5rem;
+  flex: 0 0 calc(820px + 12rem);
+  margin: 0 auto;
+  .sidebar + & {
+    margin-left: 0;
+  }
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 1.5rem;
+  width: 100%;
+  padding: 0 6rem;
+  .copyright {
+    margin: 0;
+    text-align: center;
+    .sidebar + .page-content & {
+      text-align: left;
+    }
+  }
+}
+.bg-primery{
+   background: $primary-color;
+   color: $secondary-color;
+}
+.bg-yellow{
+  background: $secondary-color;
+  color: $base-text-color;
+}
+.bg-white{
+  background: #ffffff;
+  color: $base-text-color;
+}
+.bg-gray{
+  background: $page-bg;
+}
+.bg-where-to-start{
+  background: url('../images/pora.jpg') no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 100%;
+
+  display: block;
+  color: #ffffff;
+  z-index: 0;
+  &:after{
+    background: rgba(0,0,0,0.75);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: " ";
+    top: 0px;
+    z-index: -1;
+  }
+}
+[class*="block-"]{
+  margin: 0 0 25px;
+  &[class*="-white"]{
+    .item {
+      background: #ffffff;
+    }
+  }
+  &[class*="-shadow"]{
+    .item {
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    }
+  }
+  .item{
+    border-top: 1px solid $primary-color;
+    padding: 10px;
+    min-height: 300px;
+  }
+}

@@ -38,7 +38,10 @@
 				color: color('red', 'base');
 			}
 		}
-		&--sum {
+		&--t-sum{
+			width: 160/765*100%;
+		}
+		/*&--sum {
 			width: 160/765*100%;
 		}
 		&--last {
@@ -46,7 +49,7 @@
 			span {
 				margin-left: 5px;
 			}
-		}
+		}*/
 		&--source {
 			width: 295/765*100%;
 		}
@@ -77,6 +80,9 @@
 					}
 				}
 			}
+		}
+		&--source{
+			width: 50.98039%;
 		}
 	}
 	&__row:last-child,

@@ -1,0 +1,40 @@
+// fonts
+$font-base: "PT Sans", sans-serif;
+$font-heading: "PT Serif", serif;
+$font-icons: "iconfont";
+
+$text-size: 16px;
+$text-size--small: 14px;
+$text-size--smaller: 12px;
+$text-size--big: 18px;
+
+// colors
+$primary-color: color('red', 'darker');
+$secondary-color: color('yellow', 'light');
+$error-color: color('red', 'base');
+
+$base-text-color: color('brown', 'dark');
+$heading-color: color('gray', 'darker');
+
+$link-color: color('red', 'base');
+$link-color--hover: color('red', 'base');
+$link-color--pressed: color('red', 'darker');
+$link-color--disable: #a59d8c;
+
+$button-color: white;
+$button-bg: $primary-color;
+$button-bg--hover: color('red', 'dark');
+$button-bg--disable: color('lights', 'brown-darker');
+$online-color: #6abb00;
+$offline-color: #f85d5d;
+
+$page-bg: #f6f3eb;
+$header-bg: $primary-color;
+$sidebar-bg: color('lights', 'brown');
+$sidebar-width: 356px;
+$logo-width: $sidebar-width - 15px;
+
+$container-width: 1024px;
+
+$base-border: 2px solid color('lights', 'beige');
+$base-border-radius: 3px;

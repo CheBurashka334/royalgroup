@@ -9,6 +9,8 @@
 		margin-top: 1rem;
 		display: flex;
 		border-radius: 3px;
+		justify-content: space-between;
+		flex-wrap: wrap;
 		background: color('gray', 'lighter');
 	}
 	&__status-item {
@@ -28,7 +30,7 @@
 		}
 		&--current {
 			color: white;
-			background: color('brown', 'light');
+			background: color('red', 'darker');
 			font-weight: bold;
 			border-radius: 3px;
 			border: 0;
