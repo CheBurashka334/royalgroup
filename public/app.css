@@ -1,0 +1,4635 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "iconfont";
+  src: url("../icons/font/iconfont.eot");
+  src: url("../icons/font/iconfont.eot?#iefix") format("eot"), url("../icons/font/iconfont.woff") format("woff"), url("../icons/font/iconfont.ttf") format("truetype"), url("../icons/font/iconfont.svg#iconfont") format("svg");
+}
+/* line 23, ../assets/scss/components/_font-icons.scss */
+.icon-arr-down:before, .icon-arrow-right:before, .icon-basket:before, .icon-bell:before, .icon-blank:before, .icon-calendar:before, .icon-camera:before, .icon-chat:before, .icon-clock:before, .icon-cross:before, .icon-email:before, .icon-lock:before, .icon-map-marker:before, .icon-mic:before, .icon-mobile-phone:before, .icon-out-door:before, .icon-pencil:before, .icon-profile:before, .icon-question-circle:before, .icon-skype:before, .icon-tick:before, .icon-video-camera:before {
+  font-family: "iconfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1rem;
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-arr-down:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-arrow-right:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-basket:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-bell:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-blank:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-calendar:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-camera:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-chat:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-clock:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-cross:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-email:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-lock:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-map-marker:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-mic:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-mobile-phone:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-out-door:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-pencil:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-profile:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-question-circle:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-skype:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-tick:before {
+  content: "";
+}
+
+/* line 101, ../assets/scss/components/_font-icons.scss */
+.icon-video-camera:before {
+  content: "";
+}
+
+/* line 178, ../assets/scss/components/_font-icons.scss */
+.icon.icon--o {
+  display: inline-block;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  padding: 2px;
+  width: 1.5rem;
+  height: 1.5rem;
+  box-sizing: border-box;
+}
+
+/* line 187, ../assets/scss/components/_font-icons.scss */
+.icon.icon--circle {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  box-sizing: border-box;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.red.lighter {
+  background-color: #bca4a5;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.red-text.lighter {
+  color: #bca4a5;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.red.light {
+  background-color: #b49698;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.red-text.light {
+  color: #b49698;
+}
+
+/* line 64, ../assets/scss/_colors.scss */
+.red {
+  background-color: #d62d2d;
+}
+
+/* line 67, ../assets/scss/_colors.scss */
+.red-text {
+  color: #d62d2d;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.red.dark {
+  background-color: #bc121a;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.red-text.dark {
+  color: #bc121a;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.red.darker {
+  background-color: #8d0208;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.red-text.darker {
+  color: #8d0208;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.yellow.lighter {
+  background-color: #f9d897;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.yellow-text.lighter {
+  color: #f9d897;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.yellow.light {
+  background-color: #fdc862;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.yellow-text.light {
+  color: #fdc862;
+}
+
+/* line 64, ../assets/scss/_colors.scss */
+.yellow {
+  background-color: #f4be55;
+}
+
+/* line 67, ../assets/scss/_colors.scss */
+.yellow-text {
+  color: #f4be55;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.yellow.dark {
+  background-color: #f8b42f;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.yellow-text.dark {
+  color: #f8b42f;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.yellow.darker {
+  background-color: #ffa900;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.yellow-text.darker {
+  color: #ffa900;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.gray.lighter {
+  background-color: #ececec;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.gray-text.lighter {
+  color: #ececec;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.gray.light {
+  background-color: #cdc8c8;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.gray-text.light {
+  color: #cdc8c8;
+}
+
+/* line 64, ../assets/scss/_colors.scss */
+.gray {
+  background-color: #8b8b8b;
+}
+
+/* line 67, ../assets/scss/_colors.scss */
+.gray-text {
+  color: #8b8b8b;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.gray.dark {
+  background-color: #484848;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.gray-text.dark {
+  color: #484848;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.gray.darker {
+  background-color: #292929;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.gray-text.darker {
+  color: #292929;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.brown.lighter {
+  background-color: #9f8f61;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.brown-text.lighter {
+  color: #9f8f61;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.brown.light {
+  background-color: #837c68;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.brown-text.light {
+  color: #837c68;
+}
+
+/* line 64, ../assets/scss/_colors.scss */
+.brown {
+  background-color: #666666;
+}
+
+/* line 67, ../assets/scss/_colors.scss */
+.brown-text {
+  color: #666666;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.brown.dark {
+  background-color: #494232;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.brown-text.dark {
+  color: #494232;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.brown.darker {
+  background-color: #393428;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.brown-text.darker {
+  color: #393428;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.lights.gray-lighter {
+  background-color: #f6f6f6;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.lights-text.gray-lighter {
+  color: #f6f6f6;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.lights.gray {
+  background-color: #f6f6f6;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.lights-text.gray {
+  color: #f6f6f6;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.lights.beige {
+  background-color: #e4e0d4;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.lights-text.beige {
+  color: #e4e0d4;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.lights.brown {
+  background-color: #d3c9b3;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.lights-text.brown {
+  color: #d3c9b3;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.lights.brown-darker {
+  background-color: #cabfaa;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.lights-text.brown-darker {
+  color: #cabfaa;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.lights.red-lighter {
+  background-color: #f3e5e6;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.lights-text.red-lighter {
+  color: #f3e5e6;
+}
+
+/* line 72, ../assets/scss/_colors.scss */
+.lights.red-darker {
+  background-color: #eed9d9;
+}
+
+/* line 75, ../assets/scss/_colors.scss */
+.lights-text.red-darker {
+  color: #eed9d9;
+}
+
+/* line 64, ../assets/scss/_colors.scss */
+.black {
+  background-color: #000;
+}
+
+/* line 67, ../assets/scss/_colors.scss */
+.black-text {
+  color: #000;
+}
+
+/* line 64, ../assets/scss/_colors.scss */
+.white {
+  background-color: #fff;
+}
+
+/* line 67, ../assets/scss/_colors.scss */
+.white-text {
+  color: #fff;
+}
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, ../assets/scss/components/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, ../assets/scss/components/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 33, ../assets/scss/components/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 54, ../assets/scss/components/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, ../assets/scss/components/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 77, ../assets/scss/components/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, ../assets/scss/components/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 97, ../assets/scss/components/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 109, ../assets/scss/components/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 117, ../assets/scss/components/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 126, ../assets/scss/components/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 135, ../assets/scss/components/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 144, ../assets/scss/components/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 153, ../assets/scss/components/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 161, ../assets/scss/components/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 169, ../assets/scss/components/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 173, ../assets/scss/components/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 184, ../assets/scss/components/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 192, ../assets/scss/components/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 203, ../assets/scss/components/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 211, ../assets/scss/components/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, ../assets/scss/components/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 229, ../assets/scss/components/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 252, ../assets/scss/components/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+.ui-selectmenu-button,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, ../assets/scss/components/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 277, ../assets/scss/components/_normalize.scss */
+button,
+select,
+.ui-selectmenu-button {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* 1 */
+/* line 290, ../assets/scss/components/_normalize.scss */
+html input[type="button"],
+button,
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 302, ../assets/scss/components/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 311, ../assets/scss/components/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, ../assets/scss/components/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 334, ../assets/scss/components/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 346, ../assets/scss/components/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 357, ../assets/scss/components/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 370, ../assets/scss/components/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 379, ../assets/scss/components/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 390, ../assets/scss/components/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 399, ../assets/scss/components/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 408, ../assets/scss/components/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 419, ../assets/scss/components/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 424, ../assets/scss/components/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 431, ../assets/scss/components/_normalize.scss */
+*:hover, *:active, *:focus {
+  outline: none;
+}
+
+/* line 1, ../assets/scss/components/_svg-icons.scss */
+.svg-arr-down, .svg-arrow-right, .svg-basket, .svg-bell, .svg-blank, .svg-calendar, .svg-camera, .svg-chat, .svg-clock, .svg-cross, .svg-email, .svg-info, .svg-lock, .svg-map-marker, .svg-mic, .svg-mobile-phone, .svg-out-door, .svg-pencil, .svg-profile, .svg-question-circle, .svg-skype, .svg-tick, .svg-video-camera {
+  background: url("icons/sprite/sprite.symbol.svg") no-repeat;
+}
+
+/* line 5, ../assets/scss/components/_svg-icons.scss */
+.svg-arr-down {
+  background-position: 75.78947368421052% 47.524752475247524%;
+}
+
+/* line 10, ../assets/scss/components/_svg-icons.scss */
+.svg-arr-down-dims {
+  width: 19px;
+  height: 10px;
+}
+
+/* line 15, ../assets/scss/components/_svg-icons.scss */
+.svg-arrow-right {
+  background-position: 53.333333333333336% 51.009564293305%;
+}
+
+/* line 20, ../assets/scss/components/_svg-icons.scss */
+.svg-arrow-right-dims {
+  width: 24px;
+  height: 16.9px;
+}
+
+/* line 25, ../assets/scss/components/_svg-icons.scss */
+.svg-basket {
+  background-position: 94.59734964322121% 53.002363022018066%;
+}
+
+/* line 30, ../assets/scss/components/_svg-icons.scss */
+.svg-basket-dims {
+  width: 15.9px;
+  height: 20.438px;
+}
+
+/* line 35, ../assets/scss/components/_svg-icons.scss */
+.svg-bell {
+  background-position: 24.353152616634585% 27.586206896551722%;
+}
+
+/* line 40, ../assets/scss/components/_svg-icons.scss */
+.svg-bell-dims {
+  width: 19.967px;
+  height: 24px;
+}
+
+/* line 45, ../assets/scss/components/_svg-icons.scss */
+.svg-blank {
+  background-position: 32.657142857142865% 99.75814931650895%;
+}
+
+/* line 50, ../assets/scss/components/_svg-icons.scss */
+.svg-blank-dims {
+  width: 16px;
+  height: 15.9px;
+}
+
+/* line 55, ../assets/scss/components/_svg-icons.scss */
+.svg-calendar {
+  background-position: 76.44444444444444% 0;
+}
+
+/* line 60, ../assets/scss/components/_svg-icons.scss */
+.svg-calendar-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 65, ../assets/scss/components/_svg-icons.scss */
+.svg-camera {
+  background-position: 76.44444444444444% 25.485823510672187%;
+}
+
+/* line 70, ../assets/scss/components/_svg-icons.scss */
+.svg-camera-dims {
+  width: 24px;
+  height: 16.83px;
+}
+
+/* line 75, ../assets/scss/components/_svg-icons.scss */
+.svg-chat {
+  background-position: 36.996735582154514% 78.8188845020297%;
+}
+
+/* line 80, ../assets/scss/components/_svg-icons.scss */
+.svg-chat-dims {
+  width: 22.1px;
+  height: 21.085px;
+}
+
+/* line 85, ../assets/scss/components/_svg-icons.scss */
+.svg-clock {
+  background-position: 16.33061224489796% 99.86315789473684%;
+}
+
+/* line 90, ../assets/scss/components/_svg-icons.scss */
+.svg-clock-dims {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 95, ../assets/scss/components/_svg-icons.scss */
+.svg-cross {
+  background-position: 68.11415094339623% 68.80582524271844%;
+}
+
+/* line 100, ../assets/scss/components/_svg-icons.scss */
+.svg-cross-dims {
+  width: 8px;
+  height: 8px;
+}
+
+/* line 105, ../assets/scss/components/_svg-icons.scss */
+.svg-email {
+  background-position: 26.666666666666668% 51.06382978723404%;
+}
+
+/* line 110, ../assets/scss/components/_svg-icons.scss */
+.svg-email-dims {
+  width: 24px;
+  height: 17px;
+}
+
+/* line 115, ../assets/scss/components/_svg-icons.scss */
+.svg-info {
+  background-position: 0 0;
+}
+
+/* line 120, ../assets/scss/components/_svg-icons.scss */
+.svg-info-dims {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 125, ../assets/scss/components/_svg-icons.scss */
+.svg-lock {
+  background-position: 49.48453608247423% 27.586206896551722%;
+}
+
+/* line 130, ../assets/scss/components/_svg-icons.scss */
+.svg-lock-dims {
+  width: 17px;
+  height: 24px;
+}
+
+/* line 135, ../assets/scss/components/_svg-icons.scss */
+.svg-map-marker {
+  background-position: 17.52577319587629% 81.3662456946039%;
+}
+
+/* line 140, ../assets/scss/components/_svg-icons.scss */
+.svg-map-marker-dims {
+  width: 17px;
+  height: 23.9px;
+}
+
+/* line 145, ../assets/scss/components/_svg-icons.scss */
+.svg-mic {
+  background-position: 0 81.45977011494253%;
+}
+
+/* line 150, ../assets/scss/components/_svg-icons.scss */
+.svg-mic-dims {
+  width: 17px;
+  height: 24px;
+}
+
+/* line 155, ../assets/scss/components/_svg-icons.scss */
+.svg-mobile-phone {
+  background-position: 93.59556227937468% 27.586206896551722%;
+}
+
+/* line 160, ../assets/scss/components/_svg-icons.scss */
+.svg-mobile-phone-dims {
+  width: 14.85px;
+  height: 24px;
+}
+
+/* line 165, ../assets/scss/components/_svg-icons.scss */
+.svg-out-door {
+  background-position: 99.78494623655914% 0;
+}
+
+/* line 170, ../assets/scss/components/_svg-icons.scss */
+.svg-out-door-dims {
+  width: 21px;
+  height: 24px;
+}
+
+/* line 175, ../assets/scss/components/_svg-icons.scss */
+.svg-pencil {
+  background-position: 0 54.464994893906734%;
+}
+
+/* line 180, ../assets/scss/components/_svg-icons.scss */
+.svg-pencil-dims {
+  width: 24px;
+  height: 22.87px;
+}
+
+/* line 185, ../assets/scss/components/_svg-icons.scss */
+.svg-profile {
+  background-position: 51.50214592274678% 0;
+}
+
+/* line 190, ../assets/scss/components/_svg-icons.scss */
+.svg-profile-dims {
+  width: 20.8px;
+  height: 24px;
+}
+
+/* line 195, ../assets/scss/components/_svg-icons.scss */
+.svg-question-circle {
+  background-position: 0 99.86736283632996%;
+}
+
+/* line 200, ../assets/scss/components/_svg-icons.scss */
+.svg-question-circle-dims {
+  width: 16.004px;
+  height: 16.004px;
+}
+
+/* line 205, ../assets/scss/components/_svg-icons.scss */
+.svg-skype {
+  background-position: 0 27.586206896551722%;
+}
+
+/* line 210, ../assets/scss/components/_svg-icons.scss */
+.svg-skype-dims {
+  width: 22.9px;
+  height: 24px;
+}
+
+/* line 215, ../assets/scss/components/_svg-icons.scss */
+.svg-tick {
+  background-position: 57.30395611804002% 71.56850864436905%;
+}
+
+/* line 220, ../assets/scss/components/_svg-icons.scss */
+.svg-tick-dims {
+  width: 16.101px;
+  height: 11.976px;
+}
+
+/* line 225, ../assets/scss/components/_svg-icons.scss */
+.svg-video-camera {
+  background-position: 26.666666666666668% 0;
+}
+
+/* line 230, ../assets/scss/components/_svg-icons.scss */
+.svg-video-camera-dims {
+  width: 24px;
+  height: 17px;
+}
+
+/* line 235, ../assets/scss/components/_svg-icons.scss */
+.icon {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+/* line 240, ../assets/scss/components/_svg-icons.scss */
+.info {
+  width: 20px;
+  height: 20px;
+}
+
+/* line 1, ../assets/scss/components/_layout.scss */
+html, body {
+  width: 100%;
+  min-width: 1366px;
+  height: 100%;
+}
+
+/* line 6, ../assets/scss/components/_layout.scss */
+div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 10, ../assets/scss/components/_layout.scss */
+.hidden {
+  display: none;
+}
+
+/* line 13, ../assets/scss/components/_layout.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 17, ../assets/scss/components/_layout.scss */
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+/* line 22, ../assets/scss/components/_layout.scss */
+.page {
+  background: #f6f3eb;
+  width: 100%;
+  min-height: 100%;
+}
+
+/* line 27, ../assets/scss/components/_layout.scss */
+.workarea {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100%;
+  min-height: calc(100vh - 130px);
+}
+
+/* line 3, ../assets/scss/components/_header.scss */
+.header {
+  background: #8d0208;
+  padding: 15px 10px;
+}
+/* line 6, ../assets/scss/components/_header.scss */
+.header .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 9, ../assets/scss/components/_header.scss */
+.header__logo {
+  width: 341px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 341px;
+      -ms-flex: 0 0 341px;
+          flex: 0 0 341px;
+}
+/* line 13, ../assets/scss/components/_header.scss */
+.header__progress-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 6rem;
+}
+
+/* line 2, ../assets/scss/components/_sidebar.scss */
+.sidebar {
+  background-color: #d3c9b3;
+  background: -webkit-linear-gradient(right, #c6bca8 0px, #d3c9b3 16px);
+  background: linear-gradient(to left, #c6bca8 0px, #d3c9b3 16px);
+  width: 356px;
+  padding: 2rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 356px;
+      -ms-flex: 0 0 356px;
+          flex: 0 0 356px;
+}
+/* line 9, ../assets/scss/components/_sidebar.scss */
+.sidebar--left:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: calc((100vw - 1366px) / 2);
+  height: 100%;
+  left: calc((100vw - 1366px) / -2);
+  background: #d3c9b3;
+}
+
+/* line 34, ../assets/scss/components/_layout.scss */
+.page-content {
+  padding: 2rem 6rem 10.5rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 calc(820px + 12rem);
+      -ms-flex: 0 0 calc(820px + 12rem);
+          flex: 0 0 calc(820px + 12rem);
+  margin: 0 auto;
+}
+/* line 38, ../assets/scss/components/_layout.scss */
+.sidebar + .page-content {
+  margin-left: 0;
+}
+
+/* line 42, ../assets/scss/components/_layout.scss */
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 1.5rem;
+  width: 100%;
+  padding: 0 6rem;
+}
+/* line 48, ../assets/scss/components/_layout.scss */
+.footer .copyright {
+  margin: 0;
+  text-align: center;
+}
+/* line 51, ../assets/scss/components/_layout.scss */
+.sidebar + .page-content .footer .copyright {
+  text-align: left;
+}
+
+/* line 57, ../assets/scss/components/_layout.scss */
+.grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+/* line 63, ../assets/scss/components/_layout.scss */
+.grid-1 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 65, ../assets/scss/components/_layout.scss */
+.grid-1 > div {
+  width: calc((100% - 0em) / 1);
+}
+/* line 63, ../assets/scss/components/_layout.scss */
+.grid-2 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 65, ../assets/scss/components/_layout.scss */
+.grid-2 > div {
+  width: calc((100% - 1em) / 2);
+}
+/* line 63, ../assets/scss/components/_layout.scss */
+.grid-3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 65, ../assets/scss/components/_layout.scss */
+.grid-3 > div {
+  width: calc((100% - 2em) / 3);
+}
+/* line 63, ../assets/scss/components/_layout.scss */
+.grid-4 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 65, ../assets/scss/components/_layout.scss */
+.grid-4 > div {
+  width: calc((100% - 3em) / 4);
+}
+/* line 63, ../assets/scss/components/_layout.scss */
+.grid-5 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 65, ../assets/scss/components/_layout.scss */
+.grid-5 > div {
+  width: calc((100% - 4em) / 5);
+}
+/* line 63, ../assets/scss/components/_layout.scss */
+.grid-6 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 65, ../assets/scss/components/_layout.scss */
+.grid-6 > div {
+  width: calc((100% - 5em) / 6);
+}
+
+/* line 72, ../assets/scss/components/_layout.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 75, ../assets/scss/components/_layout.scss */
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 77, ../assets/scss/components/_layout.scss */
+.flex.absolute {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+/* line 82, ../assets/scss/components/_layout.scss */
+.flex.middle {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 85, ../assets/scss/components/_layout.scss */
+.flex.align-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 88, ../assets/scss/components/_layout.scss */
+.flex.align-right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-1 {
+  width: 8.33333%;
+}
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-2 {
+  width: 16.66667%;
+}
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-3 {
+  width: 25%;
+}
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-4 {
+  width: 33.33333%;
+}
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-5 {
+  width: 41.66667%;
+}
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-6 {
+  width: 50%;
+}
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-7 {
+  width: 58.33333%;
+}
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-8 {
+  width: 66.66667%;
+}
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-9 {
+  width: 75%;
+}
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-10 {
+  width: 83.33333%;
+}
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-11 {
+  width: 91.66667%;
+}
+/* line 95, ../assets/scss/components/_layout.scss */
+.col-12 {
+  width: 100%;
+}
+
+/* line 100, ../assets/scss/components/_layout.scss */
+.no-margin {
+  margin: 0;
+}
+
+/* line 103, ../assets/scss/components/_layout.scss */
+.mr10 {
+  margin-right: 10px;
+}
+
+/* line 106, ../assets/scss/components/_layout.scss */
+.ml10 {
+  margin-left: 10px;
+}
+
+/* line 2, ../assets/scss/components/_typography.scss */
+html, body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #494232;
+}
+
+/* line 10, ../assets/scss/components/_typography.scss */
+p {
+  color: #494232;
+  margin: 1em 0;
+}
+
+/* line 14, ../assets/scss/components/_typography.scss */
+.upper-text {
+  text-transform: uppercase;
+}
+
+/* line 17, ../assets/scss/components/_typography.scss */
+.smaller-text {
+  font-size: 12px;
+}
+
+/* line 20, ../assets/scss/components/_typography.scss */
+.small-text {
+  font-size: 14px;
+}
+
+/* line 23, ../assets/scss/components/_typography.scss */
+.big-text {
+  font-size: 18px;
+}
+
+/* line 26, ../assets/scss/components/_typography.scss */
+.large-text {
+  font-size: 1.5em;
+}
+
+/* line 29, ../assets/scss/components/_typography.scss */
+.light-text {
+  color: #8b8b8b;
+}
+
+/* line 33, ../assets/scss/components/_typography.scss */
+.align-center {
+  text-align: center;
+}
+
+/* line 36, ../assets/scss/components/_typography.scss */
+.align-left {
+  text-align: left;
+}
+
+/* line 39, ../assets/scss/components/_typography.scss */
+.align-right {
+  text-align: right;
+}
+
+/* line 43, ../assets/scss/components/_typography.scss */
+a {
+  color: #d62d2d;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 47, ../assets/scss/components/_typography.scss */
+a:hover {
+  color: #d62d2d;
+  text-decoration: underline;
+}
+/* line 51, ../assets/scss/components/_typography.scss */
+a:active {
+  color: #8d0208;
+}
+/* line 54, ../assets/scss/components/_typography.scss */
+a:focus {
+  outline: none;
+}
+/* line 57, ../assets/scss/components/_typography.scss */
+a:disabled, a.disabled {
+  color: #a59d8c;
+}
+/* line 61, ../assets/scss/components/_typography.scss */
+a .icon {
+  fill: currentColor;
+}
+/* line 65, ../assets/scss/components/_typography.scss */
+a.with-icon::after {
+  font-family: "iconfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1rem;
+}
+/* line 68, ../assets/scss/components/_typography.scss */
+a.with-icon--blank::after {
+  content: " " "";
+}
+/* line 72, ../assets/scss/components/_typography.scss */
+.links a + a {
+  margin-left: 30px;
+}
+/* line 76, ../assets/scss/components/_typography.scss */
+a.link--back .icon {
+  display: inline-block;
+  height: 1em;
+  width: 1.5em;
+  vertical-align: middle;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+/* line 86, ../assets/scss/components/_typography.scss */
+h1, h2, h3 {
+  font-family: "Merriweather", serif;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 2em 0 1em;
+  color: #292929;
+}
+/* line 92, ../assets/scss/components/_typography.scss */
+.page-content h1:first-child, .page-content h2:first-child, .page-content h3:first-child {
+  margin-top: 3em;
+  text-align: center;
+}
+/* line 95, ../assets/scss/components/_typography.scss */
+.sidebar + .page-content h1:first-child, .sidebar + .page-content h2:first-child, .sidebar + .page-content h3:first-child {
+  text-align: left;
+  margin-top: 0;
+}
+/* line 100, ../assets/scss/components/_typography.scss */
+h1 a, h2 a, h3 a {
+  color: currentColor;
+}
+
+/* line 104, ../assets/scss/components/_typography.scss */
+h1 {
+  font-size: 36px;
+}
+
+/* line 107, ../assets/scss/components/_typography.scss */
+h4 {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 1rem 0;
+}
+
+/* line 113, ../assets/scss/components/_typography.scss */
+.heading {
+  margin-top: 4em;
+}
+/* line 115, ../assets/scss/components/_typography.scss */
+.heading--with-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+/* line 120, ../assets/scss/components/_typography.scss */
+.page-content .heading:first-child {
+  margin-top: 3em;
+  text-align: center;
+}
+/* line 123, ../assets/scss/components/_typography.scss */
+.sidebar + .page-content .heading:first-child {
+  text-align: left;
+  margin-top: 0;
+}
+
+/* line 130, ../assets/scss/components/_typography.scss */
+.highlight-box {
+  margin: 20px 0;
+  padding: 20px;
+  background: #fdc862;
+  border: 2px solid #f4be55;
+}
+/* line 135, ../assets/scss/components/_typography.scss */
+.highlight-box *:first-child {
+  margin-top: 0;
+}
+/* line 138, ../assets/scss/components/_typography.scss */
+.highlight-box *:last-child {
+  margin-bottom: 0;
+}
+/* line 141, ../assets/scss/components/_typography.scss */
+.highlight-box:first-child + h1 {
+  margin-top: 1em;
+}
+/* line 144, ../assets/scss/components/_typography.scss */
+.highlight-box hr {
+  border: 0px;
+  border-top: 1px solid #837c68;
+  margin: 25px 0;
+}
+
+/* line 150, ../assets/scss/components/_typography.scss */
+.primary-color {
+  color: #8d0208;
+}
+
+/* line 153, ../assets/scss/components/_typography.scss */
+.secondary-color {
+  color: #ffa900;
+}
+
+/* line 157, ../assets/scss/components/_typography.scss */
+ul, ol {
+  padding-left: 21px;
+}
+/* line 159, ../assets/scss/components/_typography.scss */
+ul li, ol li {
+  margin: 5px 0;
+}
+
+/* line 164, ../assets/scss/components/_typography.scss */
+.notification, .progress-bar__item::before {
+  display: inline-block;
+  box-sizing: border-box;
+  font-weight: bold;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  line-height: calc(2rem - 4px);
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+/* line 176, ../assets/scss/components/_typography.scss */
+.progress-bar__item--done::before {
+  color: #fdc862;
+}
+/* line 179, ../assets/scss/components/_typography.scss */
+.notification, .progress-bar__item--current::before {
+  color: #8d0208;
+  background: #fdc862;
+  border-color: transparent;
+}
+/* line 184, ../assets/scss/components/_typography.scss */
+.notification {
+  font-size: 14px;
+  width: 23px;
+  height: 23px;
+  line-height: 19px;
+}
+
+/* line 198, ../assets/scss/components/_typography.scss */
+.center-align {
+  text-align: center;
+}
+
+/* line 201, ../assets/scss/components/_typography.scss */
+.right-align {
+  text-align: right;
+}
+
+/* line 204, ../assets/scss/components/_typography.scss */
+.left-align {
+  text-align: left;
+}
+
+/* line 208, ../assets/scss/components/_typography.scss */
+table {
+  display: table;
+}
+/* line 210, ../assets/scss/components/_typography.scss */
+table tr {
+  display: table-row;
+}
+/* line 213, ../assets/scss/components/_typography.scss */
+table td, table th {
+  display: table-cell;
+  padding: 1em 0;
+  border-bottom: 2px solid #e4e0d4;
+  text-align: left;
+}
+/* line 219, ../assets/scss/components/_typography.scss */
+table th {
+  font-size: 14px;
+  font-weight: normal;
+  color: #8b8b8b;
+}
+
+/* line 2, ../assets/scss/components/_content.scss */
+.content-steps__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 45px;
+}
+/* line 7, ../assets/scss/components/_content.scss */
+.content-steps__item:last-child {
+  margin-bottom: 0;
+}
+/* line 11, ../assets/scss/components/_content.scss */
+.content-steps__img {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 550px;
+      -ms-flex: 0 0 550px;
+          flex: 0 0 550px;
+}
+/* line 14, ../assets/scss/components/_content.scss */
+.content-steps__item:nth-child(odd) .content-steps__img {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+  margin-right: 20px;
+}
+/* line 18, ../assets/scss/components/_content.scss */
+.content-steps__item:nth-child(even) .content-steps__img {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-left: 20px;
+}
+/* line 23, ../assets/scss/components/_content.scss */
+.content-steps__text :first-child {
+  margin-top: 0;
+}
+/* line 26, ../assets/scss/components/_content.scss */
+.content-steps__text p {
+  line-height: 20px;
+}
+
+/* line 32, ../assets/scss/components/_content.scss */
+.content-places {
+  margin: 2rem 0;
+}
+/* line 34, ../assets/scss/components/_content.scss */
+.content-places__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 39, ../assets/scss/components/_content.scss */
+.content-places__item {
+  display: inline-block;
+  margin: 0;
+  margin-right: 5px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 3px solid #666666;
+  background: transparent;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 51, ../assets/scss/components/_content.scss */
+.content-places__item:hover, .content-places__item--hover {
+  background: rgba(255, 168, 0, 0.3);
+  border-color: #ffa900;
+}
+/* line 56, ../assets/scss/components/_content.scss */
+.content-places__item--active, .content-places__item--active:hover {
+  background: #ffa900;
+  border-color: #ffa900;
+}
+/* line 60, ../assets/scss/components/_content.scss */
+.content-places__item--active::before, .content-places__item--active:hover::before {
+  font-family: "iconfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1rem;
+  content: "";
+  color: white;
+  font-size: 1.5rem;
+}
+/* line 67, ../assets/scss/components/_content.scss */
+.content-places__item--disable, .content-places__item--disable:hover {
+  border: 3px solid #bbbbbb;
+  background: rgba(102, 102, 102, 0.2);
+  cursor: default;
+}
+
+/* line 76, ../assets/scss/components/_content.scss */
+.close-youtube {
+  width: 100px;
+  height: 55px;
+  background: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* line 85, ../assets/scss/components/_content.scss */
+.bg-purpur {
+  background: #8d0209;
+  color: #ffffff;
+  padding: 30px 50px;
+}
+
+/* line 90, ../assets/scss/components/_content.scss */
+.bg-purpur hr {
+  border: 0;
+  border-top: 1px solid #fdc862;
+}
+
+/*about*/
+/* line 96, ../assets/scss/components/_content.scss */
+.numerically > div {
+  margin: 0 18px;
+  width: 170px;
+  vertical-align: top;
+  color: #54534f;
+  font: 15px;
+  text-transform: uppercase;
+}
+/* line 103, ../assets/scss/components/_content.scss */
+.numerically > div strong {
+  font-size: 40px;
+  color: #c1272d;
+  margin: 0 10px;
+}
+/* line 108, ../assets/scss/components/_content.scss */
+.numerically > div span {
+  color: #54534f;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* line 116, ../assets/scss/components/_content.scss */
+.facts > div {
+  width: 220px;
+  vertical-align: top;
+  margin: 0 20px;
+}
+
+/* line 122, ../assets/scss/components/_content.scss */
+.company {
+  margin: 40px 0;
+}
+/* line 124, ../assets/scss/components/_content.scss */
+.company > div {
+  margin: 0 10px;
+  width: 155px;
+}
+/* line 127, ../assets/scss/components/_content.scss */
+.company > div span {
+  font-size: 20px;
+  color: #c1272d;
+}
+
+/* line 134, ../assets/scss/components/_content.scss */
+.video .row {
+  margin: 45px 0;
+}
+/* line 136, ../assets/scss/components/_content.scss */
+.video .row div {
+  font-size: 20px;
+  color: #c1272d;
+}
+
+/* line 142, ../assets/scss/components/_content.scss */
+.products {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  margin: 25px 0;
+}
+/* line 146, ../assets/scss/components/_content.scss */
+.products .item {
+  width: 290px;
+  padding: 15px 35px;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 151, ../assets/scss/components/_content.scss */
+.products .item img {
+  width: 200px;
+}
+/* line 155, ../assets/scss/components/_content.scss */
+.products .item a:hover {
+  text-decoration: none;
+}
+/* line 158, ../assets/scss/components/_content.scss */
+.products .item a div {
+  color: #494932;
+}
+
+/* line 165, ../assets/scss/components/_content.scss */
+#img-res {
+  width: 100%;
+  height: auto;
+  background: #eeeeee;
+}
+
+/* line 170, ../assets/scss/components/_content.scss */
+.page-content {
+  width: 100%;
+}
+
+/* line 2, ../assets/scss/components/_buttons.scss */
+.btn,
+button,
+input[type="submit"],
+input[type="button"], .btn-icon {
+  display: inline-block;
+  font: bold 1rem/1 "PT Sans", sans-serif;
+  vertical-align: middle;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+}
+
+/* line 12, ../assets/scss/components/_buttons.scss */
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover, .btn-icon:hover, .btn-circle:hover {
+  text-decoration: none;
+}
+
+/* line 15, ../assets/scss/components/_buttons.scss */
+.btn:active,
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active, .btn-icon:active, .btn-icon:focus, .btn-circle:active {
+  outline: none;
+  box-shadow: inset 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* line 19, ../assets/scss/components/_buttons.scss */
+.btn-icon, .btn-flat {
+  background: none;
+  border: 0;
+  border-radius: 0;
+  color: currentColor;
+  font-weight: normal;
+}
+
+/* line 26, ../assets/scss/components/_buttons.scss */
+.btn,
+button,
+input[type="submit"],
+input[type="button"] {
+  padding: 12px 1.5em;
+  border-radius: 3px;
+  color: white;
+  background: #8d0208;
+  box-sizing: border-box;
+}
+/* line 36, ../assets/scss/components/_buttons.scss */
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background: #bc121a;
+  color: white;
+}
+/* line 41, ../assets/scss/components/_buttons.scss */
+.btn:active,
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active {
+  background: #8d0208;
+  color: white;
+}
+/* line 46, ../assets/scss/components/_buttons.scss */
+.btn:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="button"]:focus {
+  outline: none;
+}
+/* line 49, ../assets/scss/components/_buttons.scss */
+.btn[disabled], .btn.disabled,
+button[disabled],
+button.disabled,
+input[type="submit"][disabled],
+input[type="submit"].disabled,
+input[type="button"][disabled],
+input[type="button"].disabled {
+  background: #cabfaa;
+  cursor: default;
+  pointer-events: none;
+}
+/* line 54, ../assets/scss/components/_buttons.scss */
+.highlight-box .btn[disabled], .highlight-box .btn.disabled, .highlight-box
+button[disabled], .highlight-box
+button.disabled, .highlight-box
+input[type="submit"][disabled], .highlight-box
+input[type="submit"].disabled, .highlight-box
+input[type="button"][disabled], .highlight-box
+input[type="button"].disabled {
+  background: #bca4a5;
+  border: 2px solid #b49698;
+  padding: 10px 1.5em;
+}
+
+/* line 65, ../assets/scss/components/_buttons.scss */
+.btn--small,
+button.btn--small,
+input[type="submit"].btn--small,
+input[type="button"].btn--small {
+  padding: 12px 1em;
+}
+/* line 68, ../assets/scss/components/_buttons.scss */
+.btn--fullwidth,
+button.btn--fullwidth,
+input[type="submit"].btn--fullwidth,
+input[type="button"].btn--fullwidth {
+  display: block;
+  width: 100%;
+}
+/* line 72, ../assets/scss/components/_buttons.scss */
+.btn-box,
+button.btn-box,
+input[type="submit"].btn-box,
+input[type="button"].btn-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 75, ../assets/scss/components/_buttons.scss */
+.btn-box .btn,
+button.btn-box .btn,
+input[type="submit"].btn-box .btn,
+input[type="button"].btn-box .btn {
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+/* line 78, ../assets/scss/components/_buttons.scss */
+.btn-box .btn + .note,
+button.btn-box .btn + .note,
+input[type="submit"].btn-box .btn + .note,
+input[type="button"].btn-box .btn + .note {
+  line-height: normal;
+  margin-left: 10px;
+}
+/* line 82, ../assets/scss/components/_buttons.scss */
+.btn-box .btn + a,
+button.btn-box .btn + a,
+input[type="submit"].btn-box .btn + a,
+input[type="button"].btn-box .btn + a {
+  margin-left: 1rem;
+}
+/* line 86, ../assets/scss/components/_buttons.scss */
+.btn.gray,
+button.btn.gray,
+input[type="submit"].btn.gray,
+input[type="button"].btn.gray {
+  background: #888888;
+}
+/* line 88, ../assets/scss/components/_buttons.scss */
+.btn.gray:hover,
+button.btn.gray:hover,
+input[type="submit"].btn.gray:hover,
+input[type="button"].btn.gray:hover {
+  background: #a2a2a2;
+}
+/* line 91, ../assets/scss/components/_buttons.scss */
+.btn.gray:focus,
+button.btn.gray:focus,
+input[type="submit"].btn.gray:focus,
+input[type="button"].btn.gray:focus {
+  background: #888888;
+}
+
+/* line 97, ../assets/scss/components/_buttons.scss */
+.btn-icon {
+  padding: 10px;
+}
+/* line 108, ../assets/scss/components/_buttons.scss */
+.btn-icon::before {
+  color: currentColor;
+  font-size: 1.5rem;
+}
+/* line 112, ../assets/scss/components/_buttons.scss */
+.btn-icon.btn-exit {
+  color: #393428;
+}
+
+/* line 116, ../assets/scss/components/_buttons.scss */
+.btn-circle {
+  width: 3em;
+  height: 3em;
+  padding: 12px;
+  border-radius: 50%;
+}
+/* line 121, ../assets/scss/components/_buttons.scss */
+.btn-circle .icon {
+  fill: white;
+}
+/* line 130, ../assets/scss/components/_buttons.scss */
+.btn-circle--red {
+  background: #d62d2d;
+}
+/* line 132, ../assets/scss/components/_buttons.scss */
+.btn-circle--red:hover, .btn-circle--red:active {
+  background: #bc121a;
+}
+/* line 137, ../assets/scss/components/_buttons.scss */
+.btn-circle--khaki {
+  background: #b4a781;
+}
+/* line 139, ../assets/scss/components/_buttons.scss */
+.btn-circle--khaki:hover, .btn-circle--khaki:active {
+  background: #9f8f61;
+}
+/* line 144, ../assets/scss/components/_buttons.scss */
+.btn-circle--yellow {
+  background: #f8b42f;
+}
+/* line 146, ../assets/scss/components/_buttons.scss */
+.btn-circle--yellow:hover, .btn-circle--yellow:active {
+  background: #ffa900;
+}
+/* line 151, ../assets/scss/components/_buttons.scss */
+.btn-circle.gray {
+  background: #888888;
+}
+/* line 153, ../assets/scss/components/_buttons.scss */
+.btn-circle.gray:hover {
+  background: #a2a2a2;
+}
+/* line 156, ../assets/scss/components/_buttons.scss */
+.btn-circle.gray:focus {
+  background: #888888;
+}
+
+/* line 162, ../assets/scss/components/_buttons.scss */
+.btn-flat {
+  padding: 0;
+}
+/* line 165, ../assets/scss/components/_buttons.scss */
+.btn-flat:hover {
+  background: none;
+  color: #d62d2d;
+}
+/* line 169, ../assets/scss/components/_buttons.scss */
+.btn-flat:active {
+  box-shadow: none;
+}
+
+/* line 173, ../assets/scss/components/_buttons.scss */
+.no-btn {
+  border: 0px solid #fff !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: none !important;
+  border-radius: 0 !important;
+  font-weight: 100;
+  color: #8d0208 !important;
+  text-decoration: underline;
+}
+/* line 183, ../assets/scss/components/_buttons.scss */
+.no-btn:active {
+  outline: none;
+  box-shadow: inset 0 0px 0px 0 transparent !important;
+}
+/* line 187, ../assets/scss/components/_buttons.scss */
+.no-btn:hover {
+  color: #8d0208 !important;
+  text-decoration: underline;
+}
+
+/* line 2, ../assets/scss/components/_progress-bar.scss */
+.progress-bar {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  counter-reset: progress;
+  padding: 0;
+  margin: 0;
+}
+/* line 10, ../assets/scss/components/_progress-bar.scss */
+.progress-bar__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  margin-right: 2rem;
+}
+/* line 18, ../assets/scss/components/_progress-bar.scss */
+.progress-bar__item:last-of-type {
+  margin-right: 0;
+}
+/* line 21, ../assets/scss/components/_progress-bar.scss */
+.progress-bar__item::before {
+  counter-increment: progress;
+  content: counter(progress);
+  font-size: 20px;
+  margin-right: 0.5rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 2rem;
+      -ms-flex: 0 0 2rem;
+          flex: 0 0 2rem;
+}
+/* line 32, ../assets/scss/components/_progress-bar.scss */
+.progress-bar__item--done::before {
+  font-family: "iconfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1rem;
+  content: "";
+}
+
+/* line 2, ../assets/scss/components/_tile-block.scss */
+.tile-block {
+  background: white;
+  border: 2px solid #e4e0d4;
+  margin-bottom: 2rem;
+}
+/* line 6, ../assets/scss/components/_tile-block.scss */
+.tile-block.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 10, ../assets/scss/components/_tile-block.scss */
+.tabs__content .tile-block:first-child {
+  margin-top: -1rem;
+}
+/* line 13, ../assets/scss/components/_tile-block.scss */
+.sidebar .tile-block {
+  border-color: #c5bba5;
+}
+/* line 16, ../assets/scss/components/_tile-block.scss */
+.tile-block__head, .tile-block__content, .tile-block__foot {
+  padding: 22px;
+}
+/* line 21, ../assets/scss/components/_tile-block.scss */
+.tile-block__head {
+  border-bottom: 2px solid #e4e0d4;
+}
+/* line 24, ../assets/scss/components/_tile-block.scss */
+.tile-block__head:only-child {
+  border-bottom: 0;
+}
+/* line 28, ../assets/scss/components/_tile-block.scss */
+.tile-block__foot {
+  border-top: 2px solid #e4e0d4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 34, ../assets/scss/components/_tile-block.scss */
+.tile-block__offer {
+  padding: 0 22px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 40, ../assets/scss/components/_tile-block.scss */
+.tile-block__offer label {
+  padding-right: 10px;
+}
+/* line 44, ../assets/scss/components/_tile-block.scss */
+.tile-block.video {
+  border: 0;
+}
+/* line 47, ../assets/scss/components/_tile-block.scss */
+.tile-block.video .tile-block__content {
+  border: 2px solid #e4e0d4;
+}
+/* line 50, ../assets/scss/components/_tile-block.scss */
+.tile-block.video .tile-block__video + .tile-block__content {
+  border-top: 0;
+}
+/* line 53, ../assets/scss/components/_tile-block.scss */
+.tile-block__table {
+  padding: 0.5em 1.5em;
+}
+/* line 56, ../assets/scss/components/_tile-block.scss */
+.tile-block__form {
+  padding: 3rem;
+}
+/* line 58, ../assets/scss/components/_tile-block.scss */
+.tile-block__form :first-child {
+  margin-top: 0;
+}
+/* line 61, ../assets/scss/components/_tile-block.scss */
+.tile-block__form-actions {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2.5rem;
+}
+/* line 67, ../assets/scss/components/_tile-block.scss */
+.tile-block--small {
+  width: 550px;
+}
+
+/* line 1, ../assets/scss/components/_forms.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+select,
+.ui-selectmenu-button,
+textarea {
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 20px;
+  vertical-align: middle;
+  color: #666666;
+  padding: 0.5em;
+  border: 2px solid #f3e5e6;
+  margin: 6px 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+/* line 18, ../assets/scss/components/_forms.scss */
+.field input[type="text"], .field
+input[type="password"], .field
+input[type="email"], .field
+input[type="tel"], .field
+input[type="url"], .field
+select, .field
+.ui-selectmenu-button, .field
+textarea {
+  width: 100%;
+}
+/* line 21, ../assets/scss/components/_forms.scss */
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+input[type="url"]:hover,
+select:hover,
+.ui-selectmenu-button:hover,
+textarea:hover {
+  border-color: #cdc8c8;
+}
+/* line 24, ../assets/scss/components/_forms.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+select:focus,
+.ui-selectmenu-button:focus,
+textarea:focus {
+  border-color: #8d0208;
+}
+/* line 27, ../assets/scss/components/_forms.scss */
+.error input[type="text"], .error
+input[type="password"], .error
+input[type="email"], .error
+input[type="tel"], .error
+input[type="url"], .error
+select, .error
+.ui-selectmenu-button, .error
+textarea {
+  border-color: #d62d2d;
+  color: #d62d2d;
+}
+/* line 31, ../assets/scss/components/_forms.scss */
+input[type="text"]:disabled, .disabled input[type="text"],
+input[type="password"]:disabled, .disabled
+input[type="password"],
+input[type="email"]:disabled, .disabled
+input[type="email"],
+input[type="tel"]:disabled, .disabled
+input[type="tel"],
+input[type="url"]:disabled, .disabled
+input[type="url"],
+select:disabled,
+.ui-selectmenu-button:disabled, .disabled
+select, .disabled
+.ui-selectmenu-button,
+textarea:disabled, .disabled
+textarea {
+  color: #b9b9b9;
+  background: #f6f6f6;
+  border-color: #ede6e6;
+  pointer-events: none;
+}
+
+/* line 39, ../assets/scss/components/_forms.scss */
+label {
+  display: block;
+}
+/* line 41, ../assets/scss/components/_forms.scss */
+.error label {
+  color: #d62d2d;
+}
+/* line 44, ../assets/scss/components/_forms.scss */
+.disabled label {
+  color: #b9b9b9;
+}
+/* line 47, ../assets/scss/components/_forms.scss */
+.field--small label, label.small {
+  font-size: 14px;
+}
+
+/* line 53, ../assets/scss/components/_forms.scss */
+.form-grid .field {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+/* line 56, ../assets/scss/components/_forms.scss */
+.field--small {
+  width: 107px;
+}
+/* line 58, ../assets/scss/components/_forms.scss */
+.form-grid .field--small {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 107px;
+      -ms-flex: 0 0 107px;
+          flex: 0 0 107px;
+}
+/* line 62, ../assets/scss/components/_forms.scss */
+.field.success::after {
+  content: 'OK';
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  right: 1em;
+  bottom: 1em;
+  color: #d62d2d;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 74, ../assets/scss/components/_forms.scss */
+.form-grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 2em;
+}
+/* line 79, ../assets/scss/components/_forms.scss */
+.tile-block .form-grid:last-child {
+  margin-bottom: 1.5em;
+}
+/* line 82, ../assets/scss/components/_forms.scss */
+.form-grid .btn {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  margin: 6px 0;
+  margin-left: 5px;
+}
+/* line 87, ../assets/scss/components/_forms.scss */
+.form-grid .field + .field, .field + .form-grid__block, .form-grid__block + .field {
+  margin-left: 5px;
+}
+/* line 93, ../assets/scss/components/_forms.scss */
+.form-grid--big-gutter .btn,
+.form-grid--big-gutter .field + .field, .field + .form-grid--big-gutter__block, .form-grid--big-gutter__block + .field {
+  margin-left: 25px;
+}
+/* line 100, ../assets/scss/components/_forms.scss */
+p + .form-grid {
+  margin-top: 2em;
+}
+/* line 103, ../assets/scss/components/_forms.scss */
+.form-grid__block {
+  height: 2em;
+  margin: 6px 0;
+}
+
+/* line 108, ../assets/scss/components/_forms.scss */
+.error-text {
+  font-size: 14px;
+  color: #d62d2d;
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+  display: none;
+}
+/* line 115, ../assets/scss/components/_forms.scss */
+.error .error-text {
+  display: block;
+}
+
+/* line 121, ../assets/scss/components/_forms.scss */
+.form-calc__text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #484848;
+}
+
+/* line 129, ../assets/scss/components/_forms.scss */
+.field-inline {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 20px;
+}
+/* line 134, ../assets/scss/components/_forms.scss */
+.field-inline label {
+  width: 25%;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: right;
+  box-sizing: border-box;
+}
+/* line 142, ../assets/scss/components/_forms.scss */
+.field-inline .field-fullwidth {
+  width: 75%;
+}
+/* line 145, ../assets/scss/components/_forms.scss */
+.field-inline input[type="text"],
+.field-inline input[type="password"],
+.field-inline input[type="email"],
+.field-inline input[type="tel"],
+.field-inline input[type="url"],
+.field-inline select,
+.field-inline .ui-selectmenu-button,
+.field-inline .ui-selectmenu-button,
+.field-inline textarea {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+/* line 158, ../assets/scss/components/_forms.scss */
+.orders form {
+  margin: 0;
+}
+/* line 161, ../assets/scss/components/_forms.scss */
+.orders .btn--min {
+  font-size: 14px;
+  padding: 8px 1px;
+}
+
+/* line 1, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-menu {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  z-index: 15;
+}
+/* line 10, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-menu .ui-menu {
+  overflow: auto;
+  overflow-x: hidden;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  margin-top: -2px;
+  width: 100% !important;
+  background: #fff;
+  border: 2px solid #cdc8c8;
+  border-radius: 0 0 3px 3px;
+  box-sizing: border-box;
+}
+/* line 22, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-menu .ui-menu .ui-selectmenu-optgroup {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 2px 0.4em;
+  margin: 0.5em 0 0 0;
+  height: auto;
+  border: 0;
+}
+/* line 31, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-menu .ui-menu-item {
+  line-height: 20px;
+  color: #666;
+  padding: 10px 0.5em;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+/* line 38, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-menu .ui-menu-item:first-child {
+  padding-top: 18px;
+}
+/* line 41, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-menu .ui-menu-item:last-child {
+  padding-bottom: 20px;
+}
+/* line 44, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-menu .ui-menu-item:hover {
+  font-weight: bold;
+  background: #ececec;
+}
+
+/* line 51, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-open {
+  display: block;
+}
+
+/* line 54, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-text {
+  display: block;
+  margin-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 60, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-button {
+  display: block;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 67, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-button:focus {
+  border-color: #cdc8c8;
+}
+/* line 70, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-button .ui-icon {
+  position: absolute;
+  top: 50%;
+  margin-top: -2px;
+  right: 1em;
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #cdc8c8;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+/* line 82, ../assets/scss/components/_custom-select.scss */
+.ui-selectmenu-button .ui-selectmenu-text {
+  display: inline;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+/* line 90, ../assets/scss/components/_custom-select.scss */
+.custom-select__icon {
+  line-height: 20px;
+  max-height: 20px;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+/* line 96, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .custom-select__icon-wrapper {
+  display: inline-block;
+  width: 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 0.5em;
+  background: #f6f6f6;
+  text-align: center;
+  box-sizing: border-box;
+}
+/* line 108, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-selectmenu-button .custom-select__icon-wrapper {
+  background: #f3e5e6;
+  border-radius: 3px 0 0 3px;
+}
+/* line 112, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-selectmenu-button:hover .custom-select__icon-wrapper, .custom-select--countries .ui-selectmenu-button:focus .custom-select__icon-wrapper {
+  background: #cdc8c8;
+}
+/* line 116, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-menu-item, .custom-select--countries .ui-selectmenu-button {
+  padding-left: 2.5em;
+}
+/* line 120, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-menu-item:first-child .custom-select__icon-wrapper {
+  padding-top: 18px;
+}
+/* line 123, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-menu-item:last-child .custom-select__icon-wrapper {
+  padding-bottom: 20px;
+}
+/* line 126, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .ui-menu-item:hover .custom-select__icon-wrapper {
+  background: #ececec;
+}
+/* line 129, ../assets/scss/components/_custom-select.scss */
+.custom-select--countries .custom-select__icon-wrapper .custom-select__icon {
+  margin: 0;
+  width: 1em;
+}
+
+/**
+ * @package		PickMeUp - jQuery datepicker plugin
+ * @author		Nazar Mokrynskyi <nazar@mokrynskyi.com>
+ * @author		Stefan Petre <www.eyecon.ro>
+ * @copyright	Copyright (c) 2013-2015, Nazar Mokrynskyi
+ * @copyright	Copyright (c) 2008-2009, Stefan Petre
+ * @license		MIT License, see license.txt
+ */
+/* line 26, ../assets/scss/components/_datepicker.scss */
+.datepicker {
+  position: relative;
+  z-index: 2;
+}
+/* line 29, ../assets/scss/components/_datepicker.scss */
+.datepicker__wrapper {
+  display: inline-block;
+}
+/* line 32, ../assets/scss/components/_datepicker.scss */
+.datepicker__icon {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  z-index: 3;
+  fill: #393428;
+}
+/* line 41, ../assets/scss/components/_datepicker.scss */
+.datepicker:focus + .datepicker__icon {
+  fill: #8d0208;
+}
+
+/* line 45, ../assets/scss/components/_datepicker.scss */
+.pickmeup {
+  background: #fff;
+  border-radius: 3px;
+  display: none;
+  position: absolute;
+  box-shadow: 0 -10px 2em 0 rgba(0, 0, 0, 0.25), 0 0 3px 0 rgba(0, 0, 0, 0.25);
+  margin-top: 0.5em;
+}
+/* line 55, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance {
+  display: inline-block;
+  padding: 1em 1.5em 1.5em;
+  text-align: center;
+  width: 18em;
+}
+/* line 61, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-button {
+  color: #484848;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 1px;
+}
+/* line 70, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-today {
+  background: #fff;
+  color: #8d0208;
+}
+/* line 75, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-button:hover {
+  background: #bc121a;
+  color: #fff;
+}
+/* line 80, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-not-in-month {
+  color: #a4a4a4;
+}
+/* line 84, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-disabled,
+.pickmeup .pmu-instance .pmu-disabled:hover {
+  color: #333;
+  cursor: default;
+}
+/* line 90, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-selected {
+  background: #8d0208;
+  color: #fff;
+  font-weight: bold;
+}
+/* line 96, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-not-in-month.pmu-selected {
+  background: #8d0208;
+}
+/* line 100, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance nav {
+  color: #484848;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 2.5em;
+  font-weight: bold;
+}
+/* line 106, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance nav *:first-child :hover {
+  color: #484848;
+}
+/* line 109, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance nav .pmu-button:hover {
+  color: #484848;
+  background: none;
+}
+/* line 114, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance nav .pmu-prev,
+.pickmeup .pmu-instance nav .pmu-next {
+  display: none;
+  height: 2.5em;
+  width: 1em;
+}
+/* line 120, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance nav .pmu-month {
+  width: 14em;
+}
+/* line 127, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-years *,
+.pickmeup .pmu-instance .pmu-months * {
+  display: inline-block;
+  line-height: 3.6em;
+  width: 3.5em;
+}
+/* line 134, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-day-of-week {
+  color: #484848;
+  cursor: default;
+  font-weight: bold;
+}
+/* line 142, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-day-of-week *,
+.pickmeup .pmu-instance .pmu-days * {
+  display: inline-block;
+  line-height: 2em;
+  width: 2em;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 2em;
+      -ms-flex: 0 0 2em;
+          flex: 0 0 2em;
+}
+/* line 150, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance .pmu-day-of-week * {
+  line-height: 2.5em;
+}
+/* line 155, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance:first-child .pmu-prev,
+.pickmeup .pmu-instance:last-child .pmu-next {
+  display: block;
+}
+/* line 162, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance:first-child .pmu-month,
+.pickmeup .pmu-instance:last-child .pmu-month {
+  width: 13em;
+}
+/* line 167, ../assets/scss/components/_datepicker.scss */
+.pickmeup .pmu-instance:first-child:last-child .pmu-month {
+  width: 12em;
+}
+/* line 171, ../assets/scss/components/_datepicker.scss */
+.pickmeup:not(.pmu-view-days) .pmu-days, .pickmeup:not(.pmu-view-days) .pmu-day-of-week, .pickmeup:not(.pmu-view-months) .pmu-months, .pickmeup:not(.pmu-view-years) .pmu-years {
+  display: none;
+}
+
+/* line 1, ../assets/scss/components/_uploadfile.scss */
+.fileUpload_photo {
+  display: inline-block;
+  margin-right: 25px;
+  float: right;
+}
+
+/* line 6, ../assets/scss/components/_uploadfile.scss */
+.file-input {
+  cursor: pointer;
+  text-overflow: ellipsis;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  background: #888888;
+}
+/* line 13, ../assets/scss/components/_uploadfile.scss */
+.file-input:hover {
+  background: #a2a2a2;
+}
+/* line 16, ../assets/scss/components/_uploadfile.scss */
+.file-input:focus {
+  background: #888888;
+}
+
+/*file*/
+/* line 22, ../assets/scss/components/_uploadfile.scss */
+.file_upload {
+  position: relative;
+  overflow: hidden;
+  font-size: 1em;
+  /* example */
+  height: 30px;
+  /* example */
+  line-height: 2em;
+  /* the same as height */
+  margin-bottom: 6px;
+}
+
+/* line 30, ../assets/scss/components/_uploadfile.scss */
+.file_upload > button {
+  float: right;
+  /*width: 8em;            /* example */
+  height: 100%;
+}
+
+/* line 35, ../assets/scss/components/_uploadfile.scss */
+.file_upload input[type=file] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /*transform: scale(20);*/
+  letter-spacing: 10em;
+  /* IE 9 fix */
+  -ms-transform: scale(20);
+  /* IE 9 fix */
+  opacity: 0;
+  cursor: default;
+}
+
+/* Making it beautiful */
+/* line 50, ../assets/scss/components/_uploadfile.scss */
+.file_upload {
+  /*border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.1s linear*/
+}
+
+/* line 56, ../assets/scss/components/_uploadfile.scss */
+.file_upload.focus {
+  /* box-shadow: 0 0 5px rgba(0,30,255,0.4)*/
+}
+
+/* line 59, ../assets/scss/components/_uploadfile.scss */
+.file_upload > button {
+  background: #ffffff;
+  /*transition: background 0.2s;*/
+  border: 1px solid #8d0208;
+  border-radius: 2px;
+  color: #8d0208;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 69, ../assets/scss/components/_uploadfile.scss */
+.file_upload:hover > button {
+  border-color: #bc121a;
+  color: #bc121a;
+  cursor: pointer;
+}
+
+/* line 74, ../assets/scss/components/_uploadfile.scss */
+.file_upload:active > button {
+  border-color: #bc121a;
+  color: #bc121a;
+}
+
+/* line 3, ../assets/scss/components/_menu.scss */
+.menu--vertical {
+  padding: 1rem 0;
+}
+/* line 6, ../assets/scss/components/_menu.scss */
+.menu__link {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  font-weight: normal;
+  color: #484848;
+  padding: 1em 1.5em;
+}
+/* line 13, ../assets/scss/components/_menu.scss */
+.menu__link[disabled] {
+  color: #a59d8c;
+}
+/* line 16, ../assets/scss/components/_menu.scss */
+.menu__link:hover {
+  text-decoration: none;
+}
+/* line 19, ../assets/scss/components/_menu.scss */
+.menu__link:active, .menu__link:focus {
+  color: #d62d2d;
+}
+/* line 23, ../assets/scss/components/_menu.scss */
+.menu__link .notification {
+  margin-left: 4px;
+}
+/* line 27, ../assets/scss/components/_menu.scss */
+.menu--vertical .menu__item--current .menu__link {
+  font-weight: bold;
+}
+/* line 29, ../assets/scss/components/_menu.scss */
+.menu--vertical .menu__item--current .menu__link::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 100%;
+  background: #8d0208;
+  position: absolute;
+  top: 0;
+  left: -6px;
+}
+
+/* line 3, ../assets/scss/components/_profile.scss */
+.profile__actions {
+  position: absolute;
+  top: 28px;
+  right: 12px;
+}
+/* line 8, ../assets/scss/components/_profile.scss */
+.profile__status {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 3px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  background: #ececec;
+}
+/* line 16, ../assets/scss/components/_profile.scss */
+.profile__status-item {
+  font-size: 14px;
+  padding: 0.5em 10px;
+  color: #484848;
+  text-align: center;
+  font-weight: normal;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33%;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+  box-sizing: border-box;
+}
+/* line 24, ../assets/scss/components/_profile.scss */
+.profile__status-item:hover {
+  color: #d62d2d;
+  text-decoration: none;
+}
+/* line 28, ../assets/scss/components/_profile.scss */
+.profile__status-item:not(.profile__status-item--current) + .profile__status-item:not(.profile__status-item--current) {
+  border-left: 2px solid #cabfaa;
+}
+/* line 31, ../assets/scss/components/_profile.scss */
+.profile__status-item--current {
+  color: white;
+  background: #8d0208;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 0;
+  cursor: default;
+  pointer-events: none;
+}
+/* line 39, ../assets/scss/components/_profile.scss */
+.profile__status-item--current:hover {
+  color: white;
+}
+/* line 44, ../assets/scss/components/_profile.scss */
+.profile .user__name {
+  padding-left: 0;
+}
+/* line 46, ../assets/scss/components/_profile.scss */
+.profile .user__name::before {
+  display: none;
+}
+
+/* line 3, ../assets/scss/components/_user.scss */
+.user__info {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 9, ../assets/scss/components/_user.scss */
+.user__pic {
+  width: 3rem;
+  height: 3rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 3rem;
+      -ms-flex: 0 0 3rem;
+          flex: 0 0 3rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+/* line 15, ../assets/scss/components/_user.scss */
+.user__pic img {
+  display: block;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+/* line 21, ../assets/scss/components/_user.scss */
+.user__pic:empty {
+  background: #8d0208;
+  color: white;
+  text-align: center;
+}
+/* line 25, ../assets/scss/components/_user.scss */
+.user__pic:empty::after {
+  font-family: "iconfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1rem;
+  content: "";
+  font-size: 1.5em;
+  line-height: 3rem;
+  vartical-align: middle;
+}
+/* line 33, ../assets/scss/components/_user.scss */
+.user__pic--big {
+  width: 4rem;
+  height: 4rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 4rem;
+      -ms-flex: 0 0 4rem;
+          flex: 0 0 4rem;
+}
+/* line 37, ../assets/scss/components/_user.scss */
+.user__pic--big:empty::after {
+  font-size: 2em;
+  line-height: 4rem;
+}
+/* line 42, ../assets/scss/components/_user.scss */
+.user__pic--large {
+  width: 7rem;
+  height: 7rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 7rem;
+      -ms-flex: 0 0 7rem;
+          flex: 0 0 7rem;
+}
+/* line 46, ../assets/scss/components/_user.scss */
+.user__pic--large:empty::after {
+  font-size: 3em;
+  line-height: 7rem;
+}
+/* line 51, ../assets/scss/components/_user.scss */
+.user--vip .user__pic::before {
+  display: inline-block;
+  content: 'VIP';
+  padding: 4px;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: bold;
+  color: white;
+  background: #ffa900;
+  position: absolute;
+  right: 3px;
+  bottom: -5px;
+}
+/* line 66, ../assets/scss/components/_user.scss */
+.user--moderator-mark {
+  display: inline-block;
+  line-height: 1rem;
+  background: #ea2424;
+  color: #fff;
+  padding: 0 3px;
+  font-weight: 600;
+}
+/* line 75, ../assets/scss/components/_user.scss */
+.user__name {
+  font-weight: bold;
+  line-height: normal;
+  color: #484848;
+  padding-right: 2.5em;
+  padding-left: 14px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 calc(100% - 3.5rem);
+      -ms-flex: 0 0 calc(100% - 3.5rem);
+          flex: 0 0 calc(100% - 3.5rem);
+}
+/* line 82, ../assets/scss/components/_user.scss */
+.user__name .note {
+  font-weight: normal;
+}
+/* line 85, ../assets/scss/components/_user.scss */
+.user__name::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #f85d5d;
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+}
+/* line 95, ../assets/scss/components/_user.scss */
+.user--online .user__name::before {
+  background: #6abb00;
+}
+/* line 100, ../assets/scss/components/_user.scss */
+.user__name.no__before::before {
+  width: 0;
+  height: 0;
+}
+/* line 105, ../assets/scss/components/_user.scss */
+.user__name span {
+  margin-left: 5px;
+}
+/* line 109, ../assets/scss/components/_user.scss */
+.user__pic--big + .user__name {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 calc(100% - 4.5rem);
+      -ms-flex: 0 0 calc(100% - 4.5rem);
+          flex: 0 0 calc(100% - 4.5rem);
+}
+/* line 112, ../assets/scss/components/_user.scss */
+.user__status {
+  font-weight: normal;
+}
+/* line 114, ../assets/scss/components/_user.scss */
+.user__status .notification {
+  font-weight: bold;
+}
+/* line 120, ../assets/scss/components/_user.scss */
+.user__contacts-list--gorizontal .user__contact {
+  display: inline-block;
+  margin: 0;
+  margin-right: 1.5em;
+}
+/* line 124, ../assets/scss/components/_user.scss */
+.user__contacts-list--gorizontal .user__contact:last-child {
+  margin-right: 0;
+}
+/* line 128, ../assets/scss/components/_user.scss */
+.user__contacts-list--vertical {
+  margin-bottom: 1.5rem;
+}
+/* line 130, ../assets/scss/components/_user.scss */
+.user__contacts-list--vertical .user__contact {
+  display: block;
+  margin: 0 0 1rem;
+}
+/* line 136, ../assets/scss/components/_user.scss */
+.user__contact {
+  font-size: 14px;
+  font-weight: normal;
+  color: #484848;
+  vertical-align: middle;
+}
+/* line 141, ../assets/scss/components/_user.scss */
+.user__contact .icon {
+  font-size: 1.5rem;
+  line-height: 1;
+  vertical-align: middle;
+}
+/* line 145, ../assets/scss/components/_user.scss */
+.user__contact .icon::before {
+  color: black;
+  font-size: 1.5rem;
+}
+/* line 150, ../assets/scss/components/_user.scss */
+.user__contact:hover {
+  text-decoration: none;
+}
+/* line 156, ../assets/scss/components/_user.scss */
+.user--online.active .user__name::before {
+  background: #a7c131;
+}
+
+/* line 1, ../assets/scss/components/_brend.scss */
+.brend {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 5, ../assets/scss/components/_brend.scss */
+.brend__icon {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 60px;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px;
+  width: 60px;
+  height: 60px;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #e4e0d4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 16, ../assets/scss/components/_brend.scss */
+.brend__icon img {
+  border-radius: 50%;
+}
+/* line 20, ../assets/scss/components/_brend.scss */
+.brend__name {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+/* line 1, ../assets/scss/components/_contact.scss */
+.contact {
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+/* line 4, ../assets/scss/components/_contact.scss */
+.contact__top {
+  padding-bottom: 1em;
+  border-bottom: 2px dashed #e4e0d4;
+}
+/* line 8, ../assets/scss/components/_contact.scss */
+.contact__bottom {
+  padding-top: 1em;
+}
+/* line 11, ../assets/scss/components/_contact.scss */
+.contact__top, .contact__bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 17, ../assets/scss/components/_contact.scss */
+.contact .user__contact .icon::before {
+  color: #393428;
+}
+/* line 20, ../assets/scss/components/_contact.scss */
+.contact .user__status {
+  margin-top: 5px;
+  margin-left: -14px;
+}
+/* line 24, ../assets/scss/components/_contact.scss */
+.contact__top .contact__actions .btn {
+  margin-left: 3px;
+  font-size: 1rem;
+}
+/* line 28, ../assets/scss/components/_contact.scss */
+.contact__bottom .contact__actions .btn-flat {
+  margin-left: 1em;
+  vertical-align: baseline;
+}
+/* line 31, ../assets/scss/components/_contact.scss */
+.contact__bottom .contact__actions .btn-flat .icon {
+  vertical-align: sub;
+}
+/* line 34, ../assets/scss/components/_contact.scss */
+.contact__bottom .contact__actions .btn-flat .icon::before {
+  vertical-align: baseline;
+}
+/* line 38, ../assets/scss/components/_contact.scss */
+.contact__actions {
+  color: #484848;
+  text-align: right;
+}
+/* line 41, ../assets/scss/components/_contact.scss */
+.contact__actions .icon {
+  color: #393428;
+  vertical-align: middle;
+}
+/* line 44, ../assets/scss/components/_contact.scss */
+.contact__actions .icon.icon-pencil::before {
+  font-size: 1.5rem;
+}
+/* line 47, ../assets/scss/components/_contact.scss */
+.contact__actions .icon.icon-bell {
+  width: 30px;
+  height: 30px;
+}
+/* line 50, ../assets/scss/components/_contact.scss */
+.contact__actions .icon.icon-bell::before {
+  font-size: 21px;
+}
+/* line 54, ../assets/scss/components/_contact.scss */
+.contact__actions .icon--circle {
+  background: #bc121a;
+  color: white;
+}
+/* line 59, ../assets/scss/components/_contact.scss */
+.contact__actions .btn, .contact__actions .btn-flat {
+  font-size: 14px;
+}
+/* line 62, ../assets/scss/components/_contact.scss */
+.contact__actions .btn:first-child,
+.contact__actions .btn-flat:first-child {
+  margin-left: 0;
+}
+/* line 67, ../assets/scss/components/_contact.scss */
+.contact--need-action {
+  border-color: #f59595;
+}
+/* line 69, ../assets/scss/components/_contact.scss */
+.contact--need-action .user__status .notification {
+  color: white;
+  background: #d62d2d;
+}
+/* line 74, ../assets/scss/components/_contact.scss */
+.contact--blocked {
+  background: #fafafa;
+}
+/* line 77, ../assets/scss/components/_contact.scss */
+.contact--blocked .btn-circle, .contact--blocked .btn-circle:hover, .contact--blocked .btn-circle:active {
+  background: #cabfaa;
+  box-shadow: none;
+  cursor: default;
+}
+
+/* line 3, ../assets/scss/components/_tabs.scss */
+.tabs .ui-tabs-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 8, ../assets/scss/components/_tabs.scss */
+.tabs__item {
+  display: inline-block;
+  margin: 0 15px;
+}
+/* line 11, ../assets/scss/components/_tabs.scss */
+.tabs__item:first-of-type {
+  margin-left: 0;
+}
+/* line 14, ../assets/scss/components/_tabs.scss */
+.tabs__item:last-of-type {
+  margin-right: 0;
+}
+/* line 17, ../assets/scss/components/_tabs.scss */
+.tabs__item--date {
+  float: right;
+}
+/* line 19, ../assets/scss/components/_tabs.scss */
+.tabs__item--date .datepicker {
+  margin: 0;
+  width: 18em;
+}
+/* line 25, ../assets/scss/components/_tabs.scss */
+.tabs__item-link {
+  display: block;
+  padding: 4px 0;
+  border-bottom: 3px solid transparent;
+  text-transform: uppercase;
+  color: #484848;
+  opacity: 0.5;
+}
+/* line 32, ../assets/scss/components/_tabs.scss */
+.tabs__item-link:hover {
+  text-decoration: none;
+  color: #484848;
+  opacity: 1;
+}
+/* line 38, ../assets/scss/components/_tabs.scss */
+.ui-tabs-active .tabs__item-link {
+  color: #ffa900;
+  border-color: currentColor;
+  opacity: 1;
+}
+/* line 44, ../assets/scss/components/_tabs.scss */
+.tabs__content {
+  margin-top: 3rem;
+}
+/* line 48, ../assets/scss/components/_tabs.scss */
+.tabs__workbook {
+  margin-top: 0px;
+}
+/* line 51, ../assets/scss/components/_tabs.scss */
+.tabs__next-btn, .tabs__end-btn {
+  margin-top: 3rem;
+}
+/* line 55, ../assets/scss/components/_tabs.scss */
+.tabs .sort {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 59, ../assets/scss/components/_tabs.scss */
+.tabs .sort .ui-tabs-active .tabs__item-link {
+  border-bottom: 2px solid #ffa900;
+}
+/* line 62, ../assets/scss/components/_tabs.scss */
+.tabs .sort .tabs__header {
+  display: inline-block;
+}
+/* line 66, ../assets/scss/components/_tabs.scss */
+.tabs .statistic {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 70, ../assets/scss/components/_tabs.scss */
+.tabs .statistic .ui-tabs-active .tabs__item-link {
+  border-bottom: 2px solid #ffa900;
+}
+/* line 73, ../assets/scss/components/_tabs.scss */
+.tabs .statistic .tabs__header {
+  display: inline-block;
+  padding: 0;
+}
+/* line 76, ../assets/scss/components/_tabs.scss */
+.tabs .statistic .tabs__header li {
+  margin: 0 5px;
+}
+/* line 78, ../assets/scss/components/_tabs.scss */
+.tabs .statistic .tabs__header li.tabs__item--date {
+  float: none;
+}
+/* line 82, ../assets/scss/components/_tabs.scss */
+.tabs .statistic .tabs__header a {
+  font-size: 14px;
+}
+/* line 85, ../assets/scss/components/_tabs.scss */
+.tabs .statistic .tabs__header :last-child {
+  margin-right: 0 !important;
+}
+/* line 90, ../assets/scss/components/_tabs.scss */
+.tabs__filter {
+  margin-top: 45px;
+}
+/* line 91, ../assets/scss/components/_tabs.scss */
+.tabs__filter form {
+  margin: 0 !important;
+}
+/* line 96, ../assets/scss/components/_tabs.scss */
+.tabs__filter .tabs__header ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  bottom: -2px;
+  position: absolute;
+  z-index: 1;
+}
+/* line 104, ../assets/scss/components/_tabs.scss */
+.tabs__filter .tabs__header ul li {
+  margin: 0 5px 0 0;
+  display: inline-block;
+  background: #d9d6d0;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 11px;
+  font-weight: bold;
+  border: 2px solid #d9d6d0;
+  cursor: pointer;
+}
+/* line 114, ../assets/scss/components/_tabs.scss */
+.tabs__filter .tabs__header ul li.active, .tabs__filter .tabs__header ul li:hover {
+  background: #ebe9e3;
+  border: 2px solid #d9d6d0;
+  border-bottom: 2px solid #ebe9e3;
+}
+/* line 123, ../assets/scss/components/_tabs.scss */
+.tabs__filter .tabs__workbook {
+  background: #ebe9e3;
+  border: 2px solid #d9d6d0;
+  padding: 25px;
+}
+/* line 127, ../assets/scss/components/_tabs.scss */
+.tabs__filter .tabs__workbook .field {
+  margin-bottom: 5px;
+}
+/* line 129, ../assets/scss/components/_tabs.scss */
+.tabs__filter .tabs__workbook .field.last {
+  margin: 0;
+}
+
+/* line 2, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  cursor: pointer;
+}
+/* line 8, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header:not(.ui-state-active) {
+  border: 0;
+}
+/* line 11, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header.ui-state-active {
+  background: #fdfcf9;
+}
+/* line 14, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 19, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header__text p {
+  margin: 0;
+  line-height: 20px;
+}
+/* line 23, ../assets/scss/components/_accordion.scss */
+.ui-accordion-header__brend {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 36.02941%;
+      -ms-flex: 0 0 36.02941%;
+          flex: 0 0 36.02941%;
+}
+/* line 27, ../assets/scss/components/_accordion.scss */
+.ui-accordion-icon {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 40px;
+      -ms-flex: 0 0 40px;
+          flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  padding: 0.5em;
+  margin: 0 12px 0 34px;
+  color: #837c68;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+}
+/* line 36, ../assets/scss/components/_accordion.scss */
+.ui-accordion-icon:hover, .ui-state-hover .ui-accordion-icon {
+  color: #d62d2d;
+}
+/* line 40, ../assets/scss/components/_accordion.scss */
+.ui-state-active .ui-accordion-icon {
+  color: white;
+  border-color: transparent;
+  background: #8d0208;
+}
+
+/* line 3, ../assets/scss/components/_pack.scss */
+.pack__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 7, ../assets/scss/components/_pack.scss */
+.pack__action {
+  margin-left: 3rem;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+/* line 10, ../assets/scss/components/_pack.scss */
+.pack__action .btn {
+  width: 120px;
+}
+/* line 14, ../assets/scss/components/_pack.scss */
+.pack__title {
+  margin-bottom: 0.5em;
+}
+/* line 16, ../assets/scss/components/_pack.scss */
+.pack__title + p {
+  margin-top: 0;
+}
+/* line 21, ../assets/scss/components/_pack.scss */
+.pack__desc *:first-child {
+  margin-top: 0;
+}
+/* line 24, ../assets/scss/components/_pack.scss */
+.pack__desc *:last-child {
+  margin-bottom: 0;
+}
+
+/* line 2, ../assets/scss/components/_video.scss */
+.video {
+  margin: 3rem 0;
+}
+/* line 4, ../assets/scss/components/_video.scss */
+.video__container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+/* line 8, ../assets/scss/components/_video.scss */
+.video__container iframe, .video__container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+/* line 17, ../assets/scss/components/_video.scss */
+.video__info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 21, ../assets/scss/components/_video.scss */
+.video__author {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33%;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+}
+/* line 23, ../assets/scss/components/_video.scss */
+.video__author .user__name {
+  padding: 0;
+}
+/* line 28, ../assets/scss/components/_video.scss */
+.video__desc p {
+  margin: 0.5em 0;
+}
+/* line 32, ../assets/scss/components/_video.scss */
+.video__time {
+  line-height: 1;
+}
+/* line 34, ../assets/scss/components/_video.scss */
+.video__time::before {
+  margin-right: 3px;
+  font-size: 1em;
+}
+/* line 39, ../assets/scss/components/_video.scss */
+.video--half .video__author {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 85%;
+      -ms-flex: 1 1 85%;
+          flex: 1 1 85%;
+}
+/* line 43, ../assets/scss/components/_video.scss */
+.video__grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 49, ../assets/scss/components/_video.scss */
+.video__grid .video {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  margin-bottom: 1rem;
+}
+/* line 53, ../assets/scss/components/_video.scss */
+.video__grid .video + .video {
+  margin-top: 1rem;
+}
+/* line 56, ../assets/scss/components/_video.scss */
+.video__grid .video--half {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 calc(50% - 1rem);
+      -ms-flex: 0 0 calc(50% - 1rem);
+          flex: 0 0 calc(50% - 1rem);
+}
+/* line 59, ../assets/scss/components/_video.scss */
+.video__name {
+  width: 100%;
+  color: #202020;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+/* line 67, ../assets/scss/components/_video.scss */
+.success-stories .video:first-child {
+  margin-top: 1rem;
+}
+
+/* line 1, ../assets/scss/components/_balance.scss */
+.transaction-table {
+  width: 100%;
+}
+/* line 3, ../assets/scss/components/_balance.scss */
+.transaction-table__head, .transaction-table__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 100%;
+}
+/* line 9, ../assets/scss/components/_balance.scss */
+.transaction-table__body {
+  width: 100%;
+}
+/* line 12, ../assets/scss/components/_balance.scss */
+.transaction-table__col {
+  display: block;
+  border-bottom: 0;
+  padding: 1em 0;
+  text-align: left;
+}
+/* line 18, ../assets/scss/components/_balance.scss */
+.transaction-table__head .transaction-table__col {
+  font-size: 14px;
+  font-weight: normal;
+  color: #8b8b8b;
+}
+/* line 23, ../assets/scss/components/_balance.scss */
+.transaction-table__col {
+  border-bottom: 2px solid #e4e0d4
+  /*&--sum {
+  	width: 160/765*100%;
+  }
+  &--last {
+  	width: 190/765*100%;
+  	span {
+  		margin-left: 5px;
+  	}
+  }*/
+}
+/* line 25, ../assets/scss/components/_balance.scss */
+.transaction-table__col--date, .transaction-table__col--name {
+  width: 28.10458%;
+}
+/* line 31, ../assets/scss/components/_balance.scss */
+.transaction-table__col--sum span, .transaction-table__col--last span {
+  font-weight: bold;
+}
+/* line 34, ../assets/scss/components/_balance.scss */
+.transaction-table__col--sum .plus, .transaction-table__col--last .plus {
+  color: black;
+}
+/* line 37, ../assets/scss/components/_balance.scss */
+.transaction-table__col--sum .minus, .transaction-table__col--last .minus {
+  color: #d62d2d;
+}
+/* line 41, ../assets/scss/components/_balance.scss */
+.transaction-table__col--t-sum {
+  width: 20.91503%;
+}
+/* line 53, ../assets/scss/components/_balance.scss */
+.transaction-table__col--source {
+  width: 38.56209%;
+}
+/* line 56, ../assets/scss/components/_balance.scss */
+.transaction-table__col--last ~ .transaction-table__col--source {
+  width: 35.29412%;
+}
+/* line 59, ../assets/scss/components/_balance.scss */
+.transaction-table__col--balance {
+  width: 12.4183%;
+}
+/* line 63, ../assets/scss/components/_balance.scss */
+.transaction-table__col--name .user {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+}
+/* line 67, ../assets/scss/components/_balance.scss */
+.transaction-table__col--name .user--online {
+  padding-left: 1em;
+}
+/* line 69, ../assets/scss/components/_balance.scss */
+.transaction-table__col--name .user--online::before {
+  content: '';
+  font-size: 6px;
+  display: block;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background: #f85d5d;
+  position: absolute;
+  top: 1.5em;
+  left: 0;
+}
+/* line 84, ../assets/scss/components/_balance.scss */
+.transaction-table__col--source {
+  width: 50.98039%;
+}
+/* line 88, ../assets/scss/components/_balance.scss */
+.transaction-table__row:last-child, .transaction-table__row:last-child .transaction-table__col {
+  border-bottom: 0;
+}
+/* line 93, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible {
+  margin-bottom: -0.5em;
+}
+/* line 96, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__head {
+  border: 0;
+}
+/* line 99, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: calc(100% + 3em);
+  margin-left: -1.5em;
+  border: 0;
+}
+/* line 104, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 100%;
+  width: 100%;
+  border: 0;
+  padding: 0 1.5em;
+}
+/* line 111, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-header.ui-state-active {
+  background: #faf9f5;
+}
+/* line 115, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content {
+  padding: 0 1.5em 1.5em;
+  background: #faf9f5;
+  width: 100%;
+}
+/* line 119, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content .title {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+/* line 122, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content .title::before {
+  font-family: "iconfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1rem;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+/* line 132, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-header::before,
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  right: 0;
+  background: transparent;
+  z-index: 1;
+}
+/* line 144, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-header::before {
+  top: 0;
+}
+/* line 147, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content::after {
+  bottom: -2px;
+}
+/* line 150, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-header-active::before,
+.transaction-table--collapsible .transaction-table__row.ui-accordion .ui-accordion-content-active::after {
+  background: #e4e0d4;
+}
+/* line 155, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__col {
+  border: 0;
+  border-top: 2px solid #e4e0d4;
+}
+/* line 159, ../assets/scss/components/_balance.scss */
+.transaction-table--collapsible .transaction-table__head .transaction-table__col {
+  border: 0;
+}
+
+/* line 163, ../assets/scss/components/_balance.scss */
+.transaction-subtable {
+  display: table;
+  width: 100%;
+}
+/* line 166, ../assets/scss/components/_balance.scss */
+.transaction-subtable__row {
+  display: table-row;
+}
+/* line 169, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col {
+  display: table-cell;
+}
+/* line 171, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col--date {
+  width: 18.95425%;
+}
+/* line 174, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col--sum {
+  width: 10.45752%;
+}
+/* line 176, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col--sum span {
+  font-weight: bold;
+}
+/* line 179, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col--sum .plus {
+  color: black;
+}
+/* line 182, ../assets/scss/components/_balance.scss */
+.transaction-subtable__col--sum .minus {
+  color: #d62d2d;
+}
+
+/* line 2, ../assets/scss/components/_company.scss */
+.company__logo {
+  width: 315px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 315px;
+      -ms-flex: 0 0 315px;
+          flex: 0 0 315px;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  margin-right: 1em;
+}
+/* line 7, ../assets/scss/components/_company.scss */
+.company__logo img {
+  width: 100%;
+}
+/* line 11, ../assets/scss/components/_company.scss */
+.company__info {
+  width: calc(100% - 1em - 315px);
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 calc(100% - 1em - 315px);
+      -ms-flex: 1 1 calc(100% - 1em - 315px);
+          flex: 1 1 calc(100% - 1em - 315px);
+}
+/* line 14, ../assets/scss/components/_company.scss */
+.company__info-desc {
+  margin-top: 0;
+  color: #494232;
+}
+/* line 19, ../assets/scss/components/_company.scss */
+.company__founder {
+  text-align: center;
+}
+/* line 21, ../assets/scss/components/_company.scss */
+.company__founder-img {
+  display: block;
+  border: 2px solid #e4e0d4;
+  border-radius: 3px;
+}
+/* line 26, ../assets/scss/components/_company.scss */
+.company__founder-name {
+  margin: 0.5em auto 0;
+  color: #484848;
+}
+/* line 31, ../assets/scss/components/_company.scss */
+.company-stats {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+/* line 34, ../assets/scss/components/_company.scss */
+.company-stats__item {
+  text-align: center;
+}
+/* line 37, ../assets/scss/components/_company.scss */
+.company-stats__item-digit {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+  color: #8d0208;
+}
+/* line 43, ../assets/scss/components/_company.scss */
+.company-stats__item-desc {
+  margin-top: 0;
+  color: #666;
+}
+/* line 48, ../assets/scss/components/_company.scss */
+.company-advantages {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+/* line 51, ../assets/scss/components/_company.scss */
+.company-advantages__item {
+  text-align: center;
+  color: #2f2717;
+}
+/* line 55, ../assets/scss/components/_company.scss */
+.company-advantages__item-desc {
+  margin-bottom: 0;
+}
+/* line 60, ../assets/scss/components/_company.scss */
+.company-video .video__info {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 63, ../assets/scss/components/_company.scss */
+.company-video .video__desc, .company-video .video__desc p {
+  margin: 0;
+  color: #484848;
+  font-weight: bold;
+}
+
+/* line 1, ../assets/scss/components/_modal.scss */
+.modal {
+  position: fixed;
+  width: 1024px;
+  height: 715px;
+  margin: auto;
+  top: 50px;
+  left: 0;
+  bottom: 50px;
+  right: 0;
+  z-index: 100;
+  background: #ffffff;
+  padding: 25px;
+}
+/* line 13, ../assets/scss/components/_modal.scss */
+.modal .close {
+  position: absolute;
+  top: 10px;
+  right: -40px;
+  width: 25px;
+  height: 25px;
+}
+/* line 19, ../assets/scss/components/_modal.scss */
+.modal .close img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+/* line 29, ../assets/scss/components/_modal.scss */
+.modal .close img:hover {
+  opacity: 1;
+}
+/* line 33, ../assets/scss/components/_modal.scss */
+.modal .work-block {
+  width: 974px;
+  height: 600px;
+  margin-bottom: 25px;
+}
+
+/* line 39, ../assets/scss/components/_modal.scss */
+.dark-bg {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* line 49, ../assets/scss/components/_modal.scss */
+.modal-layout {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  overflow-y: initial;
+  top: 0px;
+  z-index: 100;
+}
+/* line 56, ../assets/scss/components/_modal.scss */
+.modal-layout .modal-box {
+  padding: 100px 0;
+}
+
+/* line 60, ../assets/scss/components/_modal.scss */
+.modal-popup {
+  position: relative;
+  width: 900px;
+  margin: auto;
+  z-index: 100;
+  background: #ffffff;
+}
+/* line 66, ../assets/scss/components/_modal.scss */
+.modal-popup .modal-header {
+  background-color: #f2f4f7;
+  color: #000;
+  border-bottom: 1px solid #e7eaf0;
+  padding: 15px 25px;
+}
+/* line 71, ../assets/scss/components/_modal.scss */
+.modal-popup .modal-header .close {
+  width: 24px;
+  height: 24px;
+  padding: 6px;
+  top: 15px;
+  right: 15px;
+  position: absolute;
+}
+/* line 78, ../assets/scss/components/_modal.scss */
+.modal-popup .modal-header .close img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+/* line 88, ../assets/scss/components/_modal.scss */
+.modal-popup .modal-header .close img:hover {
+  opacity: 1;
+}
+/* line 93, ../assets/scss/components/_modal.scss */
+.modal-popup .modal-content {
+  padding: 25px;
+}
+/* line 96, ../assets/scss/components/_modal.scss */
+.modal-popup .modal-footer {
+  font-size: 12.5px;
+  padding: 12px 25px 14px;
+  background: #fafbfc;
+  color: #2b2f33;
+  border-top: 1px solid #e7e8ec;
+}
+
+/* line 1, ../assets/scss/components/_preloader.scss */
+.preloader img {
+  width: 40px;
+}
+
+/* line 4, ../assets/scss/components/_preloader.scss */
+.preloader.w70 img {
+  width: 70px;
+}
+
+/* line 7, ../assets/scss/components/_preloader.scss */
+#modal-photo-crop .preloader {
+  background: #eeeeee;
+}
+
+/* line 11, ../assets/scss/components/_preloader.scss */
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+}
+
+/* line 23, ../assets/scss/components/_preloader.scss */
+.loader svg {
+  width: 90px;
+}
+
+/* line 1, ../assets/scss/components/_tool-tip.scss */
+.tool-tip {
+  top: 0;
+  background: #fff;
+  border-radius: 3px;
+  display: none;
+  position: absolute;
+  box-shadow: 0 -10px 2em 0 rgba(0, 0, 0, 0.25), 0 0 3px 0 rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  z-index: 1;
+  max-width: 450px;
+}
+/* line 11, ../assets/scss/components/_tool-tip.scss */
+.tool-tip--right:after {
+  content: '';
+  top: 15px;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-color: transparent transparent  transparent #ffffff;
+  left: 100%;
+  border-width: 8px 0 8px 8px;
+  border-style: solid;
+}
+/* line 24, ../assets/scss/components/_tool-tip.scss */
+.tool-tip.tooltip-notes .content textarea.note-text {
+  width: 350px;
+  height: 200px;
+  resize: none;
+  border: 0;
+}
+
+/* line 33, ../assets/scss/components/_tool-tip.scss */
+.content-places__form {
+  background: #fff;
+  border-radius: 3px;
+  display: none;
+  position: absolute;
+  box-shadow: 0 -10px 2em 0 rgba(0, 0, 0, 0.25), 0 0 3px 0 rgba(0, 0, 0, 0.25);
+  bottom: -110px;
+  padding: 20px;
+  z-index: 1;
+  width: 232px;
+}
+/* line 43, ../assets/scss/components/_tool-tip.scss */
+.content-places__form:after {
+  content: '';
+  top: -15px;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-color: transparent transparent #ffffff transparent;
+  left: 10px;
+  border-width: 0px 10px 15px 10px;
+  border-style: solid;
+}
+
+/* line 2, ../assets/scss/components/_statistic.scss */
+.content-statistic .count-today {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 9, ../assets/scss/components/_statistic.scss */
+.content-statistic .count-today .count {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+/* line 9, ../assets/scss/components/_chat.scss */
+.chat__message-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-bertween;
+  -webkit-justify-content: space-bertween;
+      -ms-flex-pack: space-bertween;
+          justify-content: space-bertween;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+/* line 15, ../assets/scss/components/_chat.scss */
+.chat__date {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+/* line 19, ../assets/scss/components/_chat.scss */
+.chat__user {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+/* line 22, ../assets/scss/components/_chat.scss */
+.chat__user.user__info {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+/* line 27, ../assets/scss/components/_chat.scss */
+.chat__message-content {
+  padding-left: 3.5rem;
+  margin-top: -1.5rem;
+}
+/* line 31, ../assets/scss/components/_chat.scss */
+.chat__message-content *:first-child {
+  margin-top: 0;
+}
+/* line 34, ../assets/scss/components/_chat.scss */
+.chat__message-content *:last-child {
+  margin-bottom: 0;
+}
+/* line 39, ../assets/scss/components/_chat.scss */
+.chat__answers, .chat__answer-form {
+  padding-left: 3.5rem;
+}
+/* line 44, ../assets/scss/components/_chat.scss */
+.chat__answer-message {
+  margin-bottom: 25px;
+}
+/* line 48, ../assets/scss/components/_chat.scss */
+.chat__answer-form {
+  margin-top: 22px;
+}

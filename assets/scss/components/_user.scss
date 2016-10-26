@@ -62,6 +62,16 @@
 			bottom: -5px;
 		}
 	}
+	
+	&--moderator-mark {
+		display: inline-block;
+		line-height: 1rem;
+		background: #ea2424;
+		color: #fff;
+		padding: 0 3px;
+		font-weight: 600;
+	}
+	
 	&__name {
 		font-weight: bold;
 		line-height: normal;
@@ -91,6 +101,9 @@
 				width: 0;
 				height: 0;
 			}
+		}
+		span {
+			margin-left: 5px;
 		}
 	}
 	&__pic--big + &__name {

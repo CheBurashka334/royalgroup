@@ -1,0 +1,52 @@
+.chat {
+	
+	$content-offset: 3.5rem;
+	
+	&__main-message {
+		
+	}
+	
+	&__message-info {
+		display: flex;
+		justify-content: space-bertween;
+		align-items: flex-start;
+	}
+	
+	&__date {
+		flex: 0 0 auto;
+	}
+	
+	&__user {
+		flex: 1 1 auto;
+		
+		&.user__info {
+			align-items: flex-start;
+		}
+	}
+	
+	&__message-content {
+		padding-left: $content-offset;
+		margin-top: -1.5rem;
+		
+		*:first-child {
+			margin-top: 0;
+		}
+		*:last-child {
+			margin-bottom: 0;
+		}
+	}
+	
+	&__answers,
+	&__answer-form {
+		padding-left: $content-offset;
+	}
+	
+	&__answer-message {
+		margin-bottom: 25px;
+	}
+	
+	&__answer-form {
+		margin-top: 22px;
+	}
+	
+}

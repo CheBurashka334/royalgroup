@@ -20,6 +20,10 @@
 	}
 	&__head {
 		border-bottom: $base-border;
+		
+		&:only-child {
+			border-bottom: 0;
+		}
 	}
 	&__foot {
 		border-top: $base-border;
