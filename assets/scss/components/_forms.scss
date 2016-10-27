@@ -36,6 +36,14 @@ textarea {
 		pointer-events: none;
 	}
 }
+.textarea-autoresize {
+	display: block;
+	width: 100%;
+	height: 40px; // default height, will change by autoresize plugin
+	overflow: hidden;
+	will-change: height;
+	transition: height 0.2s ease-out;
+}
 label {
 	display: block;
 	.error & {

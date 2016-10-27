@@ -116,6 +116,11 @@ $(document).ready(function(){
 		$('.datepicker').trigger('click').focus();
 	});
 	
+	$('.textarea-autoresize').autoResize({
+		extraSpace: 0,
+		animate: false,
+		limit: 160
+	});
 	
 });
 

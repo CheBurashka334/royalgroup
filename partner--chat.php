@@ -84,7 +84,7 @@
 					<div class="chat__answer-form">
 						<form method="" action="">
 							<div class="field">
-								<input type="text" placeholder="Ответить"/>
+								<textarea class="textarea-autoresize" type="text" placeholder="Ответить"></textarea>
 							</div>
 						</form>
 					</div>
@@ -115,7 +115,7 @@
 					<div class="chat__answer-form">
 						<form method="" action="">
 							<div class="field">
-								<input type="text" placeholder="Ответить"/>
+								<textarea class="textarea-autoresize" type="text" placeholder="Ответить"></textarea>
 							</div>
 						</form>
 					</div>
@@ -189,7 +189,7 @@
 					<div class="chat__answer-form">
 						<form method="" action="">
 							<div class="field">
-								<input type="text" placeholder="Ответить"/>
+								<textarea class="textarea-autoresize" type="text" placeholder="Ответить"></textarea>
 							</div>
 						</form>
 					</div>

@@ -2539,41 +2539,52 @@ textarea {
 }
 
 /* line 39, ../assets/scss/components/_forms.scss */
+.textarea-autoresize {
+  display: block;
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  will-change: height;
+  -webkit-transition: height 0.2s ease-out;
+          transition: height 0.2s ease-out;
+}
+
+/* line 47, ../assets/scss/components/_forms.scss */
 label {
   display: block;
 }
-/* line 41, ../assets/scss/components/_forms.scss */
+/* line 49, ../assets/scss/components/_forms.scss */
 .error label {
   color: #d62d2d;
 }
-/* line 44, ../assets/scss/components/_forms.scss */
+/* line 52, ../assets/scss/components/_forms.scss */
 .disabled label {
   color: #b9b9b9;
 }
-/* line 47, ../assets/scss/components/_forms.scss */
+/* line 55, ../assets/scss/components/_forms.scss */
 .field--small label, label.small {
   font-size: 14px;
 }
 
-/* line 53, ../assets/scss/components/_forms.scss */
+/* line 61, ../assets/scss/components/_forms.scss */
 .form-grid .field {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
-/* line 56, ../assets/scss/components/_forms.scss */
+/* line 64, ../assets/scss/components/_forms.scss */
 .field--small {
   width: 107px;
 }
-/* line 58, ../assets/scss/components/_forms.scss */
+/* line 66, ../assets/scss/components/_forms.scss */
 .form-grid .field--small {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 107px;
       -ms-flex: 0 0 107px;
           flex: 0 0 107px;
 }
-/* line 62, ../assets/scss/components/_forms.scss */
+/* line 70, ../assets/scss/components/_forms.scss */
 .field.success::after {
   content: 'OK';
   display: block;
@@ -2586,7 +2597,7 @@ label {
   font-weight: bold;
 }
 
-/* line 74, ../assets/scss/components/_forms.scss */
+/* line 82, ../assets/scss/components/_forms.scss */
 .form-grid {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2601,11 +2612,11 @@ label {
           align-items: flex-end;
   margin-bottom: 2em;
 }
-/* line 79, ../assets/scss/components/_forms.scss */
+/* line 87, ../assets/scss/components/_forms.scss */
 .tile-block .form-grid:last-child {
   margin-bottom: 1.5em;
 }
-/* line 82, ../assets/scss/components/_forms.scss */
+/* line 90, ../assets/scss/components/_forms.scss */
 .form-grid .btn {
   -webkit-box-flex: 0;
   -webkit-flex: 0;
@@ -2614,26 +2625,26 @@ label {
   margin: 6px 0;
   margin-left: 5px;
 }
-/* line 87, ../assets/scss/components/_forms.scss */
+/* line 95, ../assets/scss/components/_forms.scss */
 .form-grid .field + .field, .field + .form-grid__block, .form-grid__block + .field {
   margin-left: 5px;
 }
-/* line 93, ../assets/scss/components/_forms.scss */
+/* line 101, ../assets/scss/components/_forms.scss */
 .form-grid--big-gutter .btn,
 .form-grid--big-gutter .field + .field, .field + .form-grid--big-gutter__block, .form-grid--big-gutter__block + .field {
   margin-left: 25px;
 }
-/* line 100, ../assets/scss/components/_forms.scss */
+/* line 108, ../assets/scss/components/_forms.scss */
 p + .form-grid {
   margin-top: 2em;
 }
-/* line 103, ../assets/scss/components/_forms.scss */
+/* line 111, ../assets/scss/components/_forms.scss */
 .form-grid__block {
   height: 2em;
   margin: 6px 0;
 }
 
-/* line 108, ../assets/scss/components/_forms.scss */
+/* line 116, ../assets/scss/components/_forms.scss */
 .error-text {
   font-size: 14px;
   color: #d62d2d;
@@ -2642,19 +2653,19 @@ p + .form-grid {
   bottom: -1rem;
   display: none;
 }
-/* line 115, ../assets/scss/components/_forms.scss */
+/* line 123, ../assets/scss/components/_forms.scss */
 .error .error-text {
   display: block;
 }
 
-/* line 121, ../assets/scss/components/_forms.scss */
+/* line 129, ../assets/scss/components/_forms.scss */
 .form-calc__text {
   font-size: 18px;
   font-weight: bold;
   color: #484848;
 }
 
-/* line 129, ../assets/scss/components/_forms.scss */
+/* line 137, ../assets/scss/components/_forms.scss */
 .field-inline {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2669,7 +2680,7 @@ p + .form-grid {
           align-items: flex-start;
   margin-bottom: 20px;
 }
-/* line 134, ../assets/scss/components/_forms.scss */
+/* line 142, ../assets/scss/components/_forms.scss */
 .field-inline label {
   width: 25%;
   font-size: 16px;
@@ -2678,11 +2689,11 @@ p + .form-grid {
   text-align: right;
   box-sizing: border-box;
 }
-/* line 142, ../assets/scss/components/_forms.scss */
+/* line 150, ../assets/scss/components/_forms.scss */
 .field-inline .field-fullwidth {
   width: 75%;
 }
-/* line 145, ../assets/scss/components/_forms.scss */
+/* line 153, ../assets/scss/components/_forms.scss */
 .field-inline input[type="text"],
 .field-inline input[type="password"],
 .field-inline input[type="email"],
@@ -2696,11 +2707,11 @@ p + .form-grid {
   margin-bottom: 5px;
 }
 
-/* line 158, ../assets/scss/components/_forms.scss */
+/* line 166, ../assets/scss/components/_forms.scss */
 .orders form {
   margin: 0;
 }
-/* line 161, ../assets/scss/components/_forms.scss */
+/* line 169, ../assets/scss/components/_forms.scss */
 .orders .btn--min {
   font-size: 14px;
   padding: 8px 1px;

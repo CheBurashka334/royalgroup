@@ -7,6 +7,7 @@
 	<script src="public/jquery.min.js"></script>
 	<script src="public/jquery-ui.min.js"></script>
 	<script src="public/jquery.pickmeup.min.js"></script>
+	<script src="public/jquery.autoresize.min.js"></script>
     <link type="text/css" rel="stylesheet" href="public/app.css"/>
     <script src="public/app.js"></script>
 </head>
