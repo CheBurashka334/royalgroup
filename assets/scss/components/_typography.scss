@@ -146,6 +146,11 @@ h4 {
 		border-top: 1px solid #837c68;
 		margin: 25px 0;
 	}
+	
+	&--light {
+		background: color('yellow', 'lighter');
+		border: 0;
+	}
 }
 .primary-color {
 	color: $primary-color;

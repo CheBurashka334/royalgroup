@@ -35,6 +35,11 @@ textarea {
 		border-color: #ede6e6;
 		pointer-events: none;
 	}
+	
+	.highlight-box & {
+		background: white;
+		border-color: transparent;
+	}
 }
 .textarea-autoresize {
 	display: block;
@@ -77,6 +82,10 @@ label {
 		color: $error-color;
 		text-transform: uppercase;
 		font-weight: bold;
+		
+		.highlight-box & {
+			bottom: 0.75em;
+		}
 	}
 }
 .form-grid {
@@ -111,6 +120,12 @@ label {
 	&__block {
 		height: 2em;
 		margin: 6px 0;
+	}
+	
+	.chat-form &,
+	.chat-form &:last-child {
+		align-items: flex-start;
+		margin-bottom: 0;
 	}
 }
 .error-text {
@@ -176,3 +191,4 @@ label {
 @import 'custom-select';
 @import 'datepicker';
 @import 'uploadfile';
+@import 'drop-area';

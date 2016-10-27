@@ -15,6 +15,32 @@
 			<a href="#level-3" class="tabs__item-link">Чат 3 уровня</a>
 		</li>
 	</ul>
+	<div class="chat-form tile-block">
+		<div class="tile-block__content">
+			<form action="" method="">
+				<label class="small-text">Написать сообщение</label>
+				<div class="form-grid">
+					<div class="field">
+						<textarea class="textarea-autoresize"></textarea>
+					</div>
+					<button class="btn-icon btn-flat btn-photo icon-camera js-toggle" data-toggle-selector="#chat-form--add-picture"></button>
+					<button class="btn-icon btn-flat btn-video icon-video-camera js-toggle" data-toggle-selector="#chat-form--add-video"></button>
+					<input type="submit" value="Отправить" class="btn">
+				</div>
+				<div class="highlight-box highlight-box--light chat-form--hidden drop-area" droppable="true" id="chat-form--add-picture">
+					<p class="drop-area__drop-text align-center">
+						Перетащите файл сюда  или  нажмите кнопку 
+						<button class="btn-link btn-upload-file"><input type="file"/>Загрузить файл</button></p>
+				</div>
+				<div class="highlight-box highlight-box--light chat-form--hidden" id="chat-form--add-video">
+					<div class="field success">
+						<label class="small-text">Ссылка на файл</label>
+						<input type="url" value="http://prntscr.com/arp8n6" />
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
 	<div class="tabs__content" id="level-1">
 		<div class="chat">
 			<div class="tile-block chat__item tile-block--chat">
@@ -84,7 +110,7 @@
 					<div class="chat__answer-form">
 						<form method="" action="">
 							<div class="field">
-								<textarea class="textarea-autoresize" type="text" placeholder="Ответить"></textarea>
+								<textarea class="textarea-autoresize" placeholder="Ответить"></textarea>
 							</div>
 						</form>
 					</div>
@@ -115,7 +141,7 @@
 					<div class="chat__answer-form">
 						<form method="" action="">
 							<div class="field">
-								<textarea class="textarea-autoresize" type="text" placeholder="Ответить"></textarea>
+								<textarea class="textarea-autoresize" placeholder="Ответить"></textarea>
 							</div>
 						</form>
 					</div>
@@ -189,7 +215,7 @@
 					<div class="chat__answer-form">
 						<form method="" action="">
 							<div class="field">
-								<textarea class="textarea-autoresize" type="text" placeholder="Ответить"></textarea>
+								<textarea class="textarea-autoresize" placeholder="Ответить"></textarea>
 							</div>
 						</form>
 					</div>

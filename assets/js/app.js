@@ -1,6 +1,20 @@
 'use strict';
 $(document).ready(function(){
 	
+	$('.js-toggle').on('click', function(e){
+		e.preventDefault();
+		var toggleSelector = $(this).attr('data-toggle-selector');
+		$(toggleSelector).fadeToggle('fast');
+	});
+	
+	$('.btn-upload-file').on('click', function(e){
+		e.preventDefault();
+		$(this).children('input[type="file"]').click();
+	});
+	$('input[type="file"]').on('click', function(e){
+		e.stopPropagation();
+	});
+	
 	// tabs
 	// http://api.jqueryui.com/tabs/
 	$('.tabs').tabs({

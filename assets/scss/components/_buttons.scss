@@ -104,6 +104,7 @@ input[type="button"].btn {
 	&:active,
 	&:focus {
 		@extend %btn-active;
+		box-shadow: none;
 	}
 	&::before {
 		color: currentColor;
@@ -170,6 +171,18 @@ input[type="button"].btn {
 		box-shadow: none;
 	}
 }
+
+.btn-link {
+	@extend .btn-flat;
+	color: color('red', 'base');
+	font-weight: bold;
+	vertical-align: baseline;
+	
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 .no-btn{
 	border: 0px solid #fff !important;
 	padding: 0 !important;
